@@ -1,0 +1,26 @@
+{
+  "id": "M30",
+  "version": "v4.2",
+  "category": "dimensional",
+  "file": "v4.2_dimensional_M30_invalid_dimension_constraint.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "dimensional:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrldt:invaliddimensionconstraint",
+      "m30"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M30 - dimensional mutation"
+}

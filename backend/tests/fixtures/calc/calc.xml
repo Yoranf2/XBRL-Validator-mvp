@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:ex="http://example.com/calc">
+  <link:roleRef xlink:type="simple"
+                roleURI="http://www.xbrl.org/2003/role/link"
+                xlink:href="http://www.xbrl.org/2003/role/roleRef"/>
+  <link:arcroleRef xlink:type="simple"
+                   arcroleURI="http://www.xbrl.org/2003/arcrole/summation-item"
+                   xlink:href="http://www.xbrl.org/2003/arcrole/arcroleRef"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#Total" xlink:label="tot"/>
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#A" xlink:label="a"/>
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#B" xlink:label="b"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="tot" xlink:to="a" order="1" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="tot" xlink:to="b" order="2" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

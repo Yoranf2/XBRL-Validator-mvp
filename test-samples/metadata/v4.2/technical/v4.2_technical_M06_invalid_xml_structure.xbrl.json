@@ -1,0 +1,26 @@
+{
+  "id": "M6",
+  "version": "v4.2",
+  "category": "technical",
+  "file": "v4.2_technical_M06_invalid_xml_structure.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "technical:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrl.2.1:invalidstructure",
+      "m6"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M6 - technical mutation"
+}

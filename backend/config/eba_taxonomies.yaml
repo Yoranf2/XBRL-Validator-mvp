@@ -1,0 +1,82 @@
+eba:
+  rf40:
+    packages:
+      - github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Dictionary_4.0.0.0
+      - github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0
+      - github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Severity_4.0.0.0
+    entrypoints:
+      - id: corep_lr
+        label: COREP Leverage Ratio
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/mod/corep_lr.xsd
+      - id: corep_of
+        label: COREP Own Funds
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/mod/corep_of.xsd
+      - id: finrep_ifrs
+        label: FINREP IFRS (example)
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.0/mod/finrep_ifrs.xsd
+      - id: finrep_gaap
+        label: FINREP GAAP
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.0/mod/finrep_gaap.xsd
+      - id: rem
+        label: REM
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/rem/4.0/mod/rem.xsd
+      - id: rembm
+        label: REMBM
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/rembm/4.0/mod/rembm.xsd
+      - id: rembmif
+        label: REMBMIF
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/rembmif/4.0/mod/rembmif.xsd
+      - id: gsl
+        label: GSL
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/gsl/4.0/mod/gsl.xsd
+      - id: inf
+        label: INF
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/inf/4.0/mod/inf.xsd
+      - id: ofi
+        label: OFI
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/ofi/4.0/mod/ofi.xsd
+      - id: mgt
+        label: MGT
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/mgt/4.0/mod/mgt.xsd
+      - id: sfd
+        label: SFD
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/sfd/4.0/mod/sfd.xsd
+      - id: sbp
+        label: SBP
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/sbp/4.0/mod/sbp.xsd
+      - id: vld
+        label: VLD
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/vld/4.0/mod/vld.xsd
+      - id: afd
+        label: AFD
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/afd/4.0/mod/afd.xsd
+      - id: mgt2
+        label: MGT2
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/mgt2/4.0/mod/mgt2.xsd
+      - id: of
+        label: OF
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/of/4.0/mod/of.xsd
+      - id: oth
+        label: OTH
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/oth/4.0/mod/oth.xsd
+      - id: psh
+        label: PSH
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/psh/4.0/mod/psh.xsd
+      - id: ald
+        label: ALD
+        xsd: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/ald/4.0/mod/ald.xsd
+    defaults:
+      profile: full
+
+# Future taxonomy versions (placeholder for subsequent iterations)
+# rf41:
+#   packages: []
+#   entrypoints: []
+#   defaults:
+#     profile: fast
+#
+# rf42:
+#   packages: []
+#   entrypoints: []
+#   defaults:
+#     profile: fast

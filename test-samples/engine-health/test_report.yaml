@@ -1,0 +1,213 @@
+engine_health_suite_test_report:
+  arelle_available: true
+  error_taxonomies: 0
+  failed_taxonomies: 0
+  passed_taxonomies: 5
+  taxonomies:
+    calculation_linkbase:
+      errors: []
+      features:
+      - calculation_linkbase
+      - summation_items
+      files_tested:
+      - schema
+      - calc-calculation.xml
+      - instance
+      name: CalculationLinkbase
+      status: PASS
+      taxonomy_id: calculation_linkbase
+      test_cases:
+      - M36_InvalidCalculationWeight
+      - M37_MissingCalculationLink
+      - M38_InvalidCalculationArc
+      - M39_InvalidCalculationSum
+      validation_results:
+        calc-calculation.xml:
+          errors: []
+          file: test-samples/engine-health/calculation_linkbase/calc-calculation.xml
+          status: PASS
+          warnings: []
+        instance:
+          errors: []
+          file: test-samples/engine-health/calculation_linkbase/calc-instance.xml
+          status: PASS
+          warnings: []
+        schema:
+          errors: []
+          file: test-samples/engine-health/calculation_linkbase/calc.xsd
+          status: PASS
+          warnings: []
+      warnings: []
+    complex_dimensional:
+      errors: []
+      features:
+      - typed_dimensions
+      - explicit_dimensions
+      - hypercubes
+      - notAll
+      - all
+      files_tested:
+      - schema
+      - complex-dims-definition.xml
+      - instance
+      name: ComplexDimensional
+      status: PASS
+      taxonomy_id: complex_dimensional
+      test_cases:
+      - M26_InvalidTypedDimension
+      - M35_InvalidTypedDimensionContentModel
+      - M22_InvalidDimensionMember
+      - M23_MissingRequiredDimension
+      - M27_InvalidExplicitDimension
+      - M24_InvalidHypercube
+      - M25_InvalidDomainMember
+      validation_results:
+        complex-dims-definition.xml:
+          errors: []
+          file: test-samples/engine-health/complex_dimensional/complex-dims-definition.xml
+          status: PASS
+          warnings: []
+        instance:
+          errors: []
+          file: test-samples/engine-health/complex_dimensional/complex-dims-instance.xml
+          status: PASS
+          warnings: []
+        schema:
+          errors: []
+          file: test-samples/engine-health/complex_dimensional/complex-dims.xsd
+          status: PASS
+          warnings: []
+      warnings: []
+    formula_linkbase:
+      errors: []
+      features:
+      - formula_linkbase
+      - assertions
+      - variables
+      files_tested:
+      - schema
+      - formula-formula.xml
+      - instance
+      name: FormulaLinkbase
+      status: PASS
+      taxonomy_id: formula_linkbase
+      test_cases:
+      - M46_InvalidFormulaExpression
+      - M47_MissingFormulaLink
+      - M48_InvalidFormulaVariable
+      - M49_InvalidFormulaFunction
+      validation_results:
+        formula-formula.xml:
+          errors: []
+          file: test-samples/engine-health/formula_linkbase/formula-formula.xml
+          status: PASS
+          warnings: []
+        instance:
+          errors: []
+          file: test-samples/engine-health/formula_linkbase/formula-instance.xml
+          status: PASS
+          warnings: []
+        schema:
+          errors: []
+          file: test-samples/engine-health/formula_linkbase/formula.xsd
+          status: PASS
+          warnings: []
+      warnings: []
+    mixed_features:
+      errors: []
+      features:
+      - typed_dimensions
+      - explicit_dimensions
+      - calculation_linkbase
+      - formula_linkbase
+      files_tested:
+      - schema
+      - mixed-definition.xml
+      - mixed-calculation.xml
+      - mixed-formula.xml
+      - instance
+      name: MixedFeatures
+      status: PASS
+      taxonomy_id: mixed_features
+      test_cases:
+      - M26_InvalidTypedDimension
+      - M35_InvalidTypedDimensionContentModel
+      - M22_InvalidDimensionMember
+      - M23_MissingRequiredDimension
+      - M27_InvalidExplicitDimension
+      - M36_InvalidCalculationWeight
+      - M37_MissingCalculationLink
+      - M38_InvalidCalculationArc
+      - M39_InvalidCalculationSum
+      - M46_InvalidFormulaExpression
+      - M47_MissingFormulaLink
+      - M48_InvalidFormulaVariable
+      - M49_InvalidFormulaFunction
+      validation_results:
+        instance:
+          errors: []
+          file: test-samples/engine-health/mixed_features/mixed-instance.xml
+          status: PASS
+          warnings: []
+        mixed-calculation.xml:
+          errors: []
+          file: test-samples/engine-health/mixed_features/mixed-calculation.xml
+          status: PASS
+          warnings: []
+        mixed-definition.xml:
+          errors: []
+          file: test-samples/engine-health/mixed_features/mixed-definition.xml
+          status: PASS
+          warnings: []
+        mixed-formula.xml:
+          errors: []
+          file: test-samples/engine-health/mixed_features/mixed-formula.xml
+          status: PASS
+          warnings: []
+        schema:
+          errors: []
+          file: test-samples/engine-health/mixed_features/mixed.xsd
+          status: PASS
+          warnings: []
+      warnings: []
+    typed_dimensions:
+      errors: []
+      features:
+      - typed_dimensions
+      - explicit_dimensions
+      - hypercubes
+      files_tested:
+      - schema
+      - typed-dims-definition.xml
+      - instance
+      name: TypedDimensions
+      status: PASS
+      taxonomy_id: typed_dimensions
+      test_cases:
+      - M26_InvalidTypedDimension
+      - M35_InvalidTypedDimensionContentModel
+      - M22_InvalidDimensionMember
+      - M23_MissingRequiredDimension
+      - M27_InvalidExplicitDimension
+      - M24_InvalidHypercube
+      - M25_InvalidDomainMember
+      validation_results:
+        instance:
+          errors: []
+          file: test-samples/engine-health/typed_dimensions/typed-dims-instance.xml
+          status: PASS
+          warnings: []
+        schema:
+          errors: []
+          file: test-samples/engine-health/typed_dimensions/typed-dims.xsd
+          status: PASS
+          warnings: []
+        typed-dims-definition.xml:
+          errors: []
+          file: test-samples/engine-health/typed_dimensions/typed-dims-definition.xml
+          status: PASS
+          warnings: []
+      warnings: []
+  timestamp: /Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation
+  total_taxonomies: 5
+  version: '1.0'

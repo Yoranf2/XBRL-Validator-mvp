@@ -1,0 +1,24 @@
+created_by: Engine Health Suite
+description: Mini-taxonomy with complex dimensional relationships
+features:
+- typed_dimensions
+- explicit_dimensions
+- hypercubes
+- notAll
+- all
+linkbase_files:
+- complex-dims-definition.xml
+name: ComplexDimensional
+namespace: http://example.com/complex-dims/2024
+purpose: Test Arelle engine capabilities for features not present in EBA taxonomies
+sample_instance: complex-dims-instance.xml
+schema_file: complex-dims.xsd
+test_cases:
+- M26_InvalidTypedDimension
+- M35_InvalidTypedDimensionContentModel
+- M22_InvalidDimensionMember
+- M23_MissingRequiredDimension
+- M27_InvalidExplicitDimension
+- M24_InvalidHypercube
+- M25_InvalidDomainMember
+version: '1.0'

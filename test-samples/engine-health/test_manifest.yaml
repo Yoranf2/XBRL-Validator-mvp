@@ -1,0 +1,115 @@
+engine_health_suite:
+  description: Mini-taxonomies for testing Arelle engine capabilities
+  purpose: Test features not present in EBA taxonomies
+  taxonomies:
+    calculation_linkbase:
+      description: Mini-taxonomy with calculation relationships for testing calculation
+        validation
+      features:
+      - calculation_linkbase
+      - summation_items
+      files:
+        instance: calc-instance.xml
+        linkbases:
+        - calc-calculation.xml
+        metadata: metadata.yaml
+        schema: calc.xsd
+      name: CalculationLinkbase
+      test_cases:
+      - M36_InvalidCalculationWeight
+      - M37_MissingCalculationLink
+      - M38_InvalidCalculationArc
+      - M39_InvalidCalculationSum
+    complex_dimensional:
+      description: Mini-taxonomy with complex dimensional relationships
+      features:
+      - typed_dimensions
+      - explicit_dimensions
+      - hypercubes
+      - notAll
+      - all
+      files:
+        instance: complex-dims-instance.xml
+        linkbases:
+        - complex-dims-definition.xml
+        metadata: metadata.yaml
+        schema: complex-dims.xsd
+      name: ComplexDimensional
+      test_cases:
+      - M26_InvalidTypedDimension
+      - M35_InvalidTypedDimensionContentModel
+      - M22_InvalidDimensionMember
+      - M23_MissingRequiredDimension
+      - M27_InvalidExplicitDimension
+      - M24_InvalidHypercube
+      - M25_InvalidDomainMember
+    formula_linkbase:
+      description: Mini-taxonomy with formula rules for testing formula validation
+      features:
+      - formula_linkbase
+      - assertions
+      - variables
+      files:
+        instance: formula-instance.xml
+        linkbases:
+        - formula-formula.xml
+        metadata: metadata.yaml
+        schema: formula.xsd
+      name: FormulaLinkbase
+      test_cases:
+      - M46_InvalidFormulaExpression
+      - M47_MissingFormulaLink
+      - M48_InvalidFormulaVariable
+      - M49_InvalidFormulaFunction
+    mixed_features:
+      description: Mini-taxonomy with mixed XBRL features for comprehensive testing
+      features:
+      - typed_dimensions
+      - explicit_dimensions
+      - calculation_linkbase
+      - formula_linkbase
+      files:
+        instance: mixed-instance.xml
+        linkbases:
+        - mixed-definition.xml
+        - mixed-calculation.xml
+        - mixed-formula.xml
+        metadata: metadata.yaml
+        schema: mixed.xsd
+      name: MixedFeatures
+      test_cases:
+      - M26_InvalidTypedDimension
+      - M35_InvalidTypedDimensionContentModel
+      - M22_InvalidDimensionMember
+      - M23_MissingRequiredDimension
+      - M27_InvalidExplicitDimension
+      - M36_InvalidCalculationWeight
+      - M37_MissingCalculationLink
+      - M38_InvalidCalculationArc
+      - M39_InvalidCalculationSum
+      - M46_InvalidFormulaExpression
+      - M47_MissingFormulaLink
+      - M48_InvalidFormulaVariable
+      - M49_InvalidFormulaFunction
+    typed_dimensions:
+      description: Mini-taxonomy with typed dimensions for testing dimensional validation
+      features:
+      - typed_dimensions
+      - explicit_dimensions
+      - hypercubes
+      files:
+        instance: typed-dims-instance.xml
+        linkbases:
+        - typed-dims-definition.xml
+        metadata: metadata.yaml
+        schema: typed-dims.xsd
+      name: TypedDimensions
+      test_cases:
+      - M26_InvalidTypedDimension
+      - M35_InvalidTypedDimensionContentModel
+      - M22_InvalidDimensionMember
+      - M23_MissingRequiredDimension
+      - M27_InvalidExplicitDimension
+      - M24_InvalidHypercube
+      - M25_InvalidDomainMember
+  version: '1.0'

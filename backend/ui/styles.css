@@ -1,0 +1,43 @@
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:#243e5e;background:#f6f8fb}
+.app-header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#243e5e;color:#fff}
+.app-header h1{margin:0;font-size:18px}
+.actions{display:flex;gap:8px;align-items:center}
+button{background:#2f6feb;border:none;color:#fff;padding:8px 12px;border-radius:6px;cursor:pointer}
+button:hover{background:#245fce}
+.status-bar{display:flex;gap:24px;padding:12px 16px;background:#fff;border-bottom:1px solid #e5eaf2}
+.tabs{display:flex;gap:4px;padding:8px 16px;background:#f0f3f9;border-bottom:1px solid #e5eaf2}
+.tab{background:#e5ecfb;color:#243e5e;border:none;border-radius:6px;padding:6px 10px;cursor:pointer}
+.tab.active{background:#2f6feb;color:#fff}
+.tab-panel{display:none;padding:16px}
+.tab-panel.active{display:block}
+.summary-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:12px}
+.card{background:#fff;border:1px solid #e5eaf2;border-radius:8px;padding:12px}
+table.messages{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5eaf2;table-layout:auto}
+table.messages th,table.messages td{padding:8px 10px;border-bottom:1px solid #e5eaf2;border-right:1px solid #e5eaf2;font-size:14px;vertical-align:top}
+table.messages th:last-child,table.messages td:last-child{border-right:none}
+.messages thead th:nth-child(1),
+.messages tbody td:nth-child(1),
+.messages thead th:nth-child(2),
+.messages tbody td:nth-child(2),
+.messages thead th:nth-child(3),
+.messages tbody td:nth-child(3){white-space:nowrap;overflow:visible}
+.messages thead th:nth-child(4),
+.messages tbody td:nth-child(4){width:100%;white-space:normal}
+.template-controls{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+#tplFrame{width:100%;height:70vh;border:1px solid #e5eaf2;border-radius:6px;background:#fff}
+.tpl-tabs{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+.tpl-tabs button{background:#eef3ff;color:#243e5e;border:1px solid #d7def0;padding:6px 10px;border-radius:6px;cursor:pointer}
+.tpl-tabs button.active{background:#2f6feb;color:#fff;border-color:#2f6feb}
+
+/* Bottom progress bar */
+.bottom-progress{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(90deg,#0b1220,#0f172a);color:#e2e8f0;border-top:1px solid #1e293b;padding:10px 14px;display:flex;gap:16px;align-items:center;z-index:1000;backdrop-filter:saturate(140%) blur(6px)}
+.bottom-progress .bp-item{display:flex;align-items:center;gap:8px;min-width:220px}
+.bottom-progress .bp-label{font-size:12px;color:#cbd5e1;min-width:70px;letter-spacing:.02em}
+.bottom-progress .bp-bar{position:relative;flex:1;height:6px;background:#1e293b;border-radius:999px;overflow:hidden}
+.bottom-progress .bp-fill{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,#60a5fa,#34d399,#22d3ee);box-shadow:0 0 8px rgba(56,189,248,.6)}
+.bottom-progress .bp-item.running .bp-fill{animation:bp-indeterminate 1.2s linear infinite}
+.bottom-progress .bp-item.success .bp-fill{width:100%;background:#22c55e;transition:width .25s ease}
+.bottom-progress .bp-item.error .bp-fill{width:100%;background:#ef4444;transition:width .25s ease}
+.bottom-progress .bp-state{font-size:12px;color:#94a3b8;min-width:54px;text-align:right}
+@keyframes bp-indeterminate{0%{left:-40%;width:40%}50%{left:20%;width:60%}100%{left:100%;width:40%}}
+

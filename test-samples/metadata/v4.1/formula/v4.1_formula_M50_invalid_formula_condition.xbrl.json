@@ -1,0 +1,25 @@
+{
+  "id": "M50",
+  "version": "v4.1",
+  "category": "formula",
+  "file": "v4.1_formula_M50_invalid_formula_condition.xbrl",
+  "entrypoint": "",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "formula:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "formula:typeerror",
+      "m50"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M50 - formula mutation"
+}

@@ -1,0 +1,881 @@
+# XBRL Test File Manifest
+
+Generated: /Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation
+Total Samples: 4
+Total Mutations: 67
+Success Rate: 73.88%
+
+## Sample Files
+
+### DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242
+- Framework: COREP
+- Successful Mutations: 49
+- Failed Mutations: 18
+- Success Rate: 73.13%
+
+#### Successful Mutations
+- **M1**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M1_period_type_mismatch.xbrl
+  - Expected Error: xbrl.2.1:periodTypeMismatch
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M2**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M2_invalid_context_reference.xbrl
+  - Expected Error: xbrl.2.1:contextRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M3**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M3_missing_required_element.xbrl
+  - Expected Error: xbrl.2.1:requiredElement
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M4**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M4_invalid_unit_reference.xbrl
+  - Expected Error: xbrl.2.1:unitRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M5**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M5_duplicate_fact.xbrl
+  - Expected Error: xbrl.2.1:duplicateFacts
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M6**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M6_invalid_xml_structure.xbrl
+  - Expected Error: xbrl.2.1:invalidStructure
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M7**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M7_invalid_namespace.xbrl
+  - Expected Error: xbrl.2.1:namespace
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M8**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M8_invalid_attribute_values.xbrl
+  - Expected Error: xbrl.2.1:attributeValue
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M9**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M9_missing_schema_reference.xbrl
+  - Expected Error: xbrl.2.1:schemaRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M10**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M10_invalid_date_format.xbrl
+  - Expected Error: xbrl.2.1:dateFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M11**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M11_invalid_numeric_format.xbrl
+  - Expected Error: xbrl.2.1:numericFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M12**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M12_invalid_boolean_format.xbrl
+  - Expected Error: xbrl.2.1:booleanFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M13**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M13_invalid_string_format.xbrl
+  - Expected Error: xbrl.2.1:stringFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M14**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M14_invalid_decimal_format.xbrl
+  - Expected Error: xbrl.2.1:decimalFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M15**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M15_invalid_integer_format.xbrl
+  - Expected Error: xbrl.2.1:integerFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M16**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M16_invalid_fraction_format.xbrl
+  - Expected Error: xbrl.2.1:fractionFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M17**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M17_invalid_monetary_format.xbrl
+  - Expected Error: xbrl.2.1:monetaryFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M18**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M18_invalid_share_format.xbrl
+  - Expected Error: xbrl.2.1:shareFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M19**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M19_invalid_pure_format.xbrl
+  - Expected Error: xbrl.2.1:pureFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M20**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M20_invalid_tuple_format.xbrl
+  - Expected Error: xbrl.2.1:tupleFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M21**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M21_invalid_anyuri_format.xbrl
+  - Expected Error: xbrl.2.1:anyURIFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M22**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M22_invalid_dimension_member.xbrl
+  - Expected Error: xbrldt:invalidDimensionMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M23**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M23_missing_required_dimension.xbrl
+  - Expected Error: xbrldt:missingRequiredDimension
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M24**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M24_invalid_hypercube.xbrl
+  - Expected Error: xbrldt:invalidHypercube
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M25**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M25_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M27**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M27_invalid_explicit_dimension.xbrl
+  - Expected Error: xbrldi:invalidExplicitMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M28**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M28_invalid_dimension_context.xbrl
+  - Expected Error: xbrldi:invalidDimensionContext
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M29**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M29_invalid_dimension_relationship.xbrl
+  - Expected Error: xbrldt:invalidDimensionRelationship
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M30**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M30_invalid_dimension_constraint.xbrl
+  - Expected Error: xbrldt:invalidDimensionConstraint
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M31**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M31_invalid_dimension_default.xbrl
+  - Expected Error: xbrldt:invalidDimensionDefault
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M32**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M32_invalid_'all'.xbrl
+  - Expected Error: xbrldt:invalidAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M33**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M33_invalid_'notall'.xbrl
+  - Expected Error: xbrldt:invalidNotAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M34**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M34_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMemberSubtree
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M39**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M39_invalid_calculation_sum.xbrl
+  - Expected Error: calc:invalidCalculationSum
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M40**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M40_invalid_calculation_balance.xbrl
+  - Expected Error: calc:invalidCalculationBalance
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M41**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M41_invalid_calculation_period.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M42**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M42_invalid_calculation_context.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M43**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M43_invalid_calculation_unit.xbrl
+  - Expected Error: calc:invalidCalculationUnit
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M44**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M44_invalid_calculation_precision.xbrl
+  - Expected Error: calc:invalidCalculationPrecision
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M45**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M45_invalid_calculation_rounding.xbrl
+  - Expected Error: calc:invalidCalculationRounding
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M48**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M48_invalid_formula_variable.xbrl
+  - Expected Error: formula:undefinedVariable
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M50**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M50_invalid_formula_condition.xbrl
+  - Expected Error: formula:typeError
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M53**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M53_invalid_formula_context.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M54**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M54_invalid_formula_unit.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M56**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M56_invalid_filing_indicator.xbrl
+  - Expected Error: filing:invalidIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M57**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M57_missing_filing_indicator.xbrl
+  - Expected Error: filing:missingPositiveFilingIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M59**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M59_invalid_filing_period.xbrl
+  - Expected Error: filing:invalidPeriod
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M60**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M60_invalid_filing_entity.xbrl
+  - Expected Error: filing:invalidEntity
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M61**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M61_invalid_filing_template.xbrl
+  - Expected Error: filing:templateMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M62**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M62_invalid_filing_version.xbrl
+  - Expected Error: filing:versionMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M65**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M65_invalid_filing_format.xbrl
+  - Expected Error: filing:invalidFormat
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M67**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M67_invalid_filing_structure.xbrl
+  - Expected Error: filing:multipleIndicators
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+
+### DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936
+- Framework: FINREP
+- Successful Mutations: 49
+- Failed Mutations: 18
+- Success Rate: 73.13%
+
+#### Successful Mutations
+- **M1**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M1_period_type_mismatch.xbrl
+  - Expected Error: xbrl.2.1:periodTypeMismatch
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M2**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M2_invalid_context_reference.xbrl
+  - Expected Error: xbrl.2.1:contextRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M3**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M3_missing_required_element.xbrl
+  - Expected Error: xbrl.2.1:requiredElement
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M4**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M4_invalid_unit_reference.xbrl
+  - Expected Error: xbrl.2.1:unitRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M5**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M5_duplicate_fact.xbrl
+  - Expected Error: xbrl.2.1:duplicateFacts
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M6**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M6_invalid_xml_structure.xbrl
+  - Expected Error: xbrl.2.1:invalidStructure
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M7**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M7_invalid_namespace.xbrl
+  - Expected Error: xbrl.2.1:namespace
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M8**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M8_invalid_attribute_values.xbrl
+  - Expected Error: xbrl.2.1:attributeValue
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M9**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M9_missing_schema_reference.xbrl
+  - Expected Error: xbrl.2.1:schemaRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M10**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M10_invalid_date_format.xbrl
+  - Expected Error: xbrl.2.1:dateFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M11**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M11_invalid_numeric_format.xbrl
+  - Expected Error: xbrl.2.1:numericFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M12**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M12_invalid_boolean_format.xbrl
+  - Expected Error: xbrl.2.1:booleanFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M13**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M13_invalid_string_format.xbrl
+  - Expected Error: xbrl.2.1:stringFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M14**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M14_invalid_decimal_format.xbrl
+  - Expected Error: xbrl.2.1:decimalFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M15**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M15_invalid_integer_format.xbrl
+  - Expected Error: xbrl.2.1:integerFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M16**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M16_invalid_fraction_format.xbrl
+  - Expected Error: xbrl.2.1:fractionFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M17**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M17_invalid_monetary_format.xbrl
+  - Expected Error: xbrl.2.1:monetaryFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M18**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M18_invalid_share_format.xbrl
+  - Expected Error: xbrl.2.1:shareFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M19**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M19_invalid_pure_format.xbrl
+  - Expected Error: xbrl.2.1:pureFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M20**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M20_invalid_tuple_format.xbrl
+  - Expected Error: xbrl.2.1:tupleFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M21**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M21_invalid_anyuri_format.xbrl
+  - Expected Error: xbrl.2.1:anyURIFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M22**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M22_invalid_dimension_member.xbrl
+  - Expected Error: xbrldt:invalidDimensionMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M23**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M23_missing_required_dimension.xbrl
+  - Expected Error: xbrldt:missingRequiredDimension
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M24**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M24_invalid_hypercube.xbrl
+  - Expected Error: xbrldt:invalidHypercube
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M25**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M25_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M27**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M27_invalid_explicit_dimension.xbrl
+  - Expected Error: xbrldi:invalidExplicitMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M28**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M28_invalid_dimension_context.xbrl
+  - Expected Error: xbrldi:invalidDimensionContext
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M29**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M29_invalid_dimension_relationship.xbrl
+  - Expected Error: xbrldt:invalidDimensionRelationship
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M30**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M30_invalid_dimension_constraint.xbrl
+  - Expected Error: xbrldt:invalidDimensionConstraint
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M31**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M31_invalid_dimension_default.xbrl
+  - Expected Error: xbrldt:invalidDimensionDefault
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M32**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M32_invalid_'all'.xbrl
+  - Expected Error: xbrldt:invalidAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M33**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M33_invalid_'notall'.xbrl
+  - Expected Error: xbrldt:invalidNotAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M34**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M34_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMemberSubtree
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M39**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M39_invalid_calculation_sum.xbrl
+  - Expected Error: calc:invalidCalculationSum
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M40**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M40_invalid_calculation_balance.xbrl
+  - Expected Error: calc:invalidCalculationBalance
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M41**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M41_invalid_calculation_period.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M42**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M42_invalid_calculation_context.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M43**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M43_invalid_calculation_unit.xbrl
+  - Expected Error: calc:invalidCalculationUnit
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M44**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M44_invalid_calculation_precision.xbrl
+  - Expected Error: calc:invalidCalculationPrecision
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M45**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M45_invalid_calculation_rounding.xbrl
+  - Expected Error: calc:invalidCalculationRounding
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M48**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M48_invalid_formula_variable.xbrl
+  - Expected Error: formula:undefinedVariable
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M50**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M50_invalid_formula_condition.xbrl
+  - Expected Error: formula:typeError
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M53**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M53_invalid_formula_context.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M54**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M54_invalid_formula_unit.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M56**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M56_invalid_filing_indicator.xbrl
+  - Expected Error: filing:invalidIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M57**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M57_missing_filing_indicator.xbrl
+  - Expected Error: filing:missingPositiveFilingIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M59**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M59_invalid_filing_period.xbrl
+  - Expected Error: filing:invalidPeriod
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M60**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M60_invalid_filing_entity.xbrl
+  - Expected Error: filing:invalidEntity
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M61**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M61_invalid_filing_template.xbrl
+  - Expected Error: filing:templateMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M62**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M62_invalid_filing_version.xbrl
+  - Expected Error: filing:versionMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M65**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M65_invalid_filing_format.xbrl
+  - Expected Error: filing:invalidFormat
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M67**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M67_invalid_filing_structure.xbrl
+  - Expected Error: filing:multipleIndicators
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+
+### DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480
+- Framework: DORA
+- Successful Mutations: 51
+- Failed Mutations: 16
+- Success Rate: 76.12%
+
+#### Successful Mutations
+- **M1**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M1_period_type_mismatch.xbrl
+  - Expected Error: xbrl.2.1:periodTypeMismatch
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M2**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M2_invalid_context_reference.xbrl
+  - Expected Error: xbrl.2.1:contextRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M3**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M3_missing_required_element.xbrl
+  - Expected Error: xbrl.2.1:requiredElement
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M4**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M4_invalid_unit_reference.xbrl
+  - Expected Error: xbrl.2.1:unitRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M5**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M5_duplicate_fact.xbrl
+  - Expected Error: xbrl.2.1:duplicateFacts
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M6**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M6_invalid_xml_structure.xbrl
+  - Expected Error: xbrl.2.1:invalidStructure
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M7**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M7_invalid_namespace.xbrl
+  - Expected Error: xbrl.2.1:namespace
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M8**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M8_invalid_attribute_values.xbrl
+  - Expected Error: xbrl.2.1:attributeValue
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M9**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M9_missing_schema_reference.xbrl
+  - Expected Error: xbrl.2.1:schemaRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M10**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M10_invalid_date_format.xbrl
+  - Expected Error: xbrl.2.1:dateFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M11**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M11_invalid_numeric_format.xbrl
+  - Expected Error: xbrl.2.1:numericFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M12**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M12_invalid_boolean_format.xbrl
+  - Expected Error: xbrl.2.1:booleanFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M13**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M13_invalid_string_format.xbrl
+  - Expected Error: xbrl.2.1:stringFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M14**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M14_invalid_decimal_format.xbrl
+  - Expected Error: xbrl.2.1:decimalFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M15**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M15_invalid_integer_format.xbrl
+  - Expected Error: xbrl.2.1:integerFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M16**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M16_invalid_fraction_format.xbrl
+  - Expected Error: xbrl.2.1:fractionFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M17**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M17_invalid_monetary_format.xbrl
+  - Expected Error: xbrl.2.1:monetaryFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M18**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M18_invalid_share_format.xbrl
+  - Expected Error: xbrl.2.1:shareFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M19**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M19_invalid_pure_format.xbrl
+  - Expected Error: xbrl.2.1:pureFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M20**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M20_invalid_tuple_format.xbrl
+  - Expected Error: xbrl.2.1:tupleFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M21**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M21_invalid_anyuri_format.xbrl
+  - Expected Error: xbrl.2.1:anyURIFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M22**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M22_invalid_dimension_member.xbrl
+  - Expected Error: xbrldt:invalidDimensionMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M23**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M23_missing_required_dimension.xbrl
+  - Expected Error: xbrldt:missingRequiredDimension
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M24**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M24_invalid_hypercube.xbrl
+  - Expected Error: xbrldt:invalidHypercube
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M25**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M25_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M26**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M26_invalid_typed_dimension.xbrl
+  - Expected Error: xbrldt:invalidTypedDimension
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M27**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M27_invalid_explicit_dimension.xbrl
+  - Expected Error: xbrldi:invalidExplicitMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M28**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M28_invalid_dimension_context.xbrl
+  - Expected Error: xbrldi:invalidDimensionContext
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M29**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M29_invalid_dimension_relationship.xbrl
+  - Expected Error: xbrldt:invalidDimensionRelationship
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M30**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M30_invalid_dimension_constraint.xbrl
+  - Expected Error: xbrldt:invalidDimensionConstraint
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M31**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M31_invalid_dimension_default.xbrl
+  - Expected Error: xbrldt:invalidDimensionDefault
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M32**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M32_invalid_'all'.xbrl
+  - Expected Error: xbrldt:invalidAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M33**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M33_invalid_'notall'.xbrl
+  - Expected Error: xbrldt:invalidNotAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M34**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M34_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMemberSubtree
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M35**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M35_invalid_typed_dimension_content_model.xbrl
+  - Expected Error: xbrldt:invalidTypedDimensionContentModel
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M39**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M39_invalid_calculation_sum.xbrl
+  - Expected Error: calc:invalidCalculationSum
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M40**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M40_invalid_calculation_balance.xbrl
+  - Expected Error: calc:invalidCalculationBalance
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M41**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M41_invalid_calculation_period.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M42**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M42_invalid_calculation_context.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M43**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M43_invalid_calculation_unit.xbrl
+  - Expected Error: calc:invalidCalculationUnit
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M44**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M44_invalid_calculation_precision.xbrl
+  - Expected Error: calc:invalidCalculationPrecision
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M45**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M45_invalid_calculation_rounding.xbrl
+  - Expected Error: calc:invalidCalculationRounding
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M48**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M48_invalid_formula_variable.xbrl
+  - Expected Error: formula:undefinedVariable
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M50**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M50_invalid_formula_condition.xbrl
+  - Expected Error: formula:typeError
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M53**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M53_invalid_formula_context.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M54**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M54_invalid_formula_unit.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M56**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M56_invalid_filing_indicator.xbrl
+  - Expected Error: filing:invalidIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M57**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M57_missing_filing_indicator.xbrl
+  - Expected Error: filing:missingPositiveFilingIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M59**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M59_invalid_filing_period.xbrl
+  - Expected Error: filing:invalidPeriod
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M60**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M60_invalid_filing_entity.xbrl
+  - Expected Error: filing:invalidEntity
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M61**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M61_invalid_filing_template.xbrl
+  - Expected Error: filing:templateMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M62**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M62_invalid_filing_version.xbrl
+  - Expected Error: filing:versionMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M65**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M65_invalid_filing_format.xbrl
+  - Expected Error: filing:invalidFormat
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M67**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M67_invalid_filing_structure.xbrl
+  - Expected Error: filing:multipleIndicators
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+
+### DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958
+- Framework: OTHER
+- Successful Mutations: 49
+- Failed Mutations: 18
+- Success Rate: 73.13%
+
+#### Successful Mutations
+- **M1**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M1_period_type_mismatch.xbrl
+  - Expected Error: xbrl.2.1:periodTypeMismatch
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M2**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M2_invalid_context_reference.xbrl
+  - Expected Error: xbrl.2.1:contextRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M3**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M3_missing_required_element.xbrl
+  - Expected Error: xbrl.2.1:requiredElement
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M4**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M4_invalid_unit_reference.xbrl
+  - Expected Error: xbrl.2.1:unitRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M5**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M5_duplicate_fact.xbrl
+  - Expected Error: xbrl.2.1:duplicateFacts
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M6**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M6_invalid_xml_structure.xbrl
+  - Expected Error: xbrl.2.1:invalidStructure
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M7**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M7_invalid_namespace.xbrl
+  - Expected Error: xbrl.2.1:namespace
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M8**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M8_invalid_attribute_values.xbrl
+  - Expected Error: xbrl.2.1:attributeValue
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M9**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M9_missing_schema_reference.xbrl
+  - Expected Error: xbrl.2.1:schemaRef
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M10**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M10_invalid_date_format.xbrl
+  - Expected Error: xbrl.2.1:dateFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M11**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M11_invalid_numeric_format.xbrl
+  - Expected Error: xbrl.2.1:numericFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M12**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M12_invalid_boolean_format.xbrl
+  - Expected Error: xbrl.2.1:booleanFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M13**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M13_invalid_string_format.xbrl
+  - Expected Error: xbrl.2.1:stringFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M14**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M14_invalid_decimal_format.xbrl
+  - Expected Error: xbrl.2.1:decimalFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M15**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M15_invalid_integer_format.xbrl
+  - Expected Error: xbrl.2.1:integerFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M16**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M16_invalid_fraction_format.xbrl
+  - Expected Error: xbrl.2.1:fractionFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M17**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M17_invalid_monetary_format.xbrl
+  - Expected Error: xbrl.2.1:monetaryFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M18**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M18_invalid_share_format.xbrl
+  - Expected Error: xbrl.2.1:shareFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M19**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M19_invalid_pure_format.xbrl
+  - Expected Error: xbrl.2.1:pureFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M20**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M20_invalid_tuple_format.xbrl
+  - Expected Error: xbrl.2.1:tupleFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M21**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M21_invalid_anyuri_format.xbrl
+  - Expected Error: xbrl.2.1:anyURIFormat
+  - Error Type: Technical
+  - Validation Level: XBRL 2.1 Base
+- **M22**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M22_invalid_dimension_member.xbrl
+  - Expected Error: xbrldt:invalidDimensionMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M23**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M23_missing_required_dimension.xbrl
+  - Expected Error: xbrldt:missingRequiredDimension
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M24**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M24_invalid_hypercube.xbrl
+  - Expected Error: xbrldt:invalidHypercube
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M25**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M25_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M27**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M27_invalid_explicit_dimension.xbrl
+  - Expected Error: xbrldi:invalidExplicitMember
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M28**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M28_invalid_dimension_context.xbrl
+  - Expected Error: xbrldi:invalidDimensionContext
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M29**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M29_invalid_dimension_relationship.xbrl
+  - Expected Error: xbrldt:invalidDimensionRelationship
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M30**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M30_invalid_dimension_constraint.xbrl
+  - Expected Error: xbrldt:invalidDimensionConstraint
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M31**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M31_invalid_dimension_default.xbrl
+  - Expected Error: xbrldt:invalidDimensionDefault
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M32**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M32_invalid_'all'.xbrl
+  - Expected Error: xbrldt:invalidAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M33**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M33_invalid_'notall'.xbrl
+  - Expected Error: xbrldt:invalidNotAll
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M34**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M34_invalid_domain_member.xbrl
+  - Expected Error: xbrldt:invalidDomainMemberSubtree
+  - Error Type: Dimensional
+  - Validation Level: XBRL Dimensions 1.0
+- **M39**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M39_invalid_calculation_sum.xbrl
+  - Expected Error: calc:invalidCalculationSum
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M40**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M40_invalid_calculation_balance.xbrl
+  - Expected Error: calc:invalidCalculationBalance
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M41**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M41_invalid_calculation_period.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M42**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M42_invalid_calculation_context.xbrl
+  - Expected Error: xbrl.calc:calculationInconsistent
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation 1.0
+- **M43**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M43_invalid_calculation_unit.xbrl
+  - Expected Error: calc:invalidCalculationUnit
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M44**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M44_invalid_calculation_precision.xbrl
+  - Expected Error: calc:invalidCalculationPrecision
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M45**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M45_invalid_calculation_rounding.xbrl
+  - Expected Error: calc:invalidCalculationRounding
+  - Error Type: Calculation
+  - Validation Level: XBRL Calculation Linkbase
+- **M48**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M48_invalid_formula_variable.xbrl
+  - Expected Error: formula:undefinedVariable
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M50**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M50_invalid_formula_condition.xbrl
+  - Expected Error: formula:typeError
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M53**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M53_invalid_formula_context.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M54**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M54_invalid_formula_unit.xbrl
+  - Expected Error: formula:assertionFailed
+  - Error Type: Formula
+  - Validation Level: XBRL Formula 1.0
+- **M56**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M56_invalid_filing_indicator.xbrl
+  - Expected Error: filing:invalidIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M57**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M57_missing_filing_indicator.xbrl
+  - Expected Error: filing:missingPositiveFilingIndicator
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M59**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M59_invalid_filing_period.xbrl
+  - Expected Error: filing:invalidPeriod
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M60**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M60_invalid_filing_entity.xbrl
+  - Expected Error: filing:invalidEntity
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M61**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M61_invalid_filing_template.xbrl
+  - Expected Error: filing:templateMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M62**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M62_invalid_filing_version.xbrl
+  - Expected Error: filing:versionMismatch
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M65**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M65_invalid_filing_format.xbrl
+  - Expected Error: filing:invalidFormat
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+- **M67**: test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M67_invalid_filing_structure.xbrl
+  - Expected Error: filing:multipleIndicators
+  - Error Type: Filing
+  - Validation Level: EBA Filing Rules v5.5
+

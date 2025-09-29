@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:link="http://www.xbrl.org/2003/linkbase"
+      xmlns:xbrli="http://www.xbrl.org/2003/instance"
+      xmlns:ex="http://example.com/calc">
+  <link:schemaRef xlink:type="simple" xlink:href="schema.xsd"/>
+  <context id="c1">
+    <entity><identifier scheme="http://example.com/lei">TESTLEI</identifier></entity>
+    <period><instant>2024-12-31</instant></period>
+  </context>
+  <unit id="u"><measure>xbrli:pure</measure></unit>
+  <ex:A contextRef="c1" unitRef="u">10</ex:A>
+  <ex:B contextRef="c1" unitRef="u">20</ex:B>
+  <ex:Total contextRef="c1" unitRef="u">35</ex:Total>
+</xbrl>

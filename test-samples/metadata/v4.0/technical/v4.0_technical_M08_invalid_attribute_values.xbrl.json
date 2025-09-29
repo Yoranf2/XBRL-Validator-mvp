@@ -1,0 +1,26 @@
+{
+  "id": "M8",
+  "version": "v4.0",
+  "category": "technical",
+  "file": "v4.0_technical_M08_invalid_attribute_values.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.0/mod/finrep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "technical:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrl.2.1:attributevalue",
+      "m8"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M8 - technical mutation"
+}

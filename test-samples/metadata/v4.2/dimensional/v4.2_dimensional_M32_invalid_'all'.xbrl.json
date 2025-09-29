@@ -1,0 +1,26 @@
+{
+  "id": "M32",
+  "version": "v4.2",
+  "category": "dimensional",
+  "file": "v4.2_dimensional_M32_invalid_'all'.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "dimensional:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrldt:invalidall",
+      "m32"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M32 - dimensional mutation"
+}

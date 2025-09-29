@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:find="http://www.eba.europa.eu/xbrl/crr/fws/filing/mod" xmlns:filing="http://www.eba.europa.eu/xbrl/crr/fws/filing/mod" xmlns:formula="http://xbrl.org/2008/formula" xmlns:eba="http://www.eba.europa.eu/xbrl/crr/fws/corep/mod" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xsi:schemaLocation="http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd http://www.eba.europa.eu/xbrl/crr/fws/corep/mod http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd http://www.eba.europa.eu/xbrl/crr/fws/filing/mod http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/filing/4.0/mod/filing.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula/formula.xsd">
+    
+    <link:schemaRef xlink:type="simple" xlink:href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd" href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/mod/corep.xsd"/>
+    
+    <!-- Units -->
+    <xbrli:unit id="u_eur">
+        <xbrli:measure>iso4217:EUR</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_pure">
+        <xbrli:measure>xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    
+    <!-- Contexts -->
+    <xbrli:context id="c_instant">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2024-12-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <xbrli:context id="c_duration_year">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <!-- Filing indicators -->
+    <find:fIndicators>
+        <find:filingIndicator contextRef="c_instant">C 01.01</find:filingIndicator>
+    </find:fIndicators>
+    
+    <!-- Filing metadata -->
+    <filing:reportingDate contextRef="c_instant">2024-12-31</filing:reportingDate>
+    <filing:status contextRef="c_instant">FINAL</filing:status>
+    <filing:type contextRef="c_instant">Solo</filing:type>
+    <filing:version contextRef="c_instant">4.0</filing:version>
+    
+    <!-- Facts for formula mutations -->
+    <eba:ParentTotal contextRef="c_instant" unitRef="u_eur" decimals="0">0</eba:ParentTotal>
+    <eba:ChildA contextRef="c_instant" unitRef="u_eur" decimals="0">60</eba:ChildA>
+    <eba:ChildB contextRef="c_instant" unitRef="u_eur" decimals="0">40</eba:ChildB>
+    
+    <!-- Additional facts for formula context/unit/period mutations -->
+    <eba:Amount contextRef="c_duration_year" unitRef="u_eur" decimals="0">1000</eba:Amount>
+    <eba:Count contextRef="c_instant" unitRef="u_pure" decimals="0">5</eba:Count>
+    
+</xbrli:xbrl>

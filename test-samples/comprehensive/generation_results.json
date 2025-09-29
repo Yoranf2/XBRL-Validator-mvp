@@ -1,0 +1,1960 @@
+{
+  "generation_timestamp": "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation",
+  "total_samples": 4,
+  "total_mutations": 67,
+  "samples": {
+    "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242": {
+      "sample_file": "github_work/eba-taxonomies/EBA Taxonomy 4.2/sample_files/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242.xbrl",
+      "framework": "COREP",
+      "mutations": {
+        "M1": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M1_period_type_mismatch.xbrl",
+          "expected_error": "xbrl.2.1:periodTypeMismatch",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M2": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M2_invalid_context_reference.xbrl",
+          "expected_error": "xbrl.2.1:contextRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M3": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M3_missing_required_element.xbrl",
+          "expected_error": "xbrl.2.1:requiredElement",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M4": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M4_invalid_unit_reference.xbrl",
+          "expected_error": "xbrl.2.1:unitRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M5": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M5_duplicate_fact.xbrl",
+          "expected_error": "xbrl.2.1:duplicateFacts",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M6": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M6_invalid_xml_structure.xbrl",
+          "expected_error": "xbrl.2.1:invalidStructure",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M7": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M7_invalid_namespace.xbrl",
+          "expected_error": "xbrl.2.1:namespace",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M8": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M8_invalid_attribute_values.xbrl",
+          "expected_error": "xbrl.2.1:attributeValue",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M9": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M9_missing_schema_reference.xbrl",
+          "expected_error": "xbrl.2.1:schemaRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M10": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M10_invalid_date_format.xbrl",
+          "expected_error": "xbrl.2.1:dateFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M11": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M11_invalid_numeric_format.xbrl",
+          "expected_error": "xbrl.2.1:numericFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M12": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M12_invalid_boolean_format.xbrl",
+          "expected_error": "xbrl.2.1:booleanFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M13": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M13_invalid_string_format.xbrl",
+          "expected_error": "xbrl.2.1:stringFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M14": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M14_invalid_decimal_format.xbrl",
+          "expected_error": "xbrl.2.1:decimalFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M15": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M15_invalid_integer_format.xbrl",
+          "expected_error": "xbrl.2.1:integerFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M16": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M16_invalid_fraction_format.xbrl",
+          "expected_error": "xbrl.2.1:fractionFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M17": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M17_invalid_monetary_format.xbrl",
+          "expected_error": "xbrl.2.1:monetaryFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M18": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M18_invalid_share_format.xbrl",
+          "expected_error": "xbrl.2.1:shareFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M19": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M19_invalid_pure_format.xbrl",
+          "expected_error": "xbrl.2.1:pureFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M20": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M20_invalid_tuple_format.xbrl",
+          "expected_error": "xbrl.2.1:tupleFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M21": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M21_invalid_anyuri_format.xbrl",
+          "expected_error": "xbrl.2.1:anyURIFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M22": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M22_invalid_dimension_member.xbrl",
+          "expected_error": "xbrldt:invalidDimensionMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M23": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M23_missing_required_dimension.xbrl",
+          "expected_error": "xbrldt:missingRequiredDimension",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M24": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M24_invalid_hypercube.xbrl",
+          "expected_error": "xbrldt:invalidHypercube",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M25": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M25_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M26": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M27": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M27_invalid_explicit_dimension.xbrl",
+          "expected_error": "xbrldi:invalidExplicitMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M28": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M28_invalid_dimension_context.xbrl",
+          "expected_error": "xbrldi:invalidDimensionContext",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M29": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M29_invalid_dimension_relationship.xbrl",
+          "expected_error": "xbrldt:invalidDimensionRelationship",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M30": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M30_invalid_dimension_constraint.xbrl",
+          "expected_error": "xbrldt:invalidDimensionConstraint",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M31": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M31_invalid_dimension_default.xbrl",
+          "expected_error": "xbrldt:invalidDimensionDefault",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M32": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M32_invalid_'all'.xbrl",
+          "expected_error": "xbrldt:invalidAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M33": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M33_invalid_'notall'.xbrl",
+          "expected_error": "xbrldt:invalidNotAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M34": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M34_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMemberSubtree",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M35": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M36": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M37": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M38": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M39": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M39_invalid_calculation_sum.xbrl",
+          "expected_error": "calc:invalidCalculationSum",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M40": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M40_invalid_calculation_balance.xbrl",
+          "expected_error": "calc:invalidCalculationBalance",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M41": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M41_invalid_calculation_period.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M42": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M42_invalid_calculation_context.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M43": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M43_invalid_calculation_unit.xbrl",
+          "expected_error": "calc:invalidCalculationUnit",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M44": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M44_invalid_calculation_precision.xbrl",
+          "expected_error": "calc:invalidCalculationPrecision",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M45": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M45_invalid_calculation_rounding.xbrl",
+          "expected_error": "calc:invalidCalculationRounding",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M46": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M47": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M48": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M48_invalid_formula_variable.xbrl",
+          "expected_error": "formula:undefinedVariable",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M49": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M50": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M50_invalid_formula_condition.xbrl",
+          "expected_error": "formula:typeError",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M51": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M52": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M53": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M53_invalid_formula_context.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M54": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M54_invalid_formula_unit.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M55": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M56": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M56_invalid_filing_indicator.xbrl",
+          "expected_error": "filing:invalidIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M57": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M57_missing_filing_indicator.xbrl",
+          "expected_error": "filing:missingPositiveFilingIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M58": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M59": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M59_invalid_filing_period.xbrl",
+          "expected_error": "filing:invalidPeriod",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M60": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M60_invalid_filing_entity.xbrl",
+          "expected_error": "filing:invalidEntity",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M61": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M61_invalid_filing_template.xbrl",
+          "expected_error": "filing:templateMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M62": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M62_invalid_filing_version.xbrl",
+          "expected_error": "filing:versionMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M63": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M64": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M65": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M65_invalid_filing_format.xbrl",
+          "expected_error": "filing:invalidFormat",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M66": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M67": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M67_invalid_filing_structure.xbrl",
+          "expected_error": "filing:multipleIndicators",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        }
+      },
+      "successful_mutations": 49,
+      "failed_mutations": 18,
+      "total_mutations": 67
+    },
+    "DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936": {
+      "sample_file": "github_work/eba-taxonomies/EBA Taxonomy 4.2/sample_files/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936.xbrl",
+      "framework": "FINREP",
+      "mutations": {
+        "M1": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M1_period_type_mismatch.xbrl",
+          "expected_error": "xbrl.2.1:periodTypeMismatch",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M2": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M2_invalid_context_reference.xbrl",
+          "expected_error": "xbrl.2.1:contextRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M3": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M3_missing_required_element.xbrl",
+          "expected_error": "xbrl.2.1:requiredElement",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M4": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M4_invalid_unit_reference.xbrl",
+          "expected_error": "xbrl.2.1:unitRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M5": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M5_duplicate_fact.xbrl",
+          "expected_error": "xbrl.2.1:duplicateFacts",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M6": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M6_invalid_xml_structure.xbrl",
+          "expected_error": "xbrl.2.1:invalidStructure",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M7": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M7_invalid_namespace.xbrl",
+          "expected_error": "xbrl.2.1:namespace",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M8": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M8_invalid_attribute_values.xbrl",
+          "expected_error": "xbrl.2.1:attributeValue",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M9": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M9_missing_schema_reference.xbrl",
+          "expected_error": "xbrl.2.1:schemaRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M10": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M10_invalid_date_format.xbrl",
+          "expected_error": "xbrl.2.1:dateFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M11": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M11_invalid_numeric_format.xbrl",
+          "expected_error": "xbrl.2.1:numericFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M12": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M12_invalid_boolean_format.xbrl",
+          "expected_error": "xbrl.2.1:booleanFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M13": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M13_invalid_string_format.xbrl",
+          "expected_error": "xbrl.2.1:stringFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M14": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M14_invalid_decimal_format.xbrl",
+          "expected_error": "xbrl.2.1:decimalFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M15": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M15_invalid_integer_format.xbrl",
+          "expected_error": "xbrl.2.1:integerFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M16": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M16_invalid_fraction_format.xbrl",
+          "expected_error": "xbrl.2.1:fractionFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M17": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M17_invalid_monetary_format.xbrl",
+          "expected_error": "xbrl.2.1:monetaryFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M18": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M18_invalid_share_format.xbrl",
+          "expected_error": "xbrl.2.1:shareFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M19": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M19_invalid_pure_format.xbrl",
+          "expected_error": "xbrl.2.1:pureFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M20": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M20_invalid_tuple_format.xbrl",
+          "expected_error": "xbrl.2.1:tupleFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M21": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M21_invalid_anyuri_format.xbrl",
+          "expected_error": "xbrl.2.1:anyURIFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M22": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M22_invalid_dimension_member.xbrl",
+          "expected_error": "xbrldt:invalidDimensionMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M23": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M23_missing_required_dimension.xbrl",
+          "expected_error": "xbrldt:missingRequiredDimension",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M24": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M24_invalid_hypercube.xbrl",
+          "expected_error": "xbrldt:invalidHypercube",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M25": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M25_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M26": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M27": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M27_invalid_explicit_dimension.xbrl",
+          "expected_error": "xbrldi:invalidExplicitMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M28": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M28_invalid_dimension_context.xbrl",
+          "expected_error": "xbrldi:invalidDimensionContext",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M29": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M29_invalid_dimension_relationship.xbrl",
+          "expected_error": "xbrldt:invalidDimensionRelationship",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M30": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M30_invalid_dimension_constraint.xbrl",
+          "expected_error": "xbrldt:invalidDimensionConstraint",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M31": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M31_invalid_dimension_default.xbrl",
+          "expected_error": "xbrldt:invalidDimensionDefault",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M32": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M32_invalid_'all'.xbrl",
+          "expected_error": "xbrldt:invalidAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M33": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M33_invalid_'notall'.xbrl",
+          "expected_error": "xbrldt:invalidNotAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M34": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M34_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMemberSubtree",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M35": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M36": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M37": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M38": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M39": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M39_invalid_calculation_sum.xbrl",
+          "expected_error": "calc:invalidCalculationSum",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M40": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M40_invalid_calculation_balance.xbrl",
+          "expected_error": "calc:invalidCalculationBalance",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M41": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M41_invalid_calculation_period.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M42": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M42_invalid_calculation_context.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M43": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M43_invalid_calculation_unit.xbrl",
+          "expected_error": "calc:invalidCalculationUnit",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M44": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M44_invalid_calculation_precision.xbrl",
+          "expected_error": "calc:invalidCalculationPrecision",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M45": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M45_invalid_calculation_rounding.xbrl",
+          "expected_error": "calc:invalidCalculationRounding",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M46": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M47": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M48": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M48_invalid_formula_variable.xbrl",
+          "expected_error": "formula:undefinedVariable",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M49": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M50": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M50_invalid_formula_condition.xbrl",
+          "expected_error": "formula:typeError",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M51": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M52": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M53": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M53_invalid_formula_context.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M54": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M54_invalid_formula_unit.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M55": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M56": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M56_invalid_filing_indicator.xbrl",
+          "expected_error": "filing:invalidIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M57": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M57_missing_filing_indicator.xbrl",
+          "expected_error": "filing:missingPositiveFilingIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M58": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M59": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M59_invalid_filing_period.xbrl",
+          "expected_error": "filing:invalidPeriod",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M60": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M60_invalid_filing_entity.xbrl",
+          "expected_error": "filing:invalidEntity",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M61": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M61_invalid_filing_template.xbrl",
+          "expected_error": "filing:templateMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M62": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M62_invalid_filing_version.xbrl",
+          "expected_error": "filing:versionMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M63": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M64": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M65": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M65_invalid_filing_format.xbrl",
+          "expected_error": "filing:invalidFormat",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M66": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M67": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_FINREP010000_FINREPDP_2025-06-30_20250820104557936/M67_invalid_filing_structure.xbrl",
+          "expected_error": "filing:multipleIndicators",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        }
+      },
+      "successful_mutations": 49,
+      "failed_mutations": 18,
+      "total_mutations": 67
+    },
+    "DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480": {
+      "sample_file": "github_work/eba-taxonomies/EBA Taxonomy 4.2/sample_files/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480.xbrl",
+      "framework": "DORA",
+      "mutations": {
+        "M1": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M1_period_type_mismatch.xbrl",
+          "expected_error": "xbrl.2.1:periodTypeMismatch",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M2": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M2_invalid_context_reference.xbrl",
+          "expected_error": "xbrl.2.1:contextRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M3": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M3_missing_required_element.xbrl",
+          "expected_error": "xbrl.2.1:requiredElement",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M4": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M4_invalid_unit_reference.xbrl",
+          "expected_error": "xbrl.2.1:unitRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M5": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M5_duplicate_fact.xbrl",
+          "expected_error": "xbrl.2.1:duplicateFacts",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M6": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M6_invalid_xml_structure.xbrl",
+          "expected_error": "xbrl.2.1:invalidStructure",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M7": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M7_invalid_namespace.xbrl",
+          "expected_error": "xbrl.2.1:namespace",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M8": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M8_invalid_attribute_values.xbrl",
+          "expected_error": "xbrl.2.1:attributeValue",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M9": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M9_missing_schema_reference.xbrl",
+          "expected_error": "xbrl.2.1:schemaRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M10": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M10_invalid_date_format.xbrl",
+          "expected_error": "xbrl.2.1:dateFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M11": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M11_invalid_numeric_format.xbrl",
+          "expected_error": "xbrl.2.1:numericFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M12": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M12_invalid_boolean_format.xbrl",
+          "expected_error": "xbrl.2.1:booleanFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M13": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M13_invalid_string_format.xbrl",
+          "expected_error": "xbrl.2.1:stringFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M14": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M14_invalid_decimal_format.xbrl",
+          "expected_error": "xbrl.2.1:decimalFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M15": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M15_invalid_integer_format.xbrl",
+          "expected_error": "xbrl.2.1:integerFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M16": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M16_invalid_fraction_format.xbrl",
+          "expected_error": "xbrl.2.1:fractionFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M17": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M17_invalid_monetary_format.xbrl",
+          "expected_error": "xbrl.2.1:monetaryFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M18": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M18_invalid_share_format.xbrl",
+          "expected_error": "xbrl.2.1:shareFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M19": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M19_invalid_pure_format.xbrl",
+          "expected_error": "xbrl.2.1:pureFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M20": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M20_invalid_tuple_format.xbrl",
+          "expected_error": "xbrl.2.1:tupleFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M21": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M21_invalid_anyuri_format.xbrl",
+          "expected_error": "xbrl.2.1:anyURIFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M22": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M22_invalid_dimension_member.xbrl",
+          "expected_error": "xbrldt:invalidDimensionMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M23": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M23_missing_required_dimension.xbrl",
+          "expected_error": "xbrldt:missingRequiredDimension",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M24": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M24_invalid_hypercube.xbrl",
+          "expected_error": "xbrldt:invalidHypercube",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M25": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M25_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M26": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M26_invalid_typed_dimension.xbrl",
+          "expected_error": "xbrldt:invalidTypedDimension",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M27": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M27_invalid_explicit_dimension.xbrl",
+          "expected_error": "xbrldi:invalidExplicitMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M28": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M28_invalid_dimension_context.xbrl",
+          "expected_error": "xbrldi:invalidDimensionContext",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M29": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M29_invalid_dimension_relationship.xbrl",
+          "expected_error": "xbrldt:invalidDimensionRelationship",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M30": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M30_invalid_dimension_constraint.xbrl",
+          "expected_error": "xbrldt:invalidDimensionConstraint",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M31": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M31_invalid_dimension_default.xbrl",
+          "expected_error": "xbrldt:invalidDimensionDefault",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M32": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M32_invalid_'all'.xbrl",
+          "expected_error": "xbrldt:invalidAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M33": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M33_invalid_'notall'.xbrl",
+          "expected_error": "xbrldt:invalidNotAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M34": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M34_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMemberSubtree",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M35": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M35_invalid_typed_dimension_content_model.xbrl",
+          "expected_error": "xbrldt:invalidTypedDimensionContentModel",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M36": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M37": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M38": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M39": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M39_invalid_calculation_sum.xbrl",
+          "expected_error": "calc:invalidCalculationSum",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M40": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M40_invalid_calculation_balance.xbrl",
+          "expected_error": "calc:invalidCalculationBalance",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M41": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M41_invalid_calculation_period.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M42": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M42_invalid_calculation_context.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M43": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M43_invalid_calculation_unit.xbrl",
+          "expected_error": "calc:invalidCalculationUnit",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M44": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M44_invalid_calculation_precision.xbrl",
+          "expected_error": "calc:invalidCalculationPrecision",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M45": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M45_invalid_calculation_rounding.xbrl",
+          "expected_error": "calc:invalidCalculationRounding",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M46": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M47": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M48": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M48_invalid_formula_variable.xbrl",
+          "expected_error": "formula:undefinedVariable",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M49": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M50": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M50_invalid_formula_condition.xbrl",
+          "expected_error": "formula:typeError",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M51": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M52": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M53": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M53_invalid_formula_context.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M54": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M54_invalid_formula_unit.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M55": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M56": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M56_invalid_filing_indicator.xbrl",
+          "expected_error": "filing:invalidIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M57": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M57_missing_filing_indicator.xbrl",
+          "expected_error": "filing:missingPositiveFilingIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M58": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M59": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M59_invalid_filing_period.xbrl",
+          "expected_error": "filing:invalidPeriod",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M60": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M60_invalid_filing_entity.xbrl",
+          "expected_error": "filing:invalidEntity",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M61": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M61_invalid_filing_template.xbrl",
+          "expected_error": "filing:templateMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M62": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M62_invalid_filing_version.xbrl",
+          "expected_error": "filing:versionMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M63": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M64": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M65": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M65_invalid_filing_format.xbrl",
+          "expected_error": "filing:invalidFormat",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M66": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M67": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M67_invalid_filing_structure.xbrl",
+          "expected_error": "filing:multipleIndicators",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        }
+      },
+      "successful_mutations": 51,
+      "failed_mutations": 16,
+      "total_mutations": 67
+    },
+    "DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958": {
+      "sample_file": "github_work/eba-taxonomies/EBA Taxonomy 4.2/sample_files/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958.xbrl",
+      "framework": "OTHER",
+      "mutations": {
+        "M1": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M1_period_type_mismatch.xbrl",
+          "expected_error": "xbrl.2.1:periodTypeMismatch",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M2": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M2_invalid_context_reference.xbrl",
+          "expected_error": "xbrl.2.1:contextRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M3": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M3_missing_required_element.xbrl",
+          "expected_error": "xbrl.2.1:requiredElement",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M4": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M4_invalid_unit_reference.xbrl",
+          "expected_error": "xbrl.2.1:unitRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M5": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M5_duplicate_fact.xbrl",
+          "expected_error": "xbrl.2.1:duplicateFacts",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M6": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M6_invalid_xml_structure.xbrl",
+          "expected_error": "xbrl.2.1:invalidStructure",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M7": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M7_invalid_namespace.xbrl",
+          "expected_error": "xbrl.2.1:namespace",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M8": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M8_invalid_attribute_values.xbrl",
+          "expected_error": "xbrl.2.1:attributeValue",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M9": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M9_missing_schema_reference.xbrl",
+          "expected_error": "xbrl.2.1:schemaRef",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M10": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M10_invalid_date_format.xbrl",
+          "expected_error": "xbrl.2.1:dateFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M11": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M11_invalid_numeric_format.xbrl",
+          "expected_error": "xbrl.2.1:numericFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M12": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M12_invalid_boolean_format.xbrl",
+          "expected_error": "xbrl.2.1:booleanFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M13": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M13_invalid_string_format.xbrl",
+          "expected_error": "xbrl.2.1:stringFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M14": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M14_invalid_decimal_format.xbrl",
+          "expected_error": "xbrl.2.1:decimalFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M15": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M15_invalid_integer_format.xbrl",
+          "expected_error": "xbrl.2.1:integerFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M16": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M16_invalid_fraction_format.xbrl",
+          "expected_error": "xbrl.2.1:fractionFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M17": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M17_invalid_monetary_format.xbrl",
+          "expected_error": "xbrl.2.1:monetaryFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M18": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M18_invalid_share_format.xbrl",
+          "expected_error": "xbrl.2.1:shareFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M19": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M19_invalid_pure_format.xbrl",
+          "expected_error": "xbrl.2.1:pureFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M20": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M20_invalid_tuple_format.xbrl",
+          "expected_error": "xbrl.2.1:tupleFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M21": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M21_invalid_anyuri_format.xbrl",
+          "expected_error": "xbrl.2.1:anyURIFormat",
+          "error_type": "Technical",
+          "validation_level": "XBRL 2.1 Base"
+        },
+        "M22": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M22_invalid_dimension_member.xbrl",
+          "expected_error": "xbrldt:invalidDimensionMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M23": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M23_missing_required_dimension.xbrl",
+          "expected_error": "xbrldt:missingRequiredDimension",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M24": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M24_invalid_hypercube.xbrl",
+          "expected_error": "xbrldt:invalidHypercube",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M25": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M25_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M26": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M27": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M27_invalid_explicit_dimension.xbrl",
+          "expected_error": "xbrldi:invalidExplicitMember",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M28": {
+          "success": true,
+          "validation": false,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M28_invalid_dimension_context.xbrl",
+          "expected_error": "xbrldi:invalidDimensionContext",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M29": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M29_invalid_dimension_relationship.xbrl",
+          "expected_error": "xbrldt:invalidDimensionRelationship",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M30": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M30_invalid_dimension_constraint.xbrl",
+          "expected_error": "xbrldt:invalidDimensionConstraint",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M31": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M31_invalid_dimension_default.xbrl",
+          "expected_error": "xbrldt:invalidDimensionDefault",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M32": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M32_invalid_'all'.xbrl",
+          "expected_error": "xbrldt:invalidAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M33": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M33_invalid_'notall'.xbrl",
+          "expected_error": "xbrldt:invalidNotAll",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M34": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M34_invalid_domain_member.xbrl",
+          "expected_error": "xbrldt:invalidDomainMemberSubtree",
+          "error_type": "Dimensional",
+          "validation_level": "XBRL Dimensions 1.0"
+        },
+        "M35": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M36": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M37": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M38": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M39": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M39_invalid_calculation_sum.xbrl",
+          "expected_error": "calc:invalidCalculationSum",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M40": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M40_invalid_calculation_balance.xbrl",
+          "expected_error": "calc:invalidCalculationBalance",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M41": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M41_invalid_calculation_period.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M42": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M42_invalid_calculation_context.xbrl",
+          "expected_error": "xbrl.calc:calculationInconsistent",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation 1.0"
+        },
+        "M43": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M43_invalid_calculation_unit.xbrl",
+          "expected_error": "calc:invalidCalculationUnit",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M44": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M44_invalid_calculation_precision.xbrl",
+          "expected_error": "calc:invalidCalculationPrecision",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M45": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M45_invalid_calculation_rounding.xbrl",
+          "expected_error": "calc:invalidCalculationRounding",
+          "error_type": "Calculation",
+          "validation_level": "XBRL Calculation Linkbase"
+        },
+        "M46": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M47": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M48": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M48_invalid_formula_variable.xbrl",
+          "expected_error": "formula:undefinedVariable",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M49": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M50": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M50_invalid_formula_condition.xbrl",
+          "expected_error": "formula:typeError",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M51": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M52": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M53": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M53_invalid_formula_context.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M54": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M54_invalid_formula_unit.xbrl",
+          "expected_error": "formula:assertionFailed",
+          "error_type": "Formula",
+          "validation_level": "XBRL Formula 1.0"
+        },
+        "M55": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M56": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M56_invalid_filing_indicator.xbrl",
+          "expected_error": "filing:invalidIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M57": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M57_missing_filing_indicator.xbrl",
+          "expected_error": "filing:missingPositiveFilingIndicator",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M58": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M59": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M59_invalid_filing_period.xbrl",
+          "expected_error": "filing:invalidPeriod",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M60": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M60_invalid_filing_entity.xbrl",
+          "expected_error": "filing:invalidEntity",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M61": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M61_invalid_filing_template.xbrl",
+          "expected_error": "filing:templateMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M62": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M62_invalid_filing_version.xbrl",
+          "expected_error": "filing:versionMismatch",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M63": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M64": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M65": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M65_invalid_filing_format.xbrl",
+          "expected_error": "filing:invalidFormat",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        },
+        "M66": {
+          "success": false,
+          "error": "Failed to apply mutation"
+        },
+        "M67": {
+          "success": true,
+          "validation": true,
+          "output_file": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_REM020200_REMBMIF_2025-06-30_20250820143735958/M67_invalid_filing_structure.xbrl",
+          "expected_error": "filing:multipleIndicators",
+          "error_type": "Filing",
+          "validation_level": "EBA Filing Rules v5.5"
+        }
+      },
+      "successful_mutations": 49,
+      "failed_mutations": 18,
+      "total_mutations": 67
+    }
+  },
+  "summary": {
+    "total_successful": 198,
+    "total_failed": 70,
+    "success_rate": 0.7388059701492538
+  }
+}

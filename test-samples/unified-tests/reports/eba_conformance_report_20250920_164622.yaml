@@ -1,0 +1,216 @@
+eba_conformance_report:
+  detailed_results:
+    coverage_report:
+      v4.2_finrep:
+        M1: true
+        M10: true
+        M11: true
+        M12: true
+        M13: true
+        M14: true
+        M15: true
+        M16: true
+        M17: true
+        M18: true
+        M19: true
+        M2: true
+        M20: true
+        M21: true
+        M22: false
+        M23: false
+        M24: false
+        M25: false
+        M26: false
+        M27: false
+        M28: false
+        M29: false
+        M3: true
+        M30: false
+        M31: false
+        M32: false
+        M33: false
+        M34: false
+        M35: false
+        M36: false
+        M37: false
+        M38: false
+        M39: false
+        M4: true
+        M40: false
+        M41: false
+        M42: false
+        M43: false
+        M44: false
+        M45: false
+        M46: false
+        M47: false
+        M48: false
+        M49: false
+        M5: true
+        M50: false
+        M51: false
+        M52: false
+        M53: false
+        M54: false
+        M55: false
+        M56: true
+        M57: true
+        M58: true
+        M59: true
+        M6: true
+        M60: true
+        M61: true
+        M62: true
+        M63: true
+        M64: true
+        M65: true
+        M66: true
+        M67: true
+        M7: true
+        M8: true
+        M9: true
+    discovery_results:
+      v4.2_finrep:
+        calculation_sets: []
+        closed_hypercubes: []
+        discovery_errors:
+        - 'Formula discovery error: ''NoneType'' object has no attribute ''referencesDocument'''
+        entry_point_url: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+        excluded_axes: []
+        explicit_axes: []
+        formula_assertions: []
+        has_calc: false
+        has_closed_hypercubes: false
+        has_excluded_axes: false
+        has_explicit_dimensions: false
+        has_formula: false
+        has_typed_dimensions: false
+        taxonomy_version: v4.2
+        typed_axes: []
+    error_tests: 33
+    failed_tests: 0
+    frameworks_tested: &id001
+    - finrep
+    passed_tests: 0
+    suite_name: EBA Conformance Suite
+    test_results:
+      v4.2_finrep:
+        error_mutations: 33
+        failed_mutations: 0
+        framework: finrep
+        mutations:
+          M1:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M10:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M11:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M12:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M13:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M14:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M15:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M16:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M17:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M18:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M19:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M2:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M20:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M21:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M3:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M4:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M5:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M56:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M57:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M58:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M59:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M6:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M60:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M61:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M62:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M63:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M64:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M65:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M66:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M67:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M7:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M8:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+          M9:
+            error: '''EnhancedTestFileGenerator'' object has no attribute ''generate_test_file'''
+            status: ERROR
+        successful_mutations: 0
+        total_mutations: 33
+        version: v4.2
+    total_tests: 33
+    versions_tested: &id002
+    - v4.2
+  duration_seconds: 0
+  error_tests: 33
+  failed_tests: 0
+  frameworks_tested: *id001
+  passed_tests: 0
+  success_rate: 0.0
+  timestamp: '2025-09-20T16:46:22.459181'
+  total_tests: 33
+  version: '1.0'
+  versions_tested: *id002

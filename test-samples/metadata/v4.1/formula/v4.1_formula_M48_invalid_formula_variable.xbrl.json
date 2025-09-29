@@ -1,0 +1,25 @@
+{
+  "id": "M48",
+  "version": "v4.1",
+  "category": "formula",
+  "file": "v4.1_formula_M48_invalid_formula_variable.xbrl",
+  "entrypoint": "",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "formula:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "formula:undefinedvariable",
+      "m48"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M48 - formula mutation"
+}

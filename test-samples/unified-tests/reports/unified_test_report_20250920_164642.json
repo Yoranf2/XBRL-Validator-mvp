@@ -1,0 +1,1409 @@
+{
+  "unified_test_report": {
+    "version": "1.0",
+    "timestamp": "2025-09-20T16:46:42.152815",
+    "duration_seconds": 0,
+    "test_suites": {
+      "eba_conformance": {
+        "name": "EBA Conformance Suite",
+        "status": "COMPLETED",
+        "total_tests": 33,
+        "passed_tests": 33,
+        "failed_tests": 0,
+        "error_tests": 0,
+        "success_rate": 100.0,
+        "versions_tested": [
+          "v4.2"
+        ],
+        "frameworks_tested": [
+          "finrep"
+        ]
+      },
+      "engine_health": {
+        "name": "Engine Health Suite",
+        "status": "COMPLETED",
+        "total_tests": 5,
+        "passed_tests": 5,
+        "failed_tests": 0,
+        "error_tests": 0,
+        "success_rate": 100.0,
+        "arelle_available": true
+      }
+    },
+    "overall_summary": {
+      "total_tests": 38,
+      "total_passed": 38,
+      "total_failed": 0,
+      "total_errors": 0,
+      "overall_success_rate": 100.0
+    },
+    "detailed_results": {
+      "eba_conformance": {
+        "suite_name": "EBA Conformance Suite",
+        "versions_tested": [
+          "v4.2"
+        ],
+        "frameworks_tested": [
+          "finrep"
+        ],
+        "test_results": {
+          "v4.2_finrep": {
+            "version": "v4.2",
+            "framework": "finrep",
+            "total_mutations": 33,
+            "successful_mutations": 33,
+            "failed_mutations": 0,
+            "error_mutations": 0,
+            "mutations": {
+              "M1": {
+                "status": "PASS",
+                "file": "v4.2_technical_M01_period_type_mismatch.xbrl",
+                "metadata": {
+                  "id": "M1",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M01_period_type_mismatch.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:periodtypemismatch",
+                      "m1"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M1 - technical mutation"
+                }
+              },
+              "M2": {
+                "status": "PASS",
+                "file": "v4.2_technical_M02_invalid_context_reference.xbrl",
+                "metadata": {
+                  "id": "M2",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M02_invalid_context_reference.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:contextref",
+                      "m2"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M2 - technical mutation"
+                }
+              },
+              "M3": {
+                "status": "PASS",
+                "file": "v4.2_technical_M03_missing_required_element.xbrl",
+                "metadata": {
+                  "id": "M3",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M03_missing_required_element.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:requiredelement",
+                      "m3"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M3 - technical mutation"
+                }
+              },
+              "M4": {
+                "status": "PASS",
+                "file": "v4.2_technical_M04_invalid_unit_reference.xbrl",
+                "metadata": {
+                  "id": "M4",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M04_invalid_unit_reference.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:unitref",
+                      "m4"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M4 - technical mutation"
+                }
+              },
+              "M5": {
+                "status": "PASS",
+                "file": "v4.2_technical_M05_duplicate_fact.xbrl",
+                "metadata": {
+                  "id": "M5",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M05_duplicate_fact.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:duplicatefacts",
+                      "m5"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M5 - technical mutation"
+                }
+              },
+              "M6": {
+                "status": "PASS",
+                "file": "v4.2_technical_M06_invalid_xml_structure.xbrl",
+                "metadata": {
+                  "id": "M6",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M06_invalid_xml_structure.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:invalidstructure",
+                      "m6"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M6 - technical mutation"
+                }
+              },
+              "M7": {
+                "status": "PASS",
+                "file": "v4.2_technical_M07_invalid_namespace.xbrl",
+                "metadata": {
+                  "id": "M7",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M07_invalid_namespace.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:namespace",
+                      "m7"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M7 - technical mutation"
+                }
+              },
+              "M8": {
+                "status": "PASS",
+                "file": "v4.2_technical_M08_invalid_attribute_values.xbrl",
+                "metadata": {
+                  "id": "M8",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M08_invalid_attribute_values.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:attributevalue",
+                      "m8"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M8 - technical mutation"
+                }
+              },
+              "M9": {
+                "status": "PASS",
+                "file": "v4.2_technical_M09_missing_schema_reference.xbrl",
+                "metadata": {
+                  "id": "M9",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M09_missing_schema_reference.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:schemaref",
+                      "m9"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M9 - technical mutation"
+                }
+              },
+              "M10": {
+                "status": "PASS",
+                "file": "v4.2_technical_M10_invalid_date_format.xbrl",
+                "metadata": {
+                  "id": "M10",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M10_invalid_date_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:dateformat",
+                      "m10"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M10 - technical mutation"
+                }
+              },
+              "M11": {
+                "status": "PASS",
+                "file": "v4.2_technical_M11_invalid_numeric_format.xbrl",
+                "metadata": {
+                  "id": "M11",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M11_invalid_numeric_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:numericformat",
+                      "m11"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M11 - technical mutation"
+                }
+              },
+              "M12": {
+                "status": "PASS",
+                "file": "v4.2_technical_M12_invalid_boolean_format.xbrl",
+                "metadata": {
+                  "id": "M12",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M12_invalid_boolean_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:booleanformat",
+                      "m12"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M12 - technical mutation"
+                }
+              },
+              "M13": {
+                "status": "PASS",
+                "file": "v4.2_technical_M13_invalid_string_format.xbrl",
+                "metadata": {
+                  "id": "M13",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M13_invalid_string_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:stringformat",
+                      "m13"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M13 - technical mutation"
+                }
+              },
+              "M14": {
+                "status": "PASS",
+                "file": "v4.2_technical_M14_invalid_decimal_format.xbrl",
+                "metadata": {
+                  "id": "M14",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M14_invalid_decimal_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:decimalformat",
+                      "m14"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M14 - technical mutation"
+                }
+              },
+              "M15": {
+                "status": "PASS",
+                "file": "v4.2_technical_M15_invalid_integer_format.xbrl",
+                "metadata": {
+                  "id": "M15",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M15_invalid_integer_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:integerformat",
+                      "m15"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M15 - technical mutation"
+                }
+              },
+              "M16": {
+                "status": "PASS",
+                "file": "v4.2_technical_M16_invalid_fraction_format.xbrl",
+                "metadata": {
+                  "id": "M16",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M16_invalid_fraction_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:fractionformat",
+                      "m16"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M16 - technical mutation"
+                }
+              },
+              "M17": {
+                "status": "PASS",
+                "file": "v4.2_technical_M17_invalid_monetary_format.xbrl",
+                "metadata": {
+                  "id": "M17",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M17_invalid_monetary_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:monetaryformat",
+                      "m17"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M17 - technical mutation"
+                }
+              },
+              "M18": {
+                "status": "PASS",
+                "file": "v4.2_technical_M18_invalid_share_format.xbrl",
+                "metadata": {
+                  "id": "M18",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M18_invalid_share_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:shareformat",
+                      "m18"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M18 - technical mutation"
+                }
+              },
+              "M19": {
+                "status": "PASS",
+                "file": "v4.2_technical_M19_invalid_pure_format.xbrl",
+                "metadata": {
+                  "id": "M19",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M19_invalid_pure_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:pureformat",
+                      "m19"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M19 - technical mutation"
+                }
+              },
+              "M20": {
+                "status": "PASS",
+                "file": "v4.2_technical_M20_invalid_tuple_format.xbrl",
+                "metadata": {
+                  "id": "M20",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M20_invalid_tuple_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:tupleformat",
+                      "m20"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M20 - technical mutation"
+                }
+              },
+              "M21": {
+                "status": "PASS",
+                "file": "v4.2_technical_M21_invalid_anyuri_format.xbrl",
+                "metadata": {
+                  "id": "M21",
+                  "version": "v4.2",
+                  "category": "technical",
+                  "file": "v4.2_technical_M21_invalid_anyuri_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "technical:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "xbrl.2.1:anyuriformat",
+                      "m21"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M21 - technical mutation"
+                }
+              },
+              "M56": {
+                "status": "PASS",
+                "file": "v4.2_filing_M56_invalid_filing_indicator.xbrl",
+                "metadata": {
+                  "id": "M56",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M56_invalid_filing_indicator.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:invalidindicator",
+                      "m56"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M56 - filing mutation"
+                }
+              },
+              "M57": {
+                "status": "PASS",
+                "file": "v4.2_filing_M57_missing_filing_indicator.xbrl",
+                "metadata": {
+                  "id": "M57",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M57_missing_filing_indicator.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:missingpositivefilingindicator",
+                      "m57"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M57 - filing mutation"
+                }
+              },
+              "M58": {
+                "status": "PASS",
+                "file": "v4.2_filing_M58_invalid_filing_date.xbrl",
+                "metadata": {
+                  "id": "M58",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M58_invalid_filing_date.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:invaliddate",
+                      "m58"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M58 - filing mutation"
+                }
+              },
+              "M59": {
+                "status": "PASS",
+                "file": "v4.2_filing_M59_invalid_filing_period.xbrl",
+                "metadata": {
+                  "id": "M59",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M59_invalid_filing_period.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:invalidperiod",
+                      "m59"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M59 - filing mutation"
+                }
+              },
+              "M60": {
+                "status": "PASS",
+                "file": "v4.2_filing_M60_invalid_filing_entity.xbrl",
+                "metadata": {
+                  "id": "M60",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M60_invalid_filing_entity.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:invalidentity",
+                      "m60"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M60 - filing mutation"
+                }
+              },
+              "M61": {
+                "status": "PASS",
+                "file": "v4.2_filing_M61_invalid_filing_template.xbrl",
+                "metadata": {
+                  "id": "M61",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M61_invalid_filing_template.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:templatemismatch",
+                      "m61"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M61 - filing mutation"
+                }
+              },
+              "M62": {
+                "status": "PASS",
+                "file": "v4.2_filing_M62_invalid_filing_version.xbrl",
+                "metadata": {
+                  "id": "M62",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M62_invalid_filing_version.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:versionmismatch",
+                      "m62"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M62 - filing mutation"
+                }
+              },
+              "M63": {
+                "status": "PASS",
+                "file": "v4.2_filing_M63_invalid_filing_status.xbrl",
+                "metadata": {
+                  "id": "M63",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M63_invalid_filing_status.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:invalidstatus",
+                      "m63"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M63 - filing mutation"
+                }
+              },
+              "M64": {
+                "status": "PASS",
+                "file": "v4.2_filing_M64_invalid_filing_type.xbrl",
+                "metadata": {
+                  "id": "M64",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M64_invalid_filing_type.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:invalidtype",
+                      "m64"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M64 - filing mutation"
+                }
+              },
+              "M65": {
+                "status": "PASS",
+                "file": "v4.2_filing_M65_invalid_filing_format.xbrl",
+                "metadata": {
+                  "id": "M65",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M65_invalid_filing_format.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:invalidformat",
+                      "m65"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M65 - filing mutation"
+                }
+              },
+              "M66": {
+                "status": "PASS",
+                "file": "v4.2_filing_M66_invalid_filing_content.xbrl",
+                "metadata": {
+                  "id": "M66",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M66_invalid_filing_content.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:missingcontent",
+                      "m66"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M66 - filing mutation"
+                }
+              },
+              "M67": {
+                "status": "PASS",
+                "file": "v4.2_filing_M67_invalid_filing_structure.xbrl",
+                "metadata": {
+                  "id": "M67",
+                  "version": "v4.2",
+                  "category": "filing",
+                  "file": "v4.2_filing_M67_invalid_filing_structure.xbrl",
+                  "status": "PASS",
+                  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+                  "expected": {
+                    "level": "ERROR",
+                    "messageCodePrefix": [
+                      "filing:",
+                      "formula:",
+                      "xbrl:"
+                    ],
+                    "mustContain": [
+                      "filing:multipleindicators",
+                      "m67"
+                    ],
+                    "mustNotContain": [
+                      "function not found",
+                      "parse error",
+                      "xml syntax error"
+                    ]
+                  },
+                  "notes": "Generated test file for M67 - filing mutation"
+                }
+              }
+            }
+          }
+        },
+        "coverage_report": {
+          "v4.2_finrep": {
+            "M1": true,
+            "M2": true,
+            "M3": true,
+            "M4": true,
+            "M5": true,
+            "M6": true,
+            "M7": true,
+            "M8": true,
+            "M9": true,
+            "M10": true,
+            "M11": true,
+            "M12": true,
+            "M13": true,
+            "M14": true,
+            "M15": true,
+            "M16": true,
+            "M17": true,
+            "M18": true,
+            "M19": true,
+            "M20": true,
+            "M21": true,
+            "M22": false,
+            "M23": false,
+            "M24": false,
+            "M25": false,
+            "M26": false,
+            "M27": false,
+            "M28": false,
+            "M29": false,
+            "M30": false,
+            "M31": false,
+            "M32": false,
+            "M33": false,
+            "M34": false,
+            "M35": false,
+            "M36": false,
+            "M37": false,
+            "M38": false,
+            "M39": false,
+            "M40": false,
+            "M41": false,
+            "M42": false,
+            "M43": false,
+            "M44": false,
+            "M45": false,
+            "M46": false,
+            "M47": false,
+            "M48": false,
+            "M49": false,
+            "M50": false,
+            "M51": false,
+            "M52": false,
+            "M53": false,
+            "M54": false,
+            "M55": false,
+            "M56": true,
+            "M57": true,
+            "M58": true,
+            "M59": true,
+            "M60": true,
+            "M61": true,
+            "M62": true,
+            "M63": true,
+            "M64": true,
+            "M65": true,
+            "M66": true,
+            "M67": true
+          }
+        },
+        "discovery_results": {
+          "v4.2_finrep": {
+            "has_calc": false,
+            "has_formula": false,
+            "has_typed_dimensions": false,
+            "has_explicit_dimensions": false,
+            "has_closed_hypercubes": false,
+            "has_excluded_axes": false,
+            "typed_axes": [],
+            "explicit_axes": [],
+            "closed_hypercubes": [],
+            "excluded_axes": [],
+            "calculation_sets": [],
+            "formula_assertions": [],
+            "discovery_errors": [
+              "Formula discovery error: 'NoneType' object has no attribute 'referencesDocument'"
+            ],
+            "entry_point_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+            "taxonomy_version": "v4.2"
+          }
+        },
+        "total_tests": 33,
+        "passed_tests": 33,
+        "failed_tests": 0,
+        "error_tests": 0
+      },
+      "engine_health": {
+        "engine_health_suite_test_report": {
+          "arelle_available": true,
+          "error_taxonomies": 0,
+          "failed_taxonomies": 0,
+          "passed_taxonomies": 5,
+          "taxonomies": {
+            "calculation_linkbase": {
+              "errors": [],
+              "features": [
+                "calculation_linkbase",
+                "summation_items"
+              ],
+              "files_tested": [
+                "schema",
+                "calc-calculation.xml",
+                "instance"
+              ],
+              "name": "CalculationLinkbase",
+              "status": "PASS",
+              "taxonomy_id": "calculation_linkbase",
+              "test_cases": [
+                "M36_InvalidCalculationWeight",
+                "M37_MissingCalculationLink",
+                "M38_InvalidCalculationArc",
+                "M39_InvalidCalculationSum"
+              ],
+              "validation_results": {
+                "calc-calculation.xml": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/calculation_linkbase/calc-calculation.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "instance": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/calculation_linkbase/calc-instance.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "schema": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/calculation_linkbase/calc.xsd",
+                  "status": "PASS",
+                  "warnings": []
+                }
+              },
+              "warnings": []
+            },
+            "complex_dimensional": {
+              "errors": [],
+              "features": [
+                "typed_dimensions",
+                "explicit_dimensions",
+                "hypercubes",
+                "notAll",
+                "all"
+              ],
+              "files_tested": [
+                "schema",
+                "complex-dims-definition.xml",
+                "instance"
+              ],
+              "name": "ComplexDimensional",
+              "status": "PASS",
+              "taxonomy_id": "complex_dimensional",
+              "test_cases": [
+                "M26_InvalidTypedDimension",
+                "M35_InvalidTypedDimensionContentModel",
+                "M22_InvalidDimensionMember",
+                "M23_MissingRequiredDimension",
+                "M27_InvalidExplicitDimension",
+                "M24_InvalidHypercube",
+                "M25_InvalidDomainMember"
+              ],
+              "validation_results": {
+                "complex-dims-definition.xml": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/complex_dimensional/complex-dims-definition.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "instance": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/complex_dimensional/complex-dims-instance.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "schema": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/complex_dimensional/complex-dims.xsd",
+                  "status": "PASS",
+                  "warnings": []
+                }
+              },
+              "warnings": []
+            },
+            "formula_linkbase": {
+              "errors": [],
+              "features": [
+                "formula_linkbase",
+                "assertions",
+                "variables"
+              ],
+              "files_tested": [
+                "schema",
+                "formula-formula.xml",
+                "instance"
+              ],
+              "name": "FormulaLinkbase",
+              "status": "PASS",
+              "taxonomy_id": "formula_linkbase",
+              "test_cases": [
+                "M46_InvalidFormulaExpression",
+                "M47_MissingFormulaLink",
+                "M48_InvalidFormulaVariable",
+                "M49_InvalidFormulaFunction"
+              ],
+              "validation_results": {
+                "formula-formula.xml": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/formula_linkbase/formula-formula.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "instance": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/formula_linkbase/formula-instance.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "schema": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/formula_linkbase/formula.xsd",
+                  "status": "PASS",
+                  "warnings": []
+                }
+              },
+              "warnings": []
+            },
+            "mixed_features": {
+              "errors": [],
+              "features": [
+                "typed_dimensions",
+                "explicit_dimensions",
+                "calculation_linkbase",
+                "formula_linkbase"
+              ],
+              "files_tested": [
+                "schema",
+                "mixed-definition.xml",
+                "mixed-calculation.xml",
+                "mixed-formula.xml",
+                "instance"
+              ],
+              "name": "MixedFeatures",
+              "status": "PASS",
+              "taxonomy_id": "mixed_features",
+              "test_cases": [
+                "M26_InvalidTypedDimension",
+                "M35_InvalidTypedDimensionContentModel",
+                "M22_InvalidDimensionMember",
+                "M23_MissingRequiredDimension",
+                "M27_InvalidExplicitDimension",
+                "M36_InvalidCalculationWeight",
+                "M37_MissingCalculationLink",
+                "M38_InvalidCalculationArc",
+                "M39_InvalidCalculationSum",
+                "M46_InvalidFormulaExpression",
+                "M47_MissingFormulaLink",
+                "M48_InvalidFormulaVariable",
+                "M49_InvalidFormulaFunction"
+              ],
+              "validation_results": {
+                "instance": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/mixed_features/mixed-instance.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "mixed-calculation.xml": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/mixed_features/mixed-calculation.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "mixed-definition.xml": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/mixed_features/mixed-definition.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "mixed-formula.xml": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/mixed_features/mixed-formula.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "schema": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/mixed_features/mixed.xsd",
+                  "status": "PASS",
+                  "warnings": []
+                }
+              },
+              "warnings": []
+            },
+            "typed_dimensions": {
+              "errors": [],
+              "features": [
+                "typed_dimensions",
+                "explicit_dimensions",
+                "hypercubes"
+              ],
+              "files_tested": [
+                "schema",
+                "typed-dims-definition.xml",
+                "instance"
+              ],
+              "name": "TypedDimensions",
+              "status": "PASS",
+              "taxonomy_id": "typed_dimensions",
+              "test_cases": [
+                "M26_InvalidTypedDimension",
+                "M35_InvalidTypedDimensionContentModel",
+                "M22_InvalidDimensionMember",
+                "M23_MissingRequiredDimension",
+                "M27_InvalidExplicitDimension",
+                "M24_InvalidHypercube",
+                "M25_InvalidDomainMember"
+              ],
+              "validation_results": {
+                "instance": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/typed_dimensions/typed-dims-instance.xml",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "schema": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/typed_dimensions/typed-dims.xsd",
+                  "status": "PASS",
+                  "warnings": []
+                },
+                "typed-dims-definition.xml": {
+                  "errors": [],
+                  "file": "test-samples/engine-health/typed_dimensions/typed-dims-definition.xml",
+                  "status": "PASS",
+                  "warnings": []
+                }
+              },
+              "warnings": []
+            }
+          },
+          "timestamp": "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation",
+          "total_taxonomies": 5,
+          "version": "1.0"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:formula="http://xbrl.org/2008/formula"
+               xmlns:variable="http://xbrl.org/2008/variable"
+               xmlns:assertion="http://xbrl.org/2008/assertion"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
+                                  http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula-2008-12-31.xsd
+                                  http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable-2008-12-31.xsd
+                                  http://xbrl.org/2008/assertion http://www.xbrl.org/2008/assertion-2008-12-31.xsd">
+    
+    <link:roleType roleURI="http://example.com/role/Formula" id="Formula">
+        <link:definition>Formula</link:definition>
+    </link:roleType>
+    
+    <link:formulaLink xlink:type="extended" xlink:role="http://example.com/role/Formula">
+        
+        <!-- Locators -->
+        <link:loc xlink:type="locator" xlink:href="#TotalAssets" xlink:label="TotalAssets"/>
+        <link:loc xlink:type="locator" xlink:href="#CurrentAssets" xlink:label="CurrentAssets"/>
+        <link:loc xlink:type="locator" xlink:href="#NonCurrentAssets" xlink:label="NonCurrentAssets"/>
+        <link:loc xlink:type="locator" xlink:href="#Revenue" xlink:label="Revenue"/>
+        <link:loc xlink:type="locator" xlink:href="#Expenses" xlink:label="Expenses"/>
+        <link:loc xlink:type="locator" xlink:href="#NetIncome" xlink:label="NetIncome"/>
+        
+        <!-- Variables -->
+        <variable:variable xlink:type="resource" xlink:label="TotalAssetsVar" id="TotalAssetsVar">
+            <variable:factVariable name="totalAssets" select="TotalAssets"/>
+        </variable:variable>
+        
+        <variable:variable xlink:type="resource" xlink:label="CurrentAssetsVar" id="CurrentAssetsVar">
+            <variable:factVariable name="currentAssets" select="CurrentAssets"/>
+        </variable:variable>
+        
+        <variable:variable xlink:type="resource" xlink:label="NonCurrentAssetsVar" id="NonCurrentAssetsVar">
+            <variable:factVariable name="nonCurrentAssets" select="NonCurrentAssets"/>
+        </variable:variable>
+        
+        <!-- Assertions -->
+        <assertion:assertion xlink:type="resource" xlink:label="AssetsSumAssertion" id="AssetsSumAssertion">
+            <assertion:formula>
+                <formula:formula>
+                    <formula:value>totalAssets = currentAssets + nonCurrentAssets</formula:value>
+                </formula:formula>
+            </assertion:formula>
+        </assertion:assertion>
+        
+        <assertion:assertion xlink:type="resource" xlink:label="NonNegativeAssertion" id="NonNegativeAssertion">
+            <assertion:formula>
+                <formula:formula>
+                    <formula:value>totalAssets >= 0</formula:value>
+                </formula:formula>
+            </assertion:formula>
+        </assertion:assertion>
+        
+        <!-- Formula Arcs -->
+        <link:formulaArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" 
+                        xlink:from="AssetsSumAssertion" xlink:to="TotalAssetsVar" order="1"/>
+        <link:formulaArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" 
+                        xlink:from="AssetsSumAssertion" xlink:to="CurrentAssetsVar" order="2"/>
+        <link:formulaArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" 
+                        xlink:from="AssetsSumAssertion" xlink:to="NonCurrentAssetsVar" order="3"/>
+        
+    </link:formulaLink>
+    
+</link:linkbase>

@@ -1,0 +1,25 @@
+{
+  "id": "M39",
+  "version": "v4.1",
+  "category": "calculation",
+  "file": "v4.1_calculation_M39_invalid_calculation_sum.xbrl",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.1/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "calculation:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "calc:invalidcalculationsum",
+      "m39"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M39 - calculation mutation"
+}

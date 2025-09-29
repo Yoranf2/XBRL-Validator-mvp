@@ -1,0 +1,31 @@
+created_by: Engine Health Suite
+description: Mini-taxonomy with mixed XBRL features for comprehensive testing
+features:
+- typed_dimensions
+- explicit_dimensions
+- calculation_linkbase
+- formula_linkbase
+linkbase_files:
+- mixed-definition.xml
+- mixed-calculation.xml
+- mixed-formula.xml
+name: MixedFeatures
+namespace: http://example.com/mixed/2024
+purpose: Test Arelle engine capabilities for features not present in EBA taxonomies
+sample_instance: mixed-instance.xml
+schema_file: mixed.xsd
+test_cases:
+- M26_InvalidTypedDimension
+- M35_InvalidTypedDimensionContentModel
+- M22_InvalidDimensionMember
+- M23_MissingRequiredDimension
+- M27_InvalidExplicitDimension
+- M36_InvalidCalculationWeight
+- M37_MissingCalculationLink
+- M38_InvalidCalculationArc
+- M39_InvalidCalculationSum
+- M46_InvalidFormulaExpression
+- M47_MissingFormulaLink
+- M48_InvalidFormulaVariable
+- M49_InvalidFormulaFunction
+version: '1.0'

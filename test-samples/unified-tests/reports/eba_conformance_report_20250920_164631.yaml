@@ -1,0 +1,909 @@
+eba_conformance_report:
+  detailed_results:
+    coverage_report:
+      v4.2_finrep:
+        M1: true
+        M10: true
+        M11: true
+        M12: true
+        M13: true
+        M14: true
+        M15: true
+        M16: true
+        M17: true
+        M18: true
+        M19: true
+        M2: true
+        M20: true
+        M21: true
+        M22: false
+        M23: false
+        M24: false
+        M25: false
+        M26: false
+        M27: false
+        M28: false
+        M29: false
+        M3: true
+        M30: false
+        M31: false
+        M32: false
+        M33: false
+        M34: false
+        M35: false
+        M36: false
+        M37: false
+        M38: false
+        M39: false
+        M4: true
+        M40: false
+        M41: false
+        M42: false
+        M43: false
+        M44: false
+        M45: false
+        M46: false
+        M47: false
+        M48: false
+        M49: false
+        M5: true
+        M50: false
+        M51: false
+        M52: false
+        M53: false
+        M54: false
+        M55: false
+        M56: true
+        M57: true
+        M58: true
+        M59: true
+        M6: true
+        M60: true
+        M61: true
+        M62: true
+        M63: true
+        M64: true
+        M65: true
+        M66: true
+        M67: true
+        M7: true
+        M8: true
+        M9: true
+    discovery_results:
+      v4.2_finrep:
+        calculation_sets: []
+        closed_hypercubes: []
+        discovery_errors:
+        - 'Formula discovery error: ''NoneType'' object has no attribute ''referencesDocument'''
+        entry_point_url: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+        excluded_axes: []
+        explicit_axes: []
+        formula_assertions: []
+        has_calc: false
+        has_closed_hypercubes: false
+        has_excluded_axes: false
+        has_explicit_dimensions: false
+        has_formula: false
+        has_typed_dimensions: false
+        taxonomy_version: v4.2
+        typed_axes: []
+    error_tests: 0
+    failed_tests: 0
+    frameworks_tested: &id001
+    - finrep
+    passed_tests: 33
+    suite_name: EBA Conformance Suite
+    test_results:
+      v4.2_finrep:
+        error_mutations: 0
+        failed_mutations: 0
+        framework: finrep
+        mutations:
+          M1:
+            file: v4.2_technical_M01_period_type_mismatch.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:periodtypemismatch
+                - m1
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M01_period_type_mismatch.xbrl
+              id: M1
+              notes: Generated test file for M1 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M10:
+            file: v4.2_technical_M10_invalid_date_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:dateformat
+                - m10
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M10_invalid_date_format.xbrl
+              id: M10
+              notes: Generated test file for M10 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M11:
+            file: v4.2_technical_M11_invalid_numeric_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:numericformat
+                - m11
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M11_invalid_numeric_format.xbrl
+              id: M11
+              notes: Generated test file for M11 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M12:
+            file: v4.2_technical_M12_invalid_boolean_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:booleanformat
+                - m12
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M12_invalid_boolean_format.xbrl
+              id: M12
+              notes: Generated test file for M12 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M13:
+            file: v4.2_technical_M13_invalid_string_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:stringformat
+                - m13
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M13_invalid_string_format.xbrl
+              id: M13
+              notes: Generated test file for M13 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M14:
+            file: v4.2_technical_M14_invalid_decimal_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:decimalformat
+                - m14
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M14_invalid_decimal_format.xbrl
+              id: M14
+              notes: Generated test file for M14 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M15:
+            file: v4.2_technical_M15_invalid_integer_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:integerformat
+                - m15
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M15_invalid_integer_format.xbrl
+              id: M15
+              notes: Generated test file for M15 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M16:
+            file: v4.2_technical_M16_invalid_fraction_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:fractionformat
+                - m16
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M16_invalid_fraction_format.xbrl
+              id: M16
+              notes: Generated test file for M16 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M17:
+            file: v4.2_technical_M17_invalid_monetary_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:monetaryformat
+                - m17
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M17_invalid_monetary_format.xbrl
+              id: M17
+              notes: Generated test file for M17 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M18:
+            file: v4.2_technical_M18_invalid_share_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:shareformat
+                - m18
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M18_invalid_share_format.xbrl
+              id: M18
+              notes: Generated test file for M18 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M19:
+            file: v4.2_technical_M19_invalid_pure_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:pureformat
+                - m19
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M19_invalid_pure_format.xbrl
+              id: M19
+              notes: Generated test file for M19 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M2:
+            file: v4.2_technical_M02_invalid_context_reference.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:contextref
+                - m2
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M02_invalid_context_reference.xbrl
+              id: M2
+              notes: Generated test file for M2 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M20:
+            file: v4.2_technical_M20_invalid_tuple_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:tupleformat
+                - m20
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M20_invalid_tuple_format.xbrl
+              id: M20
+              notes: Generated test file for M20 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M21:
+            file: v4.2_technical_M21_invalid_anyuri_format.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:anyuriformat
+                - m21
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M21_invalid_anyuri_format.xbrl
+              id: M21
+              notes: Generated test file for M21 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M3:
+            file: v4.2_technical_M03_missing_required_element.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:requiredelement
+                - m3
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M03_missing_required_element.xbrl
+              id: M3
+              notes: Generated test file for M3 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M4:
+            file: v4.2_technical_M04_invalid_unit_reference.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:unitref
+                - m4
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M04_invalid_unit_reference.xbrl
+              id: M4
+              notes: Generated test file for M4 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M5:
+            file: v4.2_technical_M05_duplicate_fact.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:duplicatefacts
+                - m5
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M05_duplicate_fact.xbrl
+              id: M5
+              notes: Generated test file for M5 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M56:
+            file: v4.2_filing_M56_invalid_filing_indicator.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:invalidindicator
+                - m56
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M56_invalid_filing_indicator.xbrl
+              id: M56
+              notes: Generated test file for M56 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M57:
+            file: v4.2_filing_M57_missing_filing_indicator.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:missingpositivefilingindicator
+                - m57
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M57_missing_filing_indicator.xbrl
+              id: M57
+              notes: Generated test file for M57 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M58:
+            file: v4.2_filing_M58_invalid_filing_date.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:invaliddate
+                - m58
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M58_invalid_filing_date.xbrl
+              id: M58
+              notes: Generated test file for M58 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M59:
+            file: v4.2_filing_M59_invalid_filing_period.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:invalidperiod
+                - m59
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M59_invalid_filing_period.xbrl
+              id: M59
+              notes: Generated test file for M59 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M6:
+            file: v4.2_technical_M06_invalid_xml_structure.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:invalidstructure
+                - m6
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M06_invalid_xml_structure.xbrl
+              id: M6
+              notes: Generated test file for M6 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M60:
+            file: v4.2_filing_M60_invalid_filing_entity.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:invalidentity
+                - m60
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M60_invalid_filing_entity.xbrl
+              id: M60
+              notes: Generated test file for M60 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M61:
+            file: v4.2_filing_M61_invalid_filing_template.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:templatemismatch
+                - m61
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M61_invalid_filing_template.xbrl
+              id: M61
+              notes: Generated test file for M61 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M62:
+            file: v4.2_filing_M62_invalid_filing_version.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:versionmismatch
+                - m62
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M62_invalid_filing_version.xbrl
+              id: M62
+              notes: Generated test file for M62 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M63:
+            file: v4.2_filing_M63_invalid_filing_status.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:invalidstatus
+                - m63
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M63_invalid_filing_status.xbrl
+              id: M63
+              notes: Generated test file for M63 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M64:
+            file: v4.2_filing_M64_invalid_filing_type.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:invalidtype
+                - m64
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M64_invalid_filing_type.xbrl
+              id: M64
+              notes: Generated test file for M64 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M65:
+            file: v4.2_filing_M65_invalid_filing_format.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:invalidformat
+                - m65
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M65_invalid_filing_format.xbrl
+              id: M65
+              notes: Generated test file for M65 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M66:
+            file: v4.2_filing_M66_invalid_filing_content.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:missingcontent
+                - m66
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M66_invalid_filing_content.xbrl
+              id: M66
+              notes: Generated test file for M66 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M67:
+            file: v4.2_filing_M67_invalid_filing_structure.xbrl
+            metadata:
+              category: filing
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'filing:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - filing:multipleindicators
+                - m67
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_filing_M67_invalid_filing_structure.xbrl
+              id: M67
+              notes: Generated test file for M67 - filing mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M7:
+            file: v4.2_technical_M07_invalid_namespace.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:namespace
+                - m7
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M07_invalid_namespace.xbrl
+              id: M7
+              notes: Generated test file for M7 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M8:
+            file: v4.2_technical_M08_invalid_attribute_values.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:attributevalue
+                - m8
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M08_invalid_attribute_values.xbrl
+              id: M8
+              notes: Generated test file for M8 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+          M9:
+            file: v4.2_technical_M09_missing_schema_reference.xbrl
+            metadata:
+              category: technical
+              entrypoint: http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd
+              expected:
+                level: ERROR
+                messageCodePrefix:
+                - 'technical:'
+                - 'formula:'
+                - 'xbrl:'
+                mustContain:
+                - xbrl.2.1:schemaref
+                - m9
+                mustNotContain:
+                - function not found
+                - parse error
+                - xml syntax error
+              file: v4.2_technical_M09_missing_schema_reference.xbrl
+              id: M9
+              notes: Generated test file for M9 - technical mutation
+              status: PASS
+              version: v4.2
+            status: PASS
+        successful_mutations: 33
+        total_mutations: 33
+        version: v4.2
+    total_tests: 33
+    versions_tested: &id002
+    - v4.2
+  duration_seconds: 0
+  error_tests: 0
+  failed_tests: 0
+  frameworks_tested: *id001
+  passed_tests: 33
+  success_rate: 100.0
+  timestamp: '2025-09-20T16:46:31.172714'
+  total_tests: 33
+  version: '1.0'
+  versions_tested: *id002

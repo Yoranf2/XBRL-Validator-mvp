@@ -1,0 +1,762 @@
+duration_seconds: 28.70632
+error_detection_rate: 0.0
+error_summary: {}
+file_results:
+  test-samples/v4.0/calculation/v4.0_calculation_M39_invalid_calculation_sum.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/calculation/v4.0_calculation_M39_invalid_calculation_sum.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/dimensional/v4.0_dimensional_M22_invalid_dimension_member.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/dimensional/v4.0_dimensional_M22_invalid_dimension_member.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/dimensional/v4.0_dimensional_M23_missing_required_dimension.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/dimensional/v4.0_dimensional_M23_missing_required_dimension.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/dimensional/v4.0_dimensional_M24_invalid_hypercube.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/dimensional/v4.0_dimensional_M24_invalid_hypercube.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/dimensional/v4.0_dimensional_M25_invalid_domain_member.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/dimensional/v4.0_dimensional_M25_invalid_domain_member.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/filing/v4.0_filing_M56_invalid_filing_indicator.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/filing/v4.0_filing_M56_invalid_filing_indicator.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/filing/v4.0_filing_M57_missing_filing_indicator.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/filing/v4.0_filing_M57_missing_filing_indicator.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/filing/v4.0_filing_M58_invalid_filing_date.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/filing/v4.0_filing_M58_invalid_filing_date.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/filing/v4.0_filing_M59_invalid_filing_period.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/filing/v4.0_filing_M59_invalid_filing_period.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/formula/v4.0_formula_M48_invalid_formula_variable.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/formula/v4.0_formula_M48_invalid_formula_variable.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/formula/v4.0_formula_M50_invalid_formula_condition.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/formula/v4.0_formula_M50_invalid_formula_condition.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M01_period_type_mismatch.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M01_period_type_mismatch.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M02_invalid_context_reference.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M02_invalid_context_reference.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M03_missing_required_element.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M03_missing_required_element.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M04_invalid_unit_reference.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M04_invalid_unit_reference.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M05_duplicate_fact.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M05_duplicate_fact.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M06_invalid_xml_structure.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M06_invalid_xml_structure.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M07_invalid_namespace.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M07_invalid_namespace.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.0/technical/v4.0_technical_M08_invalid_attribute_values.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.0/technical/v4.0_technical_M08_invalid_attribute_values.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/calculation/v4.1_calculation_M39_invalid_calculation_sum.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/calculation/v4.1_calculation_M39_invalid_calculation_sum.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/dimensional/v4.1_dimensional_M22_invalid_dimension_member.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/dimensional/v4.1_dimensional_M22_invalid_dimension_member.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/dimensional/v4.1_dimensional_M23_missing_required_dimension.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/dimensional/v4.1_dimensional_M23_missing_required_dimension.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/dimensional/v4.1_dimensional_M24_invalid_hypercube.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/dimensional/v4.1_dimensional_M24_invalid_hypercube.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/dimensional/v4.1_dimensional_M25_invalid_domain_member.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/dimensional/v4.1_dimensional_M25_invalid_domain_member.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/filing/v4.1_filing_M56_invalid_filing_indicator.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/filing/v4.1_filing_M56_invalid_filing_indicator.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/filing/v4.1_filing_M57_missing_filing_indicator.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/filing/v4.1_filing_M57_missing_filing_indicator.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/filing/v4.1_filing_M58_invalid_filing_date.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/filing/v4.1_filing_M58_invalid_filing_date.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/filing/v4.1_filing_M59_invalid_filing_period.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/filing/v4.1_filing_M59_invalid_filing_period.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/formula/v4.1_formula_M48_invalid_formula_variable.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/formula/v4.1_formula_M48_invalid_formula_variable.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/formula/v4.1_formula_M50_invalid_formula_condition.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/formula/v4.1_formula_M50_invalid_formula_condition.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M01_period_type_mismatch.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M01_period_type_mismatch.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M02_invalid_context_reference.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M02_invalid_context_reference.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M03_missing_required_element.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M03_missing_required_element.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M04_invalid_unit_reference.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M04_invalid_unit_reference.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M05_duplicate_fact.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M05_duplicate_fact.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M06_invalid_xml_structure.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M06_invalid_xml_structure.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M07_invalid_namespace.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M07_invalid_namespace.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.1/technical/v4.1_technical_M08_invalid_attribute_values.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.1/technical/v4.1_technical_M08_invalid_attribute_values.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/calculation/v4.2_calculation_M39_invalid_calculation_sum.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/calculation/v4.2_calculation_M39_invalid_calculation_sum.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/calculation/v4.2_calculation_M40_invalid_calculation_balance.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/calculation/v4.2_calculation_M40_invalid_calculation_balance.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/calculation/v4.2_calculation_M41_invalid_calculation_period.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/calculation/v4.2_calculation_M41_invalid_calculation_period.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/calculation/v4.2_calculation_M42_invalid_calculation_context.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/calculation/v4.2_calculation_M42_invalid_calculation_context.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/calculation/v4.2_calculation_M43_invalid_calculation_unit.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/calculation/v4.2_calculation_M43_invalid_calculation_unit.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/calculation/v4.2_calculation_M44_invalid_calculation_precision.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/calculation/v4.2_calculation_M44_invalid_calculation_precision.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/calculation/v4.2_calculation_M45_invalid_calculation_rounding.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/calculation/v4.2_calculation_M45_invalid_calculation_rounding.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M22_invalid_dimension_member.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M22_invalid_dimension_member.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M23_missing_required_dimension.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M23_missing_required_dimension.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M24_invalid_hypercube.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M24_invalid_hypercube.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M25_invalid_domain_member.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M25_invalid_domain_member.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M27_invalid_explicit_dimension.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M27_invalid_explicit_dimension.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M28_invalid_dimension_context.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M28_invalid_dimension_context.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M29_invalid_dimension_relationship.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M29_invalid_dimension_relationship.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M30_invalid_dimension_constraint.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M30_invalid_dimension_constraint.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M31_invalid_dimension_default.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M31_invalid_dimension_default.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M32_invalid_'all'.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M32_invalid_'all'.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M33_invalid_'notall'.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M33_invalid_'notall'.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/dimensional/v4.2_dimensional_M34_invalid_domain-member.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/dimensional/v4.2_dimensional_M34_invalid_domain-member.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M56_invalid_filing_indicator.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M56_invalid_filing_indicator.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M57_missing_filing_indicator.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M57_missing_filing_indicator.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M58_invalid_filing_date.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M58_invalid_filing_date.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M59_invalid_filing_period.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M59_invalid_filing_period.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M60_invalid_filing_entity.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M60_invalid_filing_entity.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M61_invalid_filing_template.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M61_invalid_filing_template.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M62_invalid_filing_version.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M62_invalid_filing_version.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M63_invalid_filing_status.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M63_invalid_filing_status.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M64_invalid_filing_type.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M64_invalid_filing_type.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M65_invalid_filing_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M65_invalid_filing_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M66_invalid_filing_content.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M66_invalid_filing_content.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/filing/v4.2_filing_M67_invalid_filing_structure.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/filing/v4.2_filing_M67_invalid_filing_structure.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/formula/v4.2_formula_M48_invalid_formula_variable.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/formula/v4.2_formula_M48_invalid_formula_variable.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/formula/v4.2_formula_M50_invalid_formula_condition.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/formula/v4.2_formula_M50_invalid_formula_condition.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/formula/v4.2_formula_M53_invalid_formula_context.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/formula/v4.2_formula_M53_invalid_formula_context.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/formula/v4.2_formula_M54_invalid_formula_unit.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/formula/v4.2_formula_M54_invalid_formula_unit.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M01_period_type_mismatch.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M01_period_type_mismatch.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M02_invalid_context_reference.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M02_invalid_context_reference.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M03_missing_required_element.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M03_missing_required_element.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M04_invalid_unit_reference.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M04_invalid_unit_reference.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M05_duplicate_fact.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M05_duplicate_fact.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M06_invalid_xml_structure.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M06_invalid_xml_structure.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M07_invalid_namespace.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M07_invalid_namespace.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M08_invalid_attribute_values.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M08_invalid_attribute_values.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M09_missing_schema_reference.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M09_missing_schema_reference.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M10_invalid_date_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M10_invalid_date_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M11_invalid_numeric_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M11_invalid_numeric_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M12_invalid_boolean_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M12_invalid_boolean_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M13_invalid_string_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M13_invalid_string_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M14_invalid_decimal_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M14_invalid_decimal_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M15_invalid_integer_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M15_invalid_integer_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M16_invalid_fraction_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M16_invalid_fraction_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M17_invalid_monetary_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M17_invalid_monetary_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M18_invalid_share_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M18_invalid_share_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M19_invalid_pure_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M19_invalid_pure_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M20_invalid_tuple_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M20_invalid_tuple_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+  test-samples/v4.2/technical/v4.2_technical_M21_invalid_anyuri_format.xbrl:
+    error_messages: []
+    errors: []
+    file: test-samples/v4.2/technical/v4.2_technical_M21_invalid_anyuri_format.xbrl
+    load_success: true
+    status: NO_ERRORS
+    validation_success: false
+    warnings: []
+files_with_errors: 0
+files_without_errors: 94
+total_errors: 0
+total_files: 94
+validated_files: 94
+validation_errors: []

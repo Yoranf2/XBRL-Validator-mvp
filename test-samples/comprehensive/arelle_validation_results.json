@@ -1,0 +1,1051 @@
+{
+  "validation_timestamp": "2025-09-20 20:59:42",
+  "total_test_files": 210,
+  "successful_validations": 0,
+  "failed_validations": 210,
+  "error_detection_rate": 0.0,
+  "test_results": {
+    "M67_invalid_filing_structure.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M67_invalid_filing_structure.xbrl",
+      "mutation_id": "M67",
+      "mutation_name": "Invalid Filing Structure",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 10.155614137649536,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M34_invalid_domain_member.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M34_invalid_domain_member.xbrl",
+      "mutation_id": "M34",
+      "mutation_name": "Invalid Domain Member",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.507352113723755,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M27_invalid_explicit_dimension.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M27_invalid_explicit_dimension.xbrl",
+      "mutation_id": "M27",
+      "mutation_name": "Invalid Explicit Dimension",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.224287986755371,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M61_invalid_filing_template.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M61_invalid_filing_template.xbrl",
+      "mutation_id": "M61",
+      "mutation_name": "Invalid Filing Template",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.173145055770874,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M48_invalid_formula_variable.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M48_invalid_formula_variable.xbrl",
+      "mutation_id": "M48",
+      "mutation_name": "Invalid Formula Variable",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.68629503250122,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M43_invalid_calculation_unit.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M43_invalid_calculation_unit.xbrl",
+      "mutation_id": "M43",
+      "mutation_name": "Invalid Calculation Unit",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.266130924224854,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M54_invalid_formula_unit.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M54_invalid_formula_unit.xbrl",
+      "mutation_id": "M54",
+      "mutation_name": "Invalid Formula Unit",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.217817068099976,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M9_missing_schema_reference.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M9_missing_schema_reference.xbrl",
+      "mutation_id": "M9",
+      "mutation_name": "Missing Schema Reference",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 10.923694849014282,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M21_invalid_anyuri_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M21_invalid_anyuri_format.xbrl",
+      "mutation_id": "M21",
+      "mutation_name": "Invalid Anyuri Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.105299234390259,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M25_invalid_domain_member.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M25_invalid_domain_member.xbrl",
+      "mutation_id": "M25",
+      "mutation_name": "Invalid Domain Member",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.087699890136719,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M6_invalid_xml_structure.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M6_invalid_xml_structure.xbrl",
+      "mutation_id": "M6",
+      "mutation_name": "Invalid Xml Structure",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.287244081497192,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M42_invalid_calculation_context.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M42_invalid_calculation_context.xbrl",
+      "mutation_id": "M42",
+      "mutation_name": "Invalid Calculation Context",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.337743997573853,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M19_invalid_pure_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M19_invalid_pure_format.xbrl",
+      "mutation_id": "M19",
+      "mutation_name": "Invalid Pure Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.447510004043579,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M31_invalid_dimension_default.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M31_invalid_dimension_default.xbrl",
+      "mutation_id": "M31",
+      "mutation_name": "Invalid Dimension Default",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 10.990991830825806,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M57_missing_filing_indicator.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M57_missing_filing_indicator.xbrl",
+      "mutation_id": "M57",
+      "mutation_name": "Missing Filing Indicator",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.326427936553955,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M32_invalid_'all'.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M32_invalid_'all'.xbrl",
+      "mutation_id": "M32",
+      "mutation_name": "Invalid 'All'",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 10.837831258773804,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M23_missing_required_dimension.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M23_missing_required_dimension.xbrl",
+      "mutation_id": "M23",
+      "mutation_name": "Missing Required Dimension",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.02531886100769,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M45_invalid_calculation_rounding.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M45_invalid_calculation_rounding.xbrl",
+      "mutation_id": "M45",
+      "mutation_name": "Invalid Calculation Rounding",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.204870223999023,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M29_invalid_dimension_relationship.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M29_invalid_dimension_relationship.xbrl",
+      "mutation_id": "M29",
+      "mutation_name": "Invalid Dimension Relationship",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 21.701455116271973,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M22_invalid_dimension_member.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M22_invalid_dimension_member.xbrl",
+      "mutation_id": "M22",
+      "mutation_name": "Invalid Dimension Member",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.499711036682129,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M28_invalid_dimension_context.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M28_invalid_dimension_context.xbrl",
+      "mutation_id": "M28",
+      "mutation_name": "Invalid Dimension Context",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.520434141159058,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M41_invalid_calculation_period.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M41_invalid_calculation_period.xbrl",
+      "mutation_id": "M41",
+      "mutation_name": "Invalid Calculation Period",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.08598518371582,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M2_invalid_context_reference.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M2_invalid_context_reference.xbrl",
+      "mutation_id": "M2",
+      "mutation_name": "Invalid Context Reference",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.75444507598877,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M1_period_type_mismatch.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M1_period_type_mismatch.xbrl",
+      "mutation_id": "M1",
+      "mutation_name": "Period Type Mismatch",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.312276840209961,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M40_invalid_calculation_balance.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M40_invalid_calculation_balance.xbrl",
+      "mutation_id": "M40",
+      "mutation_name": "Invalid Calculation Balance",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.454141855239868,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M62_invalid_filing_version.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M62_invalid_filing_version.xbrl",
+      "mutation_id": "M62",
+      "mutation_name": "Invalid Filing Version",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.325846910476685,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M10_invalid_date_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M10_invalid_date_format.xbrl",
+      "mutation_id": "M10",
+      "mutation_name": "Invalid Date Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.090059041976929,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M50_invalid_formula_condition.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M50_invalid_formula_condition.xbrl",
+      "mutation_id": "M50",
+      "mutation_name": "Invalid Formula Condition",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 10.905816793441772,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M8_invalid_attribute_values.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M8_invalid_attribute_values.xbrl",
+      "mutation_id": "M8",
+      "mutation_name": "Invalid Attribute Values",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.685726881027222,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M65_invalid_filing_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M65_invalid_filing_format.xbrl",
+      "mutation_id": "M65",
+      "mutation_name": "Invalid Filing Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.139530181884766,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M59_invalid_filing_period.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M59_invalid_filing_period.xbrl",
+      "mutation_id": "M59",
+      "mutation_name": "Invalid Filing Period",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.2618248462677,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M13_invalid_string_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M13_invalid_string_format.xbrl",
+      "mutation_id": "M13",
+      "mutation_name": "Invalid String Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 11.113823890686035,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M33_invalid_'notall'.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M33_invalid_'notall'.xbrl",
+      "mutation_id": "M33",
+      "mutation_name": "Invalid 'Notall'",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.394870042800903,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M12_invalid_boolean_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M12_invalid_boolean_format.xbrl",
+      "mutation_id": "M12",
+      "mutation_name": "Invalid Boolean Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 17.870962858200073,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M16_invalid_fraction_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M16_invalid_fraction_format.xbrl",
+      "mutation_id": "M16",
+      "mutation_name": "Invalid Fraction Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.275227785110474,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M3_missing_required_element.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M3_missing_required_element.xbrl",
+      "mutation_id": "M3",
+      "mutation_name": "Missing Required Element",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 0.5619220733642578,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M39_invalid_calculation_sum.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M39_invalid_calculation_sum.xbrl",
+      "mutation_id": "M39",
+      "mutation_name": "Invalid Calculation Sum",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.363885879516602,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M56_invalid_filing_indicator.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M56_invalid_filing_indicator.xbrl",
+      "mutation_id": "M56",
+      "mutation_name": "Invalid Filing Indicator",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.477273225784302,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M4_invalid_unit_reference.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M4_invalid_unit_reference.xbrl",
+      "mutation_id": "M4",
+      "mutation_name": "Invalid Unit Reference",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.820222854614258,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M44_invalid_calculation_precision.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M44_invalid_calculation_precision.xbrl",
+      "mutation_id": "M44",
+      "mutation_name": "Invalid Calculation Precision",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.443667888641357,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M20_invalid_tuple_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M20_invalid_tuple_format.xbrl",
+      "mutation_id": "M20",
+      "mutation_name": "Invalid Tuple Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.717002868652344,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M60_invalid_filing_entity.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M60_invalid_filing_entity.xbrl",
+      "mutation_id": "M60",
+      "mutation_name": "Invalid Filing Entity",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 14.193425178527832,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M53_invalid_formula_context.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M53_invalid_formula_context.xbrl",
+      "mutation_id": "M53",
+      "mutation_name": "Invalid Formula Context",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.858037948608398,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M18_invalid_share_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M18_invalid_share_format.xbrl",
+      "mutation_id": "M18",
+      "mutation_name": "Invalid Share Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.444713354110718,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M5_duplicate_fact.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M5_duplicate_fact.xbrl",
+      "mutation_id": "M5",
+      "mutation_name": "Duplicate Fact",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.16789197921753,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M11_invalid_numeric_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M11_invalid_numeric_format.xbrl",
+      "mutation_id": "M11",
+      "mutation_name": "Invalid Numeric Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.185745239257812,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M30_invalid_dimension_constraint.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M30_invalid_dimension_constraint.xbrl",
+      "mutation_id": "M30",
+      "mutation_name": "Invalid Dimension Constraint",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.351516962051392,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M24_invalid_hypercube.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M24_invalid_hypercube.xbrl",
+      "mutation_id": "M24",
+      "mutation_name": "Invalid Hypercube",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.445119857788086,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M7_invalid_namespace.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M7_invalid_namespace.xbrl",
+      "mutation_id": "M7",
+      "mutation_name": "Invalid Namespace",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.898360967636108,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M15_invalid_integer_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M15_invalid_integer_format.xbrl",
+      "mutation_id": "M15",
+      "mutation_name": "Invalid Integer Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.030488014221191,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M14_invalid_decimal_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M14_invalid_decimal_format.xbrl",
+      "mutation_id": "M14",
+      "mutation_name": "Invalid Decimal Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 12.183398962020874,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M17_invalid_monetary_format.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242/M17_invalid_monetary_format.xbrl",
+      "mutation_id": "M17",
+      "mutation_name": "Invalid Monetary Format",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 13.569445133209229,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M35_invalid_typed_dimension_content_model.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M35_invalid_typed_dimension_content_model.xbrl",
+      "mutation_id": "M35",
+      "mutation_name": "Invalid Typed Dimension Content Model",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 0.1509709358215332,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    },
+    "M26_invalid_typed_dimension.xbrl": {
+      "file_path": "test-samples/comprehensive/DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480/M26_invalid_typed_dimension.xbrl",
+      "mutation_id": "M26",
+      "mutation_name": "Invalid Typed Dimension",
+      "sample_name": "DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480",
+      "validation_status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "processing_time": 0.636206865310669,
+      "errors": [],
+      "warnings": [],
+      "success": false
+    }
+  },
+  "summary_by_mutation": {
+    "M67": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M34": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M27": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M61": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M48": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M43": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M54": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M9": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M21": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M25": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M6": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M42": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M19": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M31": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M57": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M32": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M23": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M45": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M29": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M22": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M28": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M41": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M2": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M1": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M40": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M62": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M10": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M50": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M8": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M65": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M59": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M13": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M33": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M12": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M16": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M3": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M39": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M56": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M4": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M44": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M20": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M60": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M53": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M18": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M5": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M11": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M30": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M24": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M7": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M15": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M14": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M17": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M35": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    },
+    "M26": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "failed_tests": 1,
+      "success_rate": 0.0
+    }
+  },
+  "summary_by_sample": {
+    "DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2025-06-30_20250818153239242": {
+      "total_tests": 52,
+      "successful_tests": 0,
+      "failed_tests": 52,
+      "success_rate": 0.0
+    },
+    "DUMMYLEI123456789012.CON_FR_DORA010200_DORA_2025-06-30_20250820111934480": {
+      "total_tests": 2,
+      "successful_tests": 0,
+      "failed_tests": 2,
+      "success_rate": 0.0
+    }
+  }
+}

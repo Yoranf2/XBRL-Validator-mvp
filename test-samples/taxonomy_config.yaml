@@ -1,0 +1,79 @@
+# Taxonomy Configuration for Test File Generation
+# Maps taxonomy versions to their entry points and indicator codes
+
+v4.2:
+  finrep_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd"
+  corep_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd"
+  dora_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/dora/4.2/mod/dora.xsd"
+  filing_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/filing/4.2/mod/filing.xsd"
+  indicator_codes:
+    F0101: "F 01.01"
+    F2001: "F 20.01"
+    C0101: "C 01.01"
+    C0201: "C 02.01"
+  namespaces:
+    finrep: "http://www.eba.europa.eu/xbrl/crr/fws/finrep/mod"
+    corep: "http://www.eba.europa.eu/xbrl/crr/fws/corep/mod"
+    dora: "http://www.eba.europa.eu/xbrl/crr/fws/dora/mod"
+    filing: "http://www.eba.europa.eu/xbrl/crr/fws/filing/mod"
+    find: "http://www.eba.europa.eu/xbrl/crr/fws/filing/mod"
+    eba_dim: "http://www.eba.europa.eu/xbrl/crr/dict/dim"
+    eba_mem: "http://www.eba.europa.eu/xbrl/crr/dict/mem"
+
+v4.1:
+  finrep_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.1/mod/finrep.xsd"
+  corep_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.1/mod/corep.xsd"
+  dora_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/dora/4.1/mod/dora.xsd"
+  filing_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/filing/4.1/mod/filing.xsd"
+  indicator_codes:
+    F0101: "F 01.01"
+    F2001: "F 20.01"
+    C0101: "C 01.01"
+    C0201: "C 02.01"
+  namespaces:
+    finrep: "http://www.eba.europa.eu/xbrl/crr/fws/finrep/mod"
+    corep: "http://www.eba.europa.eu/xbrl/crr/fws/corep/mod"
+    dora: "http://www.eba.europa.eu/xbrl/crr/fws/dora/mod"
+    filing: "http://www.eba.europa.eu/xbrl/crr/fws/filing/mod"
+    find: "http://www.eba.europa.eu/xbrl/crr/fws/filing/mod"
+    eba_dim: "http://www.eba.europa.eu/xbrl/crr/dict/dim"
+    eba_mem: "http://www.eba.europa.eu/xbrl/crr/dict/mem"
+
+v4.0:
+  finrep_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.0/mod/finrep.xsd"
+  corep_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/mod/corep.xsd"
+  dora_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/dora/4.0/mod/dora.xsd"
+  filing_entrypoint: "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/filing/4.0/mod/filing.xsd"
+  indicator_codes:
+    F0101: "F 01.01"
+    F2001: "F 20.01"
+    C0101: "C 01.01"
+    C0201: "C 02.01"
+  namespaces:
+    finrep: "http://www.eba.europa.eu/xbrl/crr/fws/finrep/mod"
+    corep: "http://www.eba.europa.eu/xbrl/crr/fws/corep/mod"
+    dora: "http://www.eba.europa.eu/xbrl/crr/fws/dora/mod"
+    filing: "http://www.eba.europa.eu/xbrl/crr/fws/filing/mod"
+    find: "http://www.eba.europa.eu/xbrl/crr/fws/filing/mod"
+    eba_dim: "http://www.eba.europa.eu/xbrl/crr/dict/dim"
+    eba_mem: "http://www.eba.europa.eu/xbrl/crr/dict/mem"
+
+# Curated subset for v4.1 and v4.0
+curated_mutations:
+  v4.1:
+    technical: [1, 2, 3, 4, 5, 6, 7, 8]  # M1-M8
+    dimensional: [22, 23, 24, 25, 26, 27]  # M22-M27
+    calculation: [36, 37, 38, 39]  # M36-M39
+    formula: [46, 47, 48, 49, 50, 51, 52]  # M46-M52
+    filing: [56, 57, 58, 59]  # M56-M59
+  v4.0:
+    technical: [1, 2, 3, 4, 5, 6, 7, 8]  # M1-M8
+    dimensional: [22, 23, 24, 25, 26, 27]  # M22-M27
+    calculation: [36, 37, 38, 39]  # M36-M39
+    formula: [46, 47, 48, 49, 50, 51, 52]  # M46-M52
+    filing: [56, 57, 58, 59]  # M56-M59
+
+
+
+
+

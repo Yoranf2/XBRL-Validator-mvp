@@ -1,0 +1,26 @@
+{
+  "id": "M45",
+  "version": "v4.2",
+  "category": "calculation",
+  "file": "v4.2_calculation_M45_invalid_calculation_rounding.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "calculation:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "calc:invalidcalculationrounding",
+      "m45"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M45 - calculation mutation"
+}

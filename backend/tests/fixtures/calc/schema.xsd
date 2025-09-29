@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:link="http://www.xbrl.org/2003/linkbase"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xbrli="http://www.xbrl.org/2003/instance"
+           targetNamespace="http://example.com/calc"
+           xmlns:ex="http://example.com/calc"
+           elementFormDefault="qualified">
+  <!-- Bring in XBRL instance namespace (no schemaLocation to avoid fetching) -->
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="xbrli_stub.xsd"/>
+
+  <!-- Numeric items -->
+  <xs:element name="A" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element name="B" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element name="Total" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+
+  <!-- Linkbase reference to local calculation linkbase -->
+  <link:linkbaseRef xlink:type="simple"
+                    xlink:href="calc.xml"
+                    xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef"
+                    xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+</xs:schema>

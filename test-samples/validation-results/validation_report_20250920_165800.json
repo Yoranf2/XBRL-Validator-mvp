@@ -1,0 +1,859 @@
+{
+  "total_files": 94,
+  "validated_files": 94,
+  "files_with_errors": 0,
+  "files_without_errors": 94,
+  "total_errors": 0,
+  "error_detection_rate": 0.0,
+  "file_results": {
+    "test-samples/v4.2/calculation/v4.2_calculation_M41_invalid_calculation_period.xbrl": {
+      "file": "test-samples/v4.2/calculation/v4.2_calculation_M41_invalid_calculation_period.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/calculation/v4.2_calculation_M39_invalid_calculation_sum.xbrl": {
+      "file": "test-samples/v4.2/calculation/v4.2_calculation_M39_invalid_calculation_sum.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/calculation/v4.2_calculation_M42_invalid_calculation_context.xbrl": {
+      "file": "test-samples/v4.2/calculation/v4.2_calculation_M42_invalid_calculation_context.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/calculation/v4.2_calculation_M40_invalid_calculation_balance.xbrl": {
+      "file": "test-samples/v4.2/calculation/v4.2_calculation_M40_invalid_calculation_balance.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/calculation/v4.2_calculation_M43_invalid_calculation_unit.xbrl": {
+      "file": "test-samples/v4.2/calculation/v4.2_calculation_M43_invalid_calculation_unit.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/calculation/v4.2_calculation_M44_invalid_calculation_precision.xbrl": {
+      "file": "test-samples/v4.2/calculation/v4.2_calculation_M44_invalid_calculation_precision.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/calculation/v4.2_calculation_M45_invalid_calculation_rounding.xbrl": {
+      "file": "test-samples/v4.2/calculation/v4.2_calculation_M45_invalid_calculation_rounding.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/formula/v4.2_formula_M54_invalid_formula_unit.xbrl": {
+      "file": "test-samples/v4.2/formula/v4.2_formula_M54_invalid_formula_unit.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/formula/v4.2_formula_M53_invalid_formula_context.xbrl": {
+      "file": "test-samples/v4.2/formula/v4.2_formula_M53_invalid_formula_context.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/formula/v4.2_formula_M48_invalid_formula_variable.xbrl": {
+      "file": "test-samples/v4.2/formula/v4.2_formula_M48_invalid_formula_variable.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/formula/v4.2_formula_M50_invalid_formula_condition.xbrl": {
+      "file": "test-samples/v4.2/formula/v4.2_formula_M50_invalid_formula_condition.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M65_invalid_filing_format.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M65_invalid_filing_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M59_invalid_filing_period.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M59_invalid_filing_period.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M60_invalid_filing_entity.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M60_invalid_filing_entity.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M63_invalid_filing_status.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M63_invalid_filing_status.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M61_invalid_filing_template.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M61_invalid_filing_template.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M56_invalid_filing_indicator.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M56_invalid_filing_indicator.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M62_invalid_filing_version.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M62_invalid_filing_version.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M64_invalid_filing_type.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M64_invalid_filing_type.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M67_invalid_filing_structure.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M67_invalid_filing_structure.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M58_invalid_filing_date.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M58_invalid_filing_date.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M66_invalid_filing_content.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M66_invalid_filing_content.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/filing/v4.2_filing_M57_missing_filing_indicator.xbrl": {
+      "file": "test-samples/v4.2/filing/v4.2_filing_M57_missing_filing_indicator.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M25_invalid_domain_member.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M25_invalid_domain_member.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M27_invalid_explicit_dimension.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M27_invalid_explicit_dimension.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M23_missing_required_dimension.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M23_missing_required_dimension.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M33_invalid_'notall'.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M33_invalid_'notall'.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M24_invalid_hypercube.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M24_invalid_hypercube.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M29_invalid_dimension_relationship.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M29_invalid_dimension_relationship.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M22_invalid_dimension_member.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M22_invalid_dimension_member.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M32_invalid_'all'.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M32_invalid_'all'.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M31_invalid_dimension_default.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M31_invalid_dimension_default.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M28_invalid_dimension_context.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M28_invalid_dimension_context.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M30_invalid_dimension_constraint.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M30_invalid_dimension_constraint.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/dimensional/v4.2_dimensional_M34_invalid_domain-member.xbrl": {
+      "file": "test-samples/v4.2/dimensional/v4.2_dimensional_M34_invalid_domain-member.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M04_invalid_unit_reference.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M04_invalid_unit_reference.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M08_invalid_attribute_values.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M08_invalid_attribute_values.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M13_invalid_string_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M13_invalid_string_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M10_invalid_date_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M10_invalid_date_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M06_invalid_xml_structure.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M06_invalid_xml_structure.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M09_missing_schema_reference.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M09_missing_schema_reference.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M19_invalid_pure_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M19_invalid_pure_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M07_invalid_namespace.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M07_invalid_namespace.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M02_invalid_context_reference.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M02_invalid_context_reference.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M18_invalid_share_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M18_invalid_share_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M12_invalid_boolean_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M12_invalid_boolean_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M21_invalid_anyuri_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M21_invalid_anyuri_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M01_period_type_mismatch.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M01_period_type_mismatch.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M16_invalid_fraction_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M16_invalid_fraction_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M11_invalid_numeric_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M11_invalid_numeric_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M05_duplicate_fact.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M05_duplicate_fact.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M15_invalid_integer_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M15_invalid_integer_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M03_missing_required_element.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M03_missing_required_element.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M17_invalid_monetary_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M17_invalid_monetary_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M20_invalid_tuple_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M20_invalid_tuple_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.2/technical/v4.2_technical_M14_invalid_decimal_format.xbrl": {
+      "file": "test-samples/v4.2/technical/v4.2_technical_M14_invalid_decimal_format.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/calculation/v4.1_calculation_M39_invalid_calculation_sum.xbrl": {
+      "file": "test-samples/v4.1/calculation/v4.1_calculation_M39_invalid_calculation_sum.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/formula/v4.1_formula_M48_invalid_formula_variable.xbrl": {
+      "file": "test-samples/v4.1/formula/v4.1_formula_M48_invalid_formula_variable.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/formula/v4.1_formula_M50_invalid_formula_condition.xbrl": {
+      "file": "test-samples/v4.1/formula/v4.1_formula_M50_invalid_formula_condition.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/filing/v4.1_filing_M56_invalid_filing_indicator.xbrl": {
+      "file": "test-samples/v4.1/filing/v4.1_filing_M56_invalid_filing_indicator.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/filing/v4.1_filing_M59_invalid_filing_period.xbrl": {
+      "file": "test-samples/v4.1/filing/v4.1_filing_M59_invalid_filing_period.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/filing/v4.1_filing_M57_missing_filing_indicator.xbrl": {
+      "file": "test-samples/v4.1/filing/v4.1_filing_M57_missing_filing_indicator.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/filing/v4.1_filing_M58_invalid_filing_date.xbrl": {
+      "file": "test-samples/v4.1/filing/v4.1_filing_M58_invalid_filing_date.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/dimensional/v4.1_dimensional_M23_missing_required_dimension.xbrl": {
+      "file": "test-samples/v4.1/dimensional/v4.1_dimensional_M23_missing_required_dimension.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/dimensional/v4.1_dimensional_M24_invalid_hypercube.xbrl": {
+      "file": "test-samples/v4.1/dimensional/v4.1_dimensional_M24_invalid_hypercube.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/dimensional/v4.1_dimensional_M25_invalid_domain_member.xbrl": {
+      "file": "test-samples/v4.1/dimensional/v4.1_dimensional_M25_invalid_domain_member.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/dimensional/v4.1_dimensional_M22_invalid_dimension_member.xbrl": {
+      "file": "test-samples/v4.1/dimensional/v4.1_dimensional_M22_invalid_dimension_member.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M02_invalid_context_reference.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M02_invalid_context_reference.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M06_invalid_xml_structure.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M06_invalid_xml_structure.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M08_invalid_attribute_values.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M08_invalid_attribute_values.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M03_missing_required_element.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M03_missing_required_element.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M04_invalid_unit_reference.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M04_invalid_unit_reference.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M07_invalid_namespace.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M07_invalid_namespace.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M05_duplicate_fact.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M05_duplicate_fact.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.1/technical/v4.1_technical_M01_period_type_mismatch.xbrl": {
+      "file": "test-samples/v4.1/technical/v4.1_technical_M01_period_type_mismatch.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/calculation/v4.0_calculation_M39_invalid_calculation_sum.xbrl": {
+      "file": "test-samples/v4.0/calculation/v4.0_calculation_M39_invalid_calculation_sum.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/formula/v4.0_formula_M48_invalid_formula_variable.xbrl": {
+      "file": "test-samples/v4.0/formula/v4.0_formula_M48_invalid_formula_variable.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/formula/v4.0_formula_M50_invalid_formula_condition.xbrl": {
+      "file": "test-samples/v4.0/formula/v4.0_formula_M50_invalid_formula_condition.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/filing/v4.0_filing_M59_invalid_filing_period.xbrl": {
+      "file": "test-samples/v4.0/filing/v4.0_filing_M59_invalid_filing_period.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/filing/v4.0_filing_M57_missing_filing_indicator.xbrl": {
+      "file": "test-samples/v4.0/filing/v4.0_filing_M57_missing_filing_indicator.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/filing/v4.0_filing_M58_invalid_filing_date.xbrl": {
+      "file": "test-samples/v4.0/filing/v4.0_filing_M58_invalid_filing_date.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/filing/v4.0_filing_M56_invalid_filing_indicator.xbrl": {
+      "file": "test-samples/v4.0/filing/v4.0_filing_M56_invalid_filing_indicator.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/dimensional/v4.0_dimensional_M25_invalid_domain_member.xbrl": {
+      "file": "test-samples/v4.0/dimensional/v4.0_dimensional_M25_invalid_domain_member.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/dimensional/v4.0_dimensional_M23_missing_required_dimension.xbrl": {
+      "file": "test-samples/v4.0/dimensional/v4.0_dimensional_M23_missing_required_dimension.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/dimensional/v4.0_dimensional_M24_invalid_hypercube.xbrl": {
+      "file": "test-samples/v4.0/dimensional/v4.0_dimensional_M24_invalid_hypercube.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/dimensional/v4.0_dimensional_M22_invalid_dimension_member.xbrl": {
+      "file": "test-samples/v4.0/dimensional/v4.0_dimensional_M22_invalid_dimension_member.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M03_missing_required_element.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M03_missing_required_element.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M07_invalid_namespace.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M07_invalid_namespace.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M04_invalid_unit_reference.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M04_invalid_unit_reference.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M06_invalid_xml_structure.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M06_invalid_xml_structure.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M01_period_type_mismatch.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M01_period_type_mismatch.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M08_invalid_attribute_values.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M08_invalid_attribute_values.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M02_invalid_context_reference.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M02_invalid_context_reference.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    },
+    "test-samples/v4.0/technical/v4.0_technical_M05_duplicate_fact.xbrl": {
+      "file": "test-samples/v4.0/technical/v4.0_technical_M05_duplicate_fact.xbrl",
+      "status": "NO_ERRORS",
+      "errors": [],
+      "warnings": [],
+      "load_success": true,
+      "validation_success": false,
+      "error_messages": []
+    }
+  },
+  "error_summary": {},
+  "validation_errors": [],
+  "duration_seconds": 28.70632
+}

@@ -1,0 +1,96 @@
+# EBA XBRL Validator Configuration
+# Application settings for RF 4.0 baseline with strict offline operation
+
+profiles:
+  fast:
+    formulas: false
+    csv_constraints: false
+    trace: false
+  full:
+    formulas: true
+    csv_constraints: true
+    trace: false
+  debug:
+    formulas: true
+    csv_constraints: true
+    trace: true
+
+limits:
+  task_timeout_s: 300
+  max_rss_mb: 2048
+  max_upload_mb: 150
+
+flags:
+  use_packages: true
+  offline: true
+  allow_catalogs: true
+  allow_instance_rewrite: true
+
+observability:
+  metrics:
+    - facts_count
+    - errors_count
+    - validation_status
+    - duration_ms
+    - dmp_version
+    - is_csv
+  prometheus:
+    enabled: false
+    path: /metrics
+    namespace: xbrl_validator
+    require_secret: false
+    secret_header: X-Prom-Secret
+    secret_value: change-me
+
+logging:
+  level: INFO
+  format: json
+  file: logs/eba_validator.log
+
+directories:
+  uploads: uploads/
+  temp: temp/
+  cache: cache/
+  logs: logs/
+
+# Additional offline root mappings for URLs not covered by package catalogs
+offline_roots:
+  # Map EBA URLs to local Full Taxonomy
+  - url_prefix: "http://www.eba.europa.eu/eu/fr/xbrl/"
+    local_root: "github_work/eba-taxonomies/EBA Taxonomy 4.0/Full Taxonomy/www.eba.europa.eu/eu/fr/xbrl/"
+  # Map non-eu/fr EBA URLs to the same mirror (alias)
+  - url_prefix: "http://www.eba.europa.eu/xbrl/"
+    local_root: "github_work/eba-taxonomies/EBA Taxonomy 4.0/Full Taxonomy/www.eba.europa.eu/eu/fr/xbrl/"
+  # Map eurofiling URLs to local Full Taxonomy
+  - url_prefix: "http://www.eurofiling.info/eu/fr/xbrl/"
+    local_root: "github_work/eba-taxonomies/EBA Taxonomy 4.0/Full Taxonomy/www.eurofiling.info/eu/fr/xbrl/"
+  # Fallback mapping for eurofiling ext/2020 to EBA-host directory (covers environments without symlinks)
+  - url_prefix: "http://www.eurofiling.info/xbrl/ext/2020/"
+    local_root: "github_work/eba-taxonomies/EBA Taxonomy 4.0/Full Taxonomy/www.eba.europa.eu/eu/fr/xbrl/ext/2020/"
+  # Map www.xbrl.org core schemas and role/arcrole refs to local mirror (for synthetic fixtures)
+  - url_prefix: "http://www.xbrl.org/2003/"
+    local_root: "github_work/eba-taxonomies/EBA Taxonomy 4.0/Full Taxonomy/www.xbrl.org/2003/"
+  # Fallback to local third_party mirror for role/arcrole refs if needed
+  - url_prefix: "http://www.xbrl.org/2003/role/"
+    local_root: "backend/third_party/xbrl-2003/role/"
+  - url_prefix: "http://www.xbrl.org/2003/arcrole/"
+    local_root: "backend/third_party/xbrl-2003/arcrole/"
+
+features:
+  conditional_val_schema_injection: true
+  drop_nonactionable: true
+  drop_nonactionable_sample_limit: 5
+  messages:
+    source: auto        # auto | zip | unpacked
+    lang: en            # currently en-only supported
+    hide_raw_keys: true # suppress raw message:v#### when no catalog text
+    cache:
+      enabled: false
+      path: backend/var/cache/messages/catalog.json
+    zip_globs:
+      - taxonomies/eba/rf40/zips/rf/**/*.zip
+      - taxonomies/eba/rf40/zips/severity/**/*.zip
+    unpacked_roots:
+      - taxonomies/eba/rf40/rf-unpacked
+      - taxonomies/eba/rf40/dict-unpacked
+      - taxonomies/eba/rf40/severity-unpacked

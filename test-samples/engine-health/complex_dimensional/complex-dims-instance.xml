@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance"
+             xmlns:link="http://www.xbrl.org/2003/linkbase"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+             xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+             xmlns:example="http://example.com/complex-dims/2024"
+             xsi:schemaLocation="http://example.com/complex-dims/2024 complex-dims.xsd">
+    
+    <!-- Schema Reference -->
+    <link:schemaRef xlink:type="simple" xlink:href="complex-dims.xsd"/>
+    
+    <!-- Contexts -->
+    <xbrli:context id="c_instant">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://example.com/lei">LEI:ABC123</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2024-12-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <xbrli:context id="c_duration">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://example.com/lei">LEI:ABC123</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <xbrli:context id="c_dimensional">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://example.com/lei">LEI:ABC123</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2024-12-31</xbrli:instant>
+        </xbrli:period>
+        <xbrli:scenario>
+            <xbrldi:explicitMember dimension="example:GeographyAxis">
+                <xbrldi:member>example:GeographyDomain</xbrldi:member>
+            </xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="example:BusinessSegmentAxis">
+                <xbrldi:member>example:BusinessSegmentDomain</xbrldi:member>
+            </xbrldi:explicitMember>
+        </xbrli:scenario>
+    </xbrli:context>
+    
+    <!-- Units -->
+    <xbrli:unit id="u_EUR">
+        <xbrli:measure>iso4217:EUR</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_pure">
+        <xbrli:measure>xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    
+    <!-- Facts -->
+    <example:TotalAssets contextRef="c_instant" unitRef="u_EUR" decimals="2">1000000</example:TotalAssets>
+    <example:CurrentAssets contextRef="c_instant" unitRef="u_EUR" decimals="2">400000</example:CurrentAssets>
+    <example:NonCurrentAssets contextRef="c_instant" unitRef="u_EUR" decimals="2">600000</example:NonCurrentAssets>
+    <example:Revenue contextRef="c_duration" unitRef="u_EUR" decimals="2">500000</example:Revenue>
+    <example:Expenses contextRef="c_duration" unitRef="u_EUR" decimals="2">300000</example:Expenses>
+    <example:NetIncome contextRef="c_duration" unitRef="u_EUR" decimals="2">200000</example:NetIncome>
+    
+    <!-- Dimensional Facts -->
+    <example:TotalAssets contextRef="c_dimensional" unitRef="u_EUR" decimals="2">500000</example:TotalAssets>
+    <example:CurrentAssets contextRef="c_dimensional" unitRef="u_EUR" decimals="2">200000</example:CurrentAssets>
+    <example:NonCurrentAssets contextRef="c_dimensional" unitRef="u_EUR" decimals="2">300000</example:NonCurrentAssets>
+    
+</xbrli:xbrl>

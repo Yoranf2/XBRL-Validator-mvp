@@ -1,0 +1,26 @@
+{
+  "id": "M59",
+  "version": "v4.2",
+  "category": "filing",
+  "file": "v4.2_filing_M59_invalid_filing_period.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "filing:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "filing:invalidperiod",
+      "m59"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M59 - filing mutation"
+}

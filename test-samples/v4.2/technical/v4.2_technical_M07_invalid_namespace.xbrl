@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:find="http://www.eba.europa.eu/xbrl/crr/fws/filing/mod" xmlns:filing="http://www.eba.europa.eu/xbrl/crr/fws/filing/mod" xmlns:finrep="http://www.eba.europa.eu/xbrl/crr/fws/finrep/mod" xmlns:eba_dim="http://www.eba.europa.eu/xbrl/crr/dict/dim" xmlns:eba_mem="http://www.eba.europa.eu/xbrl/crr/dict/mem" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xsi:schemaLocation="http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd                                  http://www.eba.europa.eu/xbrl/crr/fws/finrep/mod http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd                                  http://www.eba.europa.eu/xbrl/crr/fws/filing/mod http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/filing/4.2/mod/filing.xsd">
+    
+    <link:schemaRef xlink:type="simple" xlink:href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd" href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd"/>
+    
+    <!-- Units -->
+    <xbrli:unit id="u_eur">
+        <xbrli:measure>iso4217:EUE</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_usd">
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_pure">
+        <xbrli:measure>xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_shares">
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    
+    <!-- Contexts -->
+    <xbrli:context id="c_instant">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2024-12-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <xbrli:context id="c_duration_year">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <xbrli:context id="c_duration_quarter">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-03-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <!-- Dimensional context for dimensional mutations -->
+    <xbrli:context id="c_dim_finrep">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-03-31</xbrli:endDate>
+        </xbrli:period>
+        <xbrli:scenario>
+            <xbrldi:explicitMember dimension="eba_dim:GeographyAxis">eba_mem:NL</xbrldi:explicitMember>
+        </xbrli:scenario>
+    </xbrli:context>
+    
+    <!-- Filing indicators -->
+    <find:fIndicators>
+        <find:filingIndicator contextRef="c_instant">F 01.01</find:filingIndicator>
+    </find:fIndicators>
+    
+    <!-- Filing metadata -->
+    <filing:reportingDate contextRef="c_instant">2024-12-31</filing:reportingDate>
+    <filing:status contextRef="c_instant">FINAL</filing:status>
+    <filing:type contextRef="c_instant">Solo</filing:type>
+    <filing:version contextRef="c_instant">4.2</filing:version>
+    
+    <!-- Header facts for filing content mutations -->
+    <finrep:headerFact contextRef="c_instant" unitRef="u_eur" decimals="0">1000</finrep:headerFact>
+    <finrep:summaryFact contextRef="c_instant" unitRef="u_eur" decimals="0">5000</finrep:summaryFact>
+    
+    <!-- Regular facts for technical mutations -->
+    <finrep:ParentTotal contextRef="c_instant" unitRef="u_eur" decimals="0">100</finrep:ParentTotal>
+    <finrep:ChildA contextRef="c_instant" unitRef="u_eur" decimals="0">60</finrep:ChildA>
+    <finrep:ChildB contextRef="c_instant" unitRef="u_eur" decimals="0">40</finrep:ChildB>
+    
+    <!-- Facts for different contexts -->
+    <finrep:Amount contextRef="c_duration_year" unitRef="u_eur" decimals="0">1000</finrep:Amount>
+    <finrep:Count contextRef="c_instant" unitRef="u_pure" decimals="0">5</finrep:Count>
+    <finrep:Shares contextRef="c_instant" unitRef="u_shares" decimals="0">1000000</finrep:Shares>
+    
+    <!-- Dimensional facts -->
+    <finrep:DimensionalAmount contextRef="c_dim_finrep" unitRef="u_eur" decimals="0">500</finrep:DimensionalAmount>
+    
+</xbrli:xbrl>

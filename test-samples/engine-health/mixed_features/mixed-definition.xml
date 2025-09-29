@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+               xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
+                                  http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd
+                                  http://xbrl.org/2005/xbrldt http://www.xbrl.org/2005/xbrldt-2005.xsd">
+    
+    <link:roleType roleURI="http://example.com/role/DimensionDefault" id="DimensionDefault">
+        <link:definition>Dimension Default</link:definition>
+    </link:roleType>
+    
+    <link:arcroleType arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-all" id="dimension-all">
+        <link:definition>Dimension All</link:definition>
+    </link:arcroleType>
+    
+    <link:arcroleType arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-notAll" id="dimension-notAll">
+        <link:definition>Dimension Not All</link:definition>
+    </link:arcroleType>
+    
+    <link:arcroleType arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" id="dimension-default">
+        <link:definition>Dimension Default</link:definition>
+    </link:arcroleType>
+    
+    <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        
+        <!-- Hypercube Definition -->
+        <link:loc xlink:type="locator" xlink:href="#MainHypercube" xlink:label="MainHypercube"/>
+        
+        <!-- Dimension Definitions -->
+        <link:loc xlink:type="locator" xlink:href="#GeographyAxis" xlink:label="GeographyAxis"/>
+        <link:loc xlink:type="locator" xlink:href="#BusinessSegmentAxis" xlink:label="BusinessSegmentAxis"/>
+        <link:loc xlink:type="locator" xlink:href="#TimeAxis" xlink:label="TimeAxis"/>
+        
+        <!-- Domain Member Definitions -->
+        <link:loc xlink:type="locator" xlink:href="#GeographyDomain" xlink:label="GeographyDomain"/>
+        <link:loc xlink:type="locator" xlink:href="#BusinessSegmentDomain" xlink:label="BusinessSegmentDomain"/>
+        
+        <!-- Hypercube-Dimension Relationships -->
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-all" 
+                           xlink:from="MainHypercube" xlink:to="GeographyAxis" order="1"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-all" 
+                           xlink:from="MainHypercube" xlink:to="BusinessSegmentAxis" order="2"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-all" 
+                           xlink:from="MainHypercube" xlink:to="TimeAxis" order="3"/>
+        
+        <!-- Dimension-Domain Relationships -->
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" 
+                           xlink:from="GeographyAxis" xlink:to="GeographyDomain" order="1"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" 
+                           xlink:from="BusinessSegmentAxis" xlink:to="BusinessSegmentDomain" order="1"/>
+        
+    </link:definitionLink>
+    
+</link:linkbase>

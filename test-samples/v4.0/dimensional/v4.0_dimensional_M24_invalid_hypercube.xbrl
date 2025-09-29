@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:find="http://www.eba.europa.eu/xbrl/crr/fws/filing/mod" xmlns:filing="http://www.eba.europa.eu/xbrl/crr/fws/filing/mod" xmlns:corep="http://www.eba.europa.eu/xbrl/crr/fws/corep/mod" xmlns:eba_dim="http://www.eba.europa.eu/xbrl/crr/dict/dim" xmlns:eba_mem="http://www.eba.europa.eu/xbrl/crr/dict/mem" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xsi:schemaLocation="http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd http://www.eba.europa.eu/xbrl/crr/fws/corep/mod http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/mod/corep.xsd http://www.eba.europa.eu/xbrl/crr/fws/filing/mod http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/filing/4.0/mod/filing.xsd">
+    
+    <link:schemaRef xlink:type="simple" xlink:href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd" href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/mod/corep.xsd"/>
+    
+    <!-- Units -->
+    <xbrli:unit id="u_eur">
+        <xbrli:measure>iso4217:EUR</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_usd">
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_pure">
+        <xbrli:measure>xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    
+    <xbrli:unit id="u_shares">
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    
+    <!-- Contexts -->
+    <xbrli:context id="c_instant">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2024-12-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <xbrli:context id="c_duration_year">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <xbrli:context id="c_duration_quarter">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-03-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    
+    <!-- Dimensional context for dimensional mutations -->
+    <xbrli:context id="c_dim_corep">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://standards.iso.org/lei">5493001KJTIIGC8Y1R12</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2024-01-01</xbrli:startDate>
+            <xbrli:endDate>2024-03-31</xbrli:endDate>
+        </xbrli:period>
+        <xbrli:scenario>
+            <xbrldi:explicitMember dimension="eba_dim:ExposureClassAxis">eba_mem:RetailExposureClass</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="eba_dim:ProductAxis">eba_mem:Loan</xbrldi:explicitMember></xbrli:scenario>
+    </xbrli:context>
+    
+    <!-- Filing indicators -->
+    <find:fIndicators>
+        <find:filingIndicator contextRef="c_instant">C 01.01</find:filingIndicator>
+    </find:fIndicators>
+    
+    <!-- Filing metadata -->
+    <filing:reportingDate contextRef="c_instant">2024-12-31</filing:reportingDate>
+    <filing:status contextRef="c_instant">FINAL</filing:status>
+    <filing:type contextRef="c_instant">Solo</filing:type>
+    <filing:version contextRef="c_instant">4.0</filing:version>
+    
+    <!-- Header facts for filing content mutations -->
+    <corep:headerFact contextRef="c_instant" unitRef="u_eur" decimals="0">1000</corep:headerFact>
+    <corep:summaryFact contextRef="c_instant" unitRef="u_eur" decimals="0">5000</corep:summaryFact>
+    
+    <!-- Regular facts for technical mutations -->
+    <corep:ParentTotal contextRef="c_instant" unitRef="u_eur" decimals="0">100</corep:ParentTotal>
+    <corep:ChildA contextRef="c_instant" unitRef="u_eur" decimals="0">60</corep:ChildA>
+    <corep:ChildB contextRef="c_instant" unitRef="u_eur" decimals="0">40</corep:ChildB>
+    
+    <!-- Facts for different contexts -->
+    <corep:Amount contextRef="c_duration_year" unitRef="u_eur" decimals="0">1000</corep:Amount>
+    <corep:Count contextRef="c_instant" unitRef="u_pure" decimals="0">5</corep:Count>
+    <corep:Shares contextRef="c_instant" unitRef="u_shares" decimals="0">1000000</corep:Shares>
+    
+    <!-- Dimensional facts -->
+    <corep:DimensionalAmount contextRef="c_dim_corep" unitRef="u_eur" decimals="0">500</corep:DimensionalAmount>
+    
+</xbrli:xbrl>

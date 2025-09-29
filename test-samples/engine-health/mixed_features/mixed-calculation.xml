@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:calc="http://www.xbrl.org/2003/calculation"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
+                                  http://www.xbrl.org/2003/calculation http://www.xbrl.org/2003/calculation-2003-12-31.xsd">
+    
+    <link:roleType roleURI="http://example.com/role/Calculation" id="Calculation">
+        <link:definition>Calculation</link:definition>
+    </link:roleType>
+    
+    <link:calculationLink xlink:type="extended" xlink:role="http://example.com/role/Calculation">
+        
+        <!-- Locators -->
+        <link:loc xlink:type="locator" xlink:href="#TotalAssets" xlink:label="TotalAssets"/>
+        <link:loc xlink:type="locator" xlink:href="#CurrentAssets" xlink:label="CurrentAssets"/>
+        <link:loc xlink:type="locator" xlink:href="#NonCurrentAssets" xlink:label="NonCurrentAssets"/>
+        <link:loc xlink:type="locator" xlink:href="#Revenue" xlink:label="Revenue"/>
+        <link:loc xlink:type="locator" xlink:href="#Expenses" xlink:label="Expenses"/>
+        <link:loc xlink:type="locator" xlink:href="#NetIncome" xlink:label="NetIncome"/>
+        
+        <!-- Calculation Arcs -->
+        <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" 
+                            xlink:from="TotalAssets" xlink:to="CurrentAssets" order="1" weight="1.0"/>
+        <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" 
+                            xlink:from="TotalAssets" xlink:to="NonCurrentAssets" order="2" weight="1.0"/>
+        <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" 
+                            xlink:from="NetIncome" xlink:to="Revenue" order="1" weight="1.0"/>
+        <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" 
+                            xlink:from="NetIncome" xlink:to="Expenses" order="2" weight="-1.0"/>
+        
+    </link:calculationLink>
+    
+</link:linkbase>

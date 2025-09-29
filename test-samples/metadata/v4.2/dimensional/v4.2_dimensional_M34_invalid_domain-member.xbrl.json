@@ -1,0 +1,26 @@
+{
+  "id": "M34",
+  "version": "v4.2",
+  "category": "dimensional",
+  "file": "v4.2_dimensional_M34_invalid_domain-member.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "dimensional:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrldt:invaliddomainmembersubtree",
+      "m34"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M34 - dimensional mutation"
+}

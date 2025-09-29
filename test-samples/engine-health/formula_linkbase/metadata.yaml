@@ -1,0 +1,19 @@
+created_by: Engine Health Suite
+description: Mini-taxonomy with formula rules for testing formula validation
+features:
+- formula_linkbase
+- assertions
+- variables
+linkbase_files:
+- formula-formula.xml
+name: FormulaLinkbase
+namespace: http://example.com/formula/2024
+purpose: Test Arelle engine capabilities for features not present in EBA taxonomies
+sample_instance: formula-instance.xml
+schema_file: formula.xsd
+test_cases:
+- M46_InvalidFormulaExpression
+- M47_MissingFormulaLink
+- M48_InvalidFormulaVariable
+- M49_InvalidFormulaFunction
+version: '1.0'

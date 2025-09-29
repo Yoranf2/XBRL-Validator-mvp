@@ -1,0 +1,26 @@
+{
+  "id": "M54",
+  "version": "v4.2",
+  "category": "formula",
+  "file": "v4.2_formula_M54_invalid_formula_unit.xbrl",
+  "status": "PASS",
+  "entrypoint": "",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "formula:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "formula:assertionfailed",
+      "m54"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M54 - formula mutation"
+}

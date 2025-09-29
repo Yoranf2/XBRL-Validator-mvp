@@ -1,0 +1,26 @@
+{
+  "id": "M60",
+  "version": "v4.2",
+  "category": "filing",
+  "file": "v4.2_filing_M60_invalid_filing_entity.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/mod/finrep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "filing:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "filing:invalidentity",
+      "m60"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M60 - filing mutation"
+}

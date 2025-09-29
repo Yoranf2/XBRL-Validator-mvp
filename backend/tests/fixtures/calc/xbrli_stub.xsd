@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.xbrl.org/2003/instance"
+           xmlns:xbrli="http://www.xbrl.org/2003/instance"
+           elementFormDefault="qualified">
+  <xs:simpleType name="monetaryItemType">
+    <xs:restriction base="xs:decimal"/>
+  </xs:simpleType>
+  <xs:element name="item" abstract="true"/>
+</xs:schema>

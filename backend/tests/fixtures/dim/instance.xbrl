@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:link="http://www.xbrl.org/2003/linkbase"
+      xmlns:exd="http://example.com/dim">
+  <schemaRef xlink:type="simple" xlink:href="schema.xsd"/>
+  <context id="c1">
+    <entity><identifier scheme="http://example.com/lei">TESTLEI</identifier></entity>
+    <period><instant>2024-12-31</instant></period>
+    <scenario>
+      <explicitMember dimension="exd:RegionAxis">exd:Invalid</explicitMember>
+    </scenario>
+  </context>
+  <unit id="u">
+    <measure>iso4217:EUR</measure>
+  </unit>
+  <exd:Item contextRef="c1" unitRef="u">100</exd:Item>
+</xbrl>

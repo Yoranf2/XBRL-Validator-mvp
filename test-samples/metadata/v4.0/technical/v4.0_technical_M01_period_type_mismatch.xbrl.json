@@ -1,0 +1,26 @@
+{
+  "id": "M1",
+  "version": "v4.0",
+  "category": "technical",
+  "file": "v4.0_technical_M01_period_type_mismatch.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.0/mod/finrep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "technical:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrl.2.1:periodtypemismatch",
+      "m1"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M1 - technical mutation"
+}

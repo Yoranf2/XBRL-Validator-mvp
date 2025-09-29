@@ -1,0 +1,26 @@
+{
+  "versions": [
+    "v4.2",
+    "v4.1",
+    "v4.0"
+  ],
+  "counts": {
+    "v4.2": 56,
+    "v4.1": 12,
+    "v4.0": 12
+  },
+  "na_counts": {
+    "v4.2": 10,
+    "v4.1": 17,
+    "v4.0": 17
+  },
+  "error_counts": {
+    "v4.2": 1,
+    "v4.1": 0,
+    "v4.0": 0
+  },
+  "generatedAt": "2025-01-19T17:00:00Z",
+  "totalFiles": 80,
+  "totalNA": 44,
+  "totalErrors": 1
+}

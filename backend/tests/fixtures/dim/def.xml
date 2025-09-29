@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:exd="http://example.com/dim">
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <!-- Locators -->
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#Item" xlink:label="item"/>
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#RegionAxis" xlink:label="axis"/>
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#RegionDomain" xlink:label="domain"/>
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#EU" xlink:label="eu"/>
+    <link:loc xlink:type="locator" xlink:href="schema.xsd#US" xlink:label="us"/>
+
+    <!-- Hypercube (simplified) relationships -->
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all"
+                        xlink:from="item" xlink:to="axis"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+                        xlink:from="domain" xlink:to="eu"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+                        xlink:from="domain" xlink:to="us"/>
+  </link:definitionLink>
+</link:linkbase>

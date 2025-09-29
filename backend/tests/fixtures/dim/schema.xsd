@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:link="http://www.xbrl.org/2003/linkbase"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           targetNamespace="http://example.com/dim"
+           xmlns:exd="http://example.com/dim"
+           elementFormDefault="qualified">
+  <!-- Primary item -->
+  <xs:element name="Item" type="xs:decimal"/>
+  <!-- Dimension and domain/members -->
+  <xs:element name="RegionAxis" type="xs:string" substitutionGroup="xbrli:dimensionItem" xmlns:xbrli="http://www.xbrl.org/2003/instance"/>
+  <xs:element name="RegionDomain" type="xs:string"/>
+  <xs:element name="EU" type="xs:string"/>
+  <xs:element name="US" type="xs:string"/>
+
+  <!-- Definition linkbase ref -->
+  <link:linkbaseRef xlink:type="simple"
+                    xlink:href="def.xml"
+                    xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
+                    xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+</xs:schema>

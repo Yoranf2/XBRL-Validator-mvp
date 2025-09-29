@@ -1,0 +1,19 @@
+created_by: Engine Health Suite
+description: Mini-taxonomy with calculation relationships for testing calculation
+  validation
+features:
+- calculation_linkbase
+- summation_items
+linkbase_files:
+- calc-calculation.xml
+name: CalculationLinkbase
+namespace: http://example.com/calc/2024
+purpose: Test Arelle engine capabilities for features not present in EBA taxonomies
+sample_instance: calc-instance.xml
+schema_file: calc.xsd
+test_cases:
+- M36_InvalidCalculationWeight
+- M37_MissingCalculationLink
+- M38_InvalidCalculationArc
+- M39_InvalidCalculationSum
+version: '1.0'

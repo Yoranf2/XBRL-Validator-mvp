@@ -1,0 +1,25 @@
+{
+  "id": "M22",
+  "version": "v4.1",
+  "category": "dimensional",
+  "file": "v4.1_dimensional_M22_invalid_dimension_member.xbrl",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.1/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "dimensional:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrldt:invaliddimensionmember",
+      "m22"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M22 - dimensional mutation"
+}

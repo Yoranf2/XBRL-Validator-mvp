@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrli:xbrl xmlns:eba_BT="http://www.eba.europa.eu/xbrl/crr/dict/dom/BT" xmlns:eba_CO="http://www.eba.europa.eu/xbrl/crr/dict/dom/CO" xmlns:eba_CR="http://www.eba.europa.eu/xbrl/crr/dict/dom/CR" xmlns:eba_CT="http://www.eba.europa.eu/xbrl/crr/dict/dom/CT" xmlns:eba_CU="http://www.eba.europa.eu/xbrl/crr/dict/dom/CU" xmlns:eba_GA="http://www.eba.europa.eu/xbrl/crr/dict/dom/GA" xmlns:eba_IS="http://www.eba.europa.eu/xbrl/crr/dict/dom/IS" xmlns:eba_LE="http://www.eba.europa.eu/xbrl/crr/dict/dom/LE" xmlns:eba_RP="http://www.eba.europa.eu/xbrl/crr/dict/dom/RP" xmlns:eba_TA="http://www.eba.europa.eu/xbrl/crr/dict/dom/TA" xmlns:eba_ZZ="http://www.eba.europa.eu/xbrl/crr/dict/dom/ZZ" xmlns:eba__NA="http://www.eba.europa.eu/xbrl/crr/dict/dom/_NA" xmlns:eba_dim_3.4="http://www.eba.europa.eu/xbrl/crr/dict/dim/3.4" xmlns:eba_dim_3.5="http://www.eba.europa.eu/xbrl/crr/dict/dim/3.5" xmlns:eba_dim_4.0="http://www.eba.europa.eu/xbrl/crr/dict/dim/4.0" xmlns:eba_dim_4.2="http://www.eba.europa.eu/xbrl/crr/dict/dim/4.2" xmlns:eba_met="http://www.eba.europa.eu/xbrl/crr/dict/met" xmlns:eba_met_3.5="http://www.eba.europa.eu/xbrl/crr/dict/met/3.5" xmlns:eba_met_4.0="http://www.eba.europa.eu/xbrl/crr/dict/met/4.0" xmlns:eba_met_4.2="http://www.eba.europa.eu/xbrl/crr/dict/met/4.2" xmlns:eba_qAI="http://www.eba.europa.eu/xbrl/crr/dict/dom/qAI" xmlns:eba_qCO="http://www.eba.europa.eu/xbrl/crr/dict/dom/qCO" xmlns:eba_qRP="http://www.eba.europa.eu/xbrl/crr/dict/dom/qRP" xmlns:eba_typ="http://www.eba.europa.eu/xbrl/crr/dict/typ" xmlns:find="http://www.eurofiling.info/xbrl/ext/filing-indicators" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/dora/4.2/mod/dora.xsd"/>
+  <xbrli:unit id="uPURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="uEUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <find:fIndicators>
+    <find:filingIndicator contextRef="cfi">B_01.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_01.02</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_01.03</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_02.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_02.02</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_02.03</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_03.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_03.02</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_03.03</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_04.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_05.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_05.02</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_06.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_07.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">B_99.01</find:filingIndicator>
+  </find:fIndicators>
+  <eba_met:di1554 contextRef="c1">2024-11-20</eba_met:di1554>
+  <eba_met:si1131 contextRef="c1">xzblwbun</eba_met:si1131>
+  <eba_met_3.5:ei1552 contextRef="c1">eba_CT:x12</eba_met_3.5:ei1552>
+  <eba_met_3.5:ei1555 contextRef="c1">eba_GA:AL</eba_met_3.5:ei1555>
+  <eba_met:qCDF contextRef="c1">tkgqkubn</eba_met:qCDF>
+  <eba_met:mi1561 contextRef="c2" unitRef="uEUR" decimals="-3">79395</eba_met:mi1561>
+  <eba_met_3.5:ei1559 contextRef="c3">eba_CU:ALL</eba_met_3.5:ei1559>
+  <eba_met:di1430 contextRef="c4">2023-10-30</eba_met:di1430>
+  <eba_met:di1429 contextRef="c4">2021-07-14</eba_met:di1429>
+  <eba_met:di1428 contextRef="c4">2024-07-07</eba_met:di1428>
+  <eba_met_3.5:ei1558 contextRef="c4">eba_RP:x21</eba_met_3.5:ei1558>
+  <eba_met_3.5:ei1426 contextRef="c4">eba_CT:x12</eba_met_3.5:ei1426>
+  <eba_met_3.5:ei1555 contextRef="c4">eba_GA:AL</eba_met_3.5:ei1555>
+  <eba_met:qCDF contextRef="c4">nrjihkln</eba_met:qCDF>
+  <eba_met:qNNO contextRef="c5">zfhmdbrw</eba_met:qNNO>
+  <eba_met_3.5:ei1556 contextRef="c6">eba_GA:AL</eba_met_3.5:ei1556>
+  <eba_met:qCDF contextRef="c6">yrcbjyes</eba_met:qCDF>
+  <eba_met:qAMI contextRef="c7">true</eba_met:qAMI>
+  <eba_met:qAMI contextRef="c8">true</eba_met:qAMI>
+  <eba_met_3.5:ei1559 contextRef="c9">eba_CU:ALL</eba_met_3.5:ei1559>
+  <eba_met:mi1310 contextRef="c9" unitRef="uEUR" decimals="-3">82077</eba_met:mi1310>
+  <eba_met_3.5:ei1427 contextRef="c9">eba_CT:x212</eba_met_3.5:ei1427>
+  <eba_met:qNMV contextRef="c9">wveehmxy</eba_met:qNMV>
+  <eba_met:qICM contextRef="c9">kmsvbolp</eba_met:qICM>
+  <eba_met_4.0:qNMX contextRef="c9">eba_qCO:qx2000</eba_met_4.0:qNMX>
+  <eba_met:qCDF contextRef="c9">qnjwwehs</eba_met:qCDF>
+  <eba_met_4.2:qBWS contextRef="c9">eba_qCO:qx2000</eba_met_4.2:qBWS>
+  <eba_met:si1454 contextRef="c10">fivljpts</eba_met:si1454>
+  <eba_met_4.2:qBWP contextRef="c10">eba_qCO:qx2000</eba_met_4.2:qBWP>
+  <eba_met_3.5:ei1555 contextRef="c11">eba_GA:AL</eba_met_3.5:ei1555>
+  <eba_met:mi1310 contextRef="c12" unitRef="uEUR" decimals="-3">89767</eba_met:mi1310>
+  <eba_met_3.5:ei1418 contextRef="c12">eba_CO:x1</eba_met_3.5:ei1418>
+  <eba_met_3.5:ei1559 contextRef="c13">eba_CU:ALL</eba_met_3.5:ei1559>
+  <eba_met:si1422 contextRef="c14">fhwrraby</eba_met:si1422>
+  <eba_met_3.5:ei1498 contextRef="c15">eba_ZZ:x794</eba_met_3.5:ei1498>
+  <eba_met_3.5:ei1499 contextRef="c16">eba_ZZ:x791</eba_met_3.5:ei1499>
+  <eba_met_3.5:ei1396 contextRef="c17">eba_BT:x28</eba_met_3.5:ei1396>
+  <eba_met_3.5:ei1355 contextRef="c17">eba_GA:AL</eba_met_3.5:ei1355>
+  <eba_met_3.5:ei1419 contextRef="c17">eba_CO:x4</eba_met_3.5:ei1419>
+  <eba_met:di1432 contextRef="c17">2022-07-14</eba_met:di1432>
+  <eba_met:di1431 contextRef="c17">2021-06-21</eba_met:di1431>
+  <eba_met_4.0:qNMX contextRef="c17">eba_qCO:qx2000</eba_met_4.0:qNMX>
+  <eba_met:ii1712 contextRef="c18" unitRef="uPURE" decimals="0">836</eba_met:ii1712>
+  <eba_met:ii1712 contextRef="c19" unitRef="uPURE" decimals="0">639</eba_met:ii1712>
+  <eba_met_4.0:qNMX contextRef="c20">eba_qCO:qx2000</eba_met_4.0:qNMX>
+  <eba_met:qAMI contextRef="c21">true</eba_met:qAMI>
+  <eba_met_3.5:ei1510 contextRef="c22">eba_ZZ:x838</eba_met_3.5:ei1510>
+  <eba_met_4.0:qNMX contextRef="c23">eba_qCO:qx2000</eba_met_4.0:qNMX>
+  <eba_met_4.0:qNMY contextRef="c23">eba_qCO:qx2000</eba_met_4.0:qNMY>
+  <eba_met:si1711 contextRef="c24">xlnudbjy</eba_met:si1711>
+  <eba_met_4.0:ei1494 contextRef="c24">eba_TA:x28</eba_met_4.0:ei1494>
+  <eba_met_3.5:ei1531 contextRef="c24">eba_ZZ:x791</eba_met_3.5:ei1531>
+  <eba_met:ii1601 contextRef="c24" unitRef="uPURE" decimals="0">724</eba_met:ii1601>
+  <eba_met:ii1560 contextRef="c24" unitRef="uPURE" decimals="0">517</eba_met:ii1560>
+  <eba_met:di1442 contextRef="c24">2021-05-19</eba_met:di1442>
+  <eba_met_3.5:ei1416 contextRef="c24">eba_BT:x21</eba_met_3.5:ei1416>
+  <eba_met:si1304 contextRef="c25">tgrjxump</eba_met:si1304>
+  <eba_met:si1421 contextRef="c26">neivxkfe</eba_met:si1421>
+  <eba_met_3.5:ei1415 contextRef="c27">eba_BT:x21</eba_met_3.5:ei1415>
+  <eba_met_3.5:ei1530 contextRef="c27">eba_ZZ:x791</eba_met_3.5:ei1530>
+  <eba_met_4.2:ei1529 contextRef="c27">eba_ZZ:x798</eba_met_4.2:ei1529>
+  <eba_met_3.5:ei1414 contextRef="c27">eba_BT:x28</eba_met_3.5:ei1414>
+  <eba_met_4.0:qNMX contextRef="c27">eba_qCO:qx2000</eba_met_4.0:qNMX>
+  <eba_met:di1441 contextRef="c28">2022-05-27</eba_met:di1441>
+  <eba_met_3.5:ei1528 contextRef="c28">eba_ZZ:x963</eba_met_3.5:ei1528>
+  <eba_met_3.5:ei1527 contextRef="c28">eba_ZZ:x959</eba_met_3.5:ei1527>
+  <eba_met:si1557 contextRef="c29">wkhimcfz</eba_met:si1557>
+  <eba_met:si1557 contextRef="c30">fbreekyt</eba_met:si1557>
+  <eba_met:si1557 contextRef="c31">ntxliomz</eba_met:si1557>
+  <eba_met:si1557 contextRef="c32">kviodamh</eba_met:si1557>
+  <eba_met:si1557 contextRef="c33">vmwpfsrg</eba_met:si1557>
+  <eba_met:si1557 contextRef="c34">rcgmmctc</eba_met:si1557>
+  <eba_met:si1557 contextRef="c35">ancdpmsn</eba_met:si1557>
+  <eba_met:si1557 contextRef="c36">yluafwog</eba_met:si1557>
+  <eba_met:si1557 contextRef="c37">ymtkclxa</eba_met:si1557>
+  <eba_met:si1557 contextRef="c38">mpajhtmh</eba_met:si1557>
+  <eba_met:si1557 contextRef="c39">ldpstrlr</eba_met:si1557>
+  <eba_met:si1557 contextRef="c40">qlcmtqae</eba_met:si1557>
+  <eba_met:si1557 contextRef="c41">ajewwkzi</eba_met:si1557>
+  <eba_met:si1557 contextRef="c42">dugcsayr</eba_met:si1557>
+  <eba_met:si1557 contextRef="c43">srbeijty</eba_met:si1557>
+  <eba_met:si1557 contextRef="c44">rubxyklp</eba_met:si1557>
+  <eba_met:si1557 contextRef="c45">zprlkiyw</eba_met:si1557>
+  <eba_met:si1557 contextRef="c46">jypcbcif</eba_met:si1557>
+  <eba_met:si1557 contextRef="c47">mrujguml</eba_met:si1557>
+</xbrli:xbrl>

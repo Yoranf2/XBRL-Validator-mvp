@@ -1,0 +1,77 @@
+{
+  "4.0.0.0:corep_lr": {
+    "present_count": 327,
+    "hash": "4e626f3fc19f50e0d48e8ff0f9e3581dfc4e87b846436c1ff602f9570506718e",
+    "ids_sample": [
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e4428_e.xml|valueAssertion|e4428_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e4431_e.xml|valueAssertion|e4431_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0683_m.xml|valueAssertion|v0683_m_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0683_m.xml|valueAssertion|v0683_m_1|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0684_m.xml|valueAssertion|v0684_m_0|"
+    ]
+  },
+  "4.0.0.0:file:///Users/Yoran/Cursor%20files/XBRL%20Validator/Context%20data/Taxonomy%20documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/mod/corep_lr.xsd": {
+    "present_count": 0,
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ids_sample": []
+  },
+  "4.0.0.0:file:///Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/META-INF/taxonomyPackage.xml": {
+    "present_count": 0,
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ids_sample": []
+  },
+  "4.0.0.0:file:///Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/corep_lr-val.xsd": {
+    "present_count": 0,
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ids_sample": []
+  },
+  "4.0.0.0:file:///Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/Full Taxonomy/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/corep_lr-val.xsd": {
+    "present_count": 0,
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ids_sample": []
+  },
+  "unknown:corep_lr": {
+    "present_count": 327,
+    "hash": "4e626f3fc19f50e0d48e8ff0f9e3581dfc4e87b846436c1ff602f9570506718e",
+    "ids_sample": [
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e4428_e.xml|valueAssertion|e4428_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e4431_e.xml|valueAssertion|e4431_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0683_m.xml|valueAssertion|v0683_m_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0683_m.xml|valueAssertion|v0683_m_1|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0684_m.xml|valueAssertion|v0684_m_0|"
+    ]
+  },
+  "4.0.0.:corep_lr": {
+    "present_count": 327,
+    "hash": "4e626f3fc19f50e0d48e8ff0f9e3581dfc4e87b846436c1ff602f9570506718e",
+    "ids_sample": [
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e4428_e.xml|valueAssertion|e4428_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e4431_e.xml|valueAssertion|e4431_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0683_m.xml|valueAssertion|v0683_m_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0683_m.xml|valueAssertion|v0683_m_1|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-v0684_m.xml|valueAssertion|v0684_m_0|"
+    ]
+  },
+  "4.0.0.0:corep_of": {
+    "present_count": 33575,
+    "hash": "87aef6b9dd40f6b24fa9bb540a33d234aa998ae2cdbe6e6aeea4e5831a940190",
+    "ids_sample": [
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e22959_n.xml|valueAssertion|e22959_n_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e22960_n.xml|valueAssertion|e22960_n_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e22961_n.xml|valueAssertion|e22961_n_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e23119_e.xml|valueAssertion|e23119_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e23119_e.xml|valueAssertion|e23119_e_10|"
+    ]
+  },
+  "4.0.0.0FULL=/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/EBA Taxonomy 4.0/Full Taxonomy/www.eba.europa.eu/eu/fr/xbrl/crr/fws:corep_of": {
+    "present_count": 33575,
+    "hash": "87aef6b9dd40f6b24fa9bb540a33d234aa998ae2cdbe6e6aeea4e5831a940190",
+    "ids_sample": [
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e22959_n.xml|valueAssertion|e22959_n_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e22960_n.xml|valueAssertion|e22960_n_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e22961_n.xml|valueAssertion|e22961_n_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e23119_e.xml|valueAssertion|e23119_e_0|",
+      "/Users/Yoran/Cursor files/XBRL Validator/Context data/Taxonomy documentation/github_work/eba-taxonomies/taxonomies/4.0/EBA_XBRL_4.0_Reporting_Frameworks_4.0.0.0/www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.0/val/vr-e23119_e.xml|valueAssertion|e23119_e_10|"
+    ]
+  }
+}

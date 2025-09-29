@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+.eggs/
+build/
+dist/
+*.egg-info/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Git/Cursor
+.cursor/
+
+# Logs
+logs/
+
+# Env
+.env
+.env.*
+
+# Node (if any)
+node_modules/
+
+# Arelle cache (if any)
+arelle_cache/
+

@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EBA XBRL Validator UI</title>
+    <link rel="stylesheet" href="/ui/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>EBA XBRL Validator</h1>
+      <div class="actions">
+        <input type="file" id="fileInput" />
+        <button id="btnPreflight">Run Preflight</button>
+        <button id="btnValidate">Run Validation</button>
+        <button id="btnRender">Render Templates</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="status-bar">
+        <div>Run ID: <code id="runId">-</code></div>
+        <div>Duration: <code id="duration">-</code></div>
+        <div><a id="tablesIndexLink" target="_blank" rel="noreferrer">Tables Index</a></div>
+      </section>
+
+      <section class="tabs">
+        <button class="tab active" data-tab="summary">Summary</button>
+        <button class="tab" data-tab="preflight">Preflight</button>
+        <button class="tab" data-tab="messages">Messages</button>
+        <button class="tab" data-tab="templates">Template Viewer</button>
+      </section>
+
+      <section id="tab-summary" class="tab-panel active">
+        <div class="summary-grid">
+          <div class="card"><div>status</div><h3 id="status">-</h3></div>
+          <div class="card"><div>facts</div><h3 id="factsCount">-</h3></div>
+          <div class="card"><div>xbrl21</div><h3 id="cntXbrl21">-</h3></div>
+          <div class="card"><div>dimensions</div><h3 id="cntDim">-</h3></div>
+          <div class="card"><div>calculation</div><h3 id="cntCalc">-</h3></div>
+          <div class="card"><div>formulas</div><h3 id="cntForm">-</h3></div>
+          <div class="card"><div>eba_filing</div><h3 id="cntEba">-</h3></div>
+        </div>
+      </section>
+
+      <section id="tab-messages" class="tab-panel">
+        <div class="template-controls">
+          <label>severity
+            <select id="filterSeverity">
+              <option value="">(all)</option>
+              <option value="error">error</option>
+              <option value="warning">warning</option>
+            </select>
+          </label>
+          <label>category
+            <select id="filterCategory">
+              <option value="">(all)</option>
+            </select>
+          </label>
+          <button id="btnApplyFilter">Apply filter</button>
+        </div>
+        <table class="messages">
+          <thead>
+            <tr>
+              <th>severity</th>
+              <th>category</th>
+              <th>rule id</th>
+              <th>message</th>
+            </tr>
+          </thead>
+          <tbody id="messagesBody"></tbody>
+        </table>
+      </section>
+
+      <section id="tab-preflight" class="tab-panel">
+        <div class="summary-grid" style="grid-template-columns:repeat(3,1fr)">
+          <div class="card"><div>passed</div><h3 id="pfPassed">-</h3></div>
+          <div class="card"><div>failed</div><h3 id="pfFailed">-</h3></div>
+          <div class="card"><div>items</div><h3 id="pfItemsCount">-</h3></div>
+        </div>
+        <table class="messages" style="margin-top:10px">
+          <thead>
+            <tr><th>status</th><th>id</th><th>message</th></tr>
+          </thead>
+          <tbody id="preflightBody"></tbody>
+        </table>
+      </section>
+
+      <section id="tab-templates" class="tab-panel">
+        <div class="template-controls">
+          <label>conceptNs <input type="text" id="hlNs" placeholder="http://..." /></label>
+          <label>conceptLn <input type="text" id="hlLn" placeholder="conceptName" /></label>
+          <label>contextRef <input type="text" id="hlCx" placeholder="ctxId" /></label>
+          <button id="btnApplyHighlight">Apply highlight</button>
+        </div>
+        <div id="tplTabBar" class="tpl-tabs"></div>
+        <iframe id="tplFrame" title="Template Viewer"></iframe>
+      </section>
+    </main>
+    <div class="bottom-progress" id="bottomProgress" aria-live="polite">
+      <div class="bp-item" data-task="preflight">
+        <span class="bp-label">Preflight</span>
+        <div class="bp-bar"><div class="bp-fill"></div></div>
+        <span class="bp-state">idle</span>
+      </div>
+      <div class="bp-item" data-task="validate">
+        <span class="bp-label">Validate</span>
+        <div class="bp-bar"><div class="bp-fill"></div></div>
+        <span class="bp-state">idle</span>
+      </div>
+      <div class="bp-item" data-task="render">
+        <span class="bp-label">Render</span>
+        <div class="bp-bar"><div class="bp-fill"></div></div>
+        <span class="bp-state">idle</span>
+      </div>
+    </div>
+
+    <script src="/ui/app.js"></script>
+  </body>
+  </html>
+
+

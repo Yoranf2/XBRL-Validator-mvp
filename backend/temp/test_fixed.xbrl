@@ -1,0 +1,1115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrli:xbrl xmlns:eba_CU="http://www.eba.europa.eu/xbrl/crr/dict/dom/CU" xmlns:eba_GA="http://www.eba.europa.eu/xbrl/crr/dict/dom/GA" xmlns:eba_PU="http://www.eba.europa.eu/xbrl/crr/dict/dom/PU" xmlns:eba_TI="http://www.eba.europa.eu/xbrl/crr/dict/dom/TI" xmlns:eba__NA="http://www.eba.europa.eu/xbrl/crr/dict/dom/_NA" xmlns:eba_dim_3.4="http://www.eba.europa.eu/xbrl/crr/dict/dim/3.4" xmlns:eba_dim_4.0="http://www.eba.europa.eu/xbrl/crr/dict/dim/4.0" xmlns:eba_met="http://www.eba.europa.eu/xbrl/crr/dict/met" xmlns:eba_met_4.0="http://www.eba.europa.eu/xbrl/crr/dict/met/4.0" xmlns:eba_qAI="http://www.eba.europa.eu/xbrl/crr/dict/dom/qAI" xmlns:eba_qAP="http://www.eba.europa.eu/xbrl/crr/dict/dom/qAP" xmlns:eba_qCG="http://www.eba.europa.eu/xbrl/crr/dict/dom/qCG" xmlns:eba_qCM="http://www.eba.europa.eu/xbrl/crr/dict/dom/qCM" xmlns:eba_qCS="http://www.eba.europa.eu/xbrl/crr/dict/dom/qCS" xmlns:eba_qCY="http://www.eba.europa.eu/xbrl/crr/dict/dom/qCY" xmlns:eba_qFF="http://www.eba.europa.eu/xbrl/crr/dict/dom/qFF" xmlns:eba_qFI="http://www.eba.europa.eu/xbrl/crr/dict/dom/qFI" xmlns:eba_qFN="http://www.eba.europa.eu/xbrl/crr/dict/dom/qFN" xmlns:eba_qFP="http://www.eba.europa.eu/xbrl/crr/dict/dom/qFP" xmlns:eba_qLR="http://www.eba.europa.eu/xbrl/crr/dict/dom/qLR" xmlns:eba_qNF="http://www.eba.europa.eu/xbrl/crr/dict/dom/qNF" xmlns:eba_qOI="http://www.eba.europa.eu/xbrl/crr/dict/dom/qOI" xmlns:eba_qOR="http://www.eba.europa.eu/xbrl/crr/dict/dom/qOR" xmlns:eba_qRF="http://www.eba.europa.eu/xbrl/crr/dict/dom/qRF" xmlns:eba_qRP="http://www.eba.europa.eu/xbrl/crr/dict/dom/qRP" xmlns:eba_qSR="http://www.eba.europa.eu/xbrl/crr/dict/dom/qSR" xmlns:eba_qTA="http://www.eba.europa.eu/xbrl/crr/dict/dom/qTA" xmlns:eba_qTE="http://www.eba.europa.eu/xbrl/crr/dict/dom/qTE" xmlns:eba_typ="http://www.eba.europa.eu/xbrl/crr/dict/typ" xmlns:find="http://www.eurofiling.info/xbrl/ext/filing-indicators" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <link:schemaRef xlink:type="simple" xlink:href="http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/met.xsd"/>
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/mica/4.0/mod/mica_its.xsd"/>
+  <xbrli:unit id="uPURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="uEUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:context id="cfi">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <find:fIndicators>
+    <find:filingIndicator contextRef="cfi">Q_00.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_01.00</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_02.00</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_03.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_03.02</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_04.01</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_04.02</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_04.03</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_04.04</find:filingIndicator>
+    <find:filingIndicator contextRef="cfi">Q_05.00</find:filingIndicator>
+  </find:fIndicators>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAPH">eba_qTE:qx2032</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOD">eba_qCY:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANZ">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOD">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANZ">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAPH">eba_qTE:qx2032</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOD">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANZ">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOD">eba_qCY:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANZ">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANZ">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2078</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2077</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2078</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2077</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2047</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2009</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZR">eba_qTA:qx2008</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2024</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFG">eba_qFI:qx2039</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2047</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2009</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2009</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZR">eba_qTA:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZR">eba_qTA:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2018</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2002</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2081</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c24">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2028</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c25">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2029</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c26">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2021</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c27">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c28">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2023</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c29">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2012</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c30">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2001</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c31">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFG">eba_qFI:qx2039</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2047</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c32">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qLKK">eba_qAI:qx2205</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c33">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2001</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c34">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFF">eba_qFI:qx2299</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2081</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c35">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFG">eba_qFI:qx2039</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c36">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2010</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c37">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c38">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFF">eba_qFI:qx2074</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c39">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c40">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2009</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZR">eba_qTA:qx2008</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFF">eba_qFI:qx2298</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2098</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2081</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c42">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2030</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c43">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2047</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANU">eba_qSR:qx2081</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c44">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFG">eba_qFI:qx2039</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2009</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c45">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFF">eba_qFI:qx2041</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBBF">eba_qSR:qx2023</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c46">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAEC">eba_qCG:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAG">eba_qLR:qx2047</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZR">eba_qTA:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c47">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qJKH">eba_qNF:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOR">eba_qFN:qx2003</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c48">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:RES">eba_TI:x108</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZR">eba_qTA:qx2008</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c49">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBAC">eba_qCS:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c50">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBEA">eba_qRP:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANV">eba_qFI:qx2301</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="eba_dim_4.0:qCFA">
+        <eba_typ:STR_NA>vzouudvi</eba_typ:STR_NA>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c51">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANV">eba_qFI:qx2301</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="eba_dim_4.0:qCFA">
+        <eba_typ:STR_NA>vzouudvi</eba_typ:STR_NA>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c52">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qFED">eba_qRP:qx2019</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANV">eba_qFI:qx2301</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="eba_dim_4.0:qCFA">
+        <eba_typ:STR_NA>vzouudvi</eba_typ:STR_NA>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c53">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qANV">eba_qFI:qx2301</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="eba_dim_4.0:qCFA">
+        <eba_typ:STR_NA>vzouudvi</eba_typ:STR_NA>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c54">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFF">eba_qFI:qx2006</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBDE">eba_qOI:qx2015</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c55">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFF">eba_qFI:qx2300</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBDE">eba_qOI:qx2015</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c56">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAFF">eba_qFI:qx2041</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qBDE">eba_qOI:qx2015</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qEDD">eba_qAP:qx2034</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qACI">eba_qFP:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOQ">eba_qCY:qx2005</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:CUA">eba_CU:ALL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c57">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOK">eba_GA:qx2001</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c58">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c59">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOK">eba_GA:qx2002</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c60">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2009</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOK">eba_GA:qx2001</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:AL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c61">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2011</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:x33</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOK">eba_GA:qx2001</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c62">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qZZY">eba_qFF:qx2009</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:x33</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOK">eba_GA:qx2001</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c63">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:x33</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOK">eba_GA:qx2002</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c64">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:x33</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c65">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOM">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOC">eba_GA:x33</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c66">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://eurofiling.info/eu/rs">DUMMYLEI123456789012.CON</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="eba_dim_3.4:PUR">eba_PU:qx50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAA">eba_qCM:qx2020</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAAJ">eba_qRF:qx2044</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOA">eba_qCY:qx2012</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOL">eba_qCY:qx2004</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAOK">eba_GA:qx2002</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="eba_dim_4.0:qAON">eba_CU:BGN</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <eba_met:qAOJ contextRef="c1" unitRef="uPURE" decimals="0">796</eba_met:qAOJ>
+  <eba_met:qAOJ contextRef="c2" unitRef="uPURE" decimals="0">622</eba_met:qAOJ>
+  <eba_met:qAOJ contextRef="c3" unitRef="uPURE" decimals="0">629</eba_met:qAOJ>
+  <eba_met:qAOJ contextRef="c4" unitRef="uPURE" decimals="0">746</eba_met:qAOJ>
+  <eba_met:qAOJ contextRef="c5" unitRef="uPURE" decimals="0">857</eba_met:qAOJ>
+  <eba_met:qAOE contextRef="c6" unitRef="uEUR" decimals="-3">90816</eba_met:qAOE>
+  <eba_met:qAOE contextRef="c7" unitRef="uEUR" decimals="-3">78496</eba_met:qAOE>
+  <eba_met:qAOE contextRef="c8" unitRef="uEUR" decimals="-3">77917</eba_met:qAOE>
+  <eba_met:qAOE contextRef="c9" unitRef="uEUR" decimals="-3">75367</eba_met:qAOE>
+  <eba_met:qAOB contextRef="c10" unitRef="uEUR" decimals="-3">59443</eba_met:qAOB>
+  <eba_met:qAOB contextRef="c11" unitRef="uEUR" decimals="-3">59068</eba_met:qAOB>
+  <eba_met:qAOB contextRef="c12" unitRef="uEUR" decimals="-3">67315</eba_met:qAOB>
+  <eba_met:qAOB contextRef="c13" unitRef="uEUR" decimals="-3">97786</eba_met:qAOB>
+  <eba_met:qANT contextRef="c13">bvawprfa</eba_met:qANT>
+  <eba_met:qANS contextRef="c13">ekwrbqas</eba_met:qANS>
+  <eba_met_4.0:qANY contextRef="c13">eba_qCY:qx0</eba_met_4.0:qANY>
+  <eba_met_4.0:qANX contextRef="c13">eba_qCY:qx2006</eba_met_4.0:qANX>
+  <eba_met:qCEE contextRef="c14" unitRef="uEUR" decimals="-3">92205</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c15" unitRef="uEUR" decimals="-3">64454</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c16" unitRef="uEUR" decimals="-3">52523</eba_met:qCEE>
+  <eba_met:qCBF contextRef="c17" unitRef="uEUR" decimals="-3">66192</eba_met:qCBF>
+  <eba_met:qCEE contextRef="c18" unitRef="uEUR" decimals="-3">78405</eba_met:qCEE>
+  <eba_met:qAOE contextRef="c19" unitRef="uEUR" decimals="-3">89039</eba_met:qAOE>
+  <eba_met:qAOO contextRef="c20" unitRef="uPURE" decimals="4">0.85</eba_met:qAOO>
+  <eba_met:qCEE contextRef="c21" unitRef="uEUR" decimals="-3">99960</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c22" unitRef="uEUR" decimals="-3">83399</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c23" unitRef="uEUR" decimals="-3">69060</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c24" unitRef="uEUR" decimals="-3">55640</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c25" unitRef="uEUR" decimals="-3">84863</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c26" unitRef="uEUR" decimals="-3">75373</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c27" unitRef="uEUR" decimals="-3">66149</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c28" unitRef="uEUR" decimals="-3">71926</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c29" unitRef="uEUR" decimals="-3">65330</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c30" unitRef="uEUR" decimals="-3">51692</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c31" unitRef="uEUR" decimals="-3">53508</eba_met:qCEE>
+  <eba_met:qAOE contextRef="c32" unitRef="uEUR" decimals="-3">51783</eba_met:qAOE>
+  <eba_met:qCEE contextRef="c33" unitRef="uEUR" decimals="-3">85474</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c34" unitRef="uEUR" decimals="-3">53607</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c35" unitRef="uEUR" decimals="-3">66433</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c36" unitRef="uEUR" decimals="-3">92862</eba_met:qCEE>
+  <eba_met:qAOE contextRef="c37" unitRef="uEUR" decimals="-3">74397</eba_met:qAOE>
+  <eba_met:qCBG contextRef="c38" unitRef="uEUR" decimals="-3">58431</eba_met:qCBG>
+  <eba_met:qCEF contextRef="c39" unitRef="uEUR" decimals="-3">50006</eba_met:qCEF>
+  <eba_met:qCEE contextRef="c40" unitRef="uEUR" decimals="-3">71008</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c41" unitRef="uEUR" decimals="-3">91182</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c42" unitRef="uEUR" decimals="-3">72555</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c43" unitRef="uEUR" decimals="-3">71654</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c44" unitRef="uEUR" decimals="-3">84449</eba_met:qCEE>
+  <eba_met:qCBG contextRef="c45" unitRef="uEUR" decimals="-3">97635</eba_met:qCBG>
+  <eba_met:qCEE contextRef="c46" unitRef="uEUR" decimals="-3">90751</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c47" unitRef="uEUR" decimals="-3">65633</eba_met:qCEE>
+  <eba_met:qCBF contextRef="c48" unitRef="uEUR" decimals="-3">66818</eba_met:qCBF>
+  <eba_met:qAOE contextRef="c49" unitRef="uEUR" decimals="-3">58989</eba_met:qAOE>
+  <eba_met:qCDF contextRef="c50">cntsglvu</eba_met:qCDF>
+  <eba_met:qAOT contextRef="c51" unitRef="uPURE" decimals="4">0.75</eba_met:qAOT>
+  <eba_met_4.0:qEBF contextRef="c52">eba_qOR:qx0</eba_met_4.0:qEBF>
+  <eba_met:qCEE contextRef="c53" unitRef="uEUR" decimals="-3">67488</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c54" unitRef="uEUR" decimals="-3">70426</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c55" unitRef="uEUR" decimals="-3">79026</eba_met:qCEE>
+  <eba_met:qCEE contextRef="c56" unitRef="uEUR" decimals="-3">68525</eba_met:qCEE>
+  <eba_met:qAOG contextRef="c57" unitRef="uEUR" decimals="-3">51652</eba_met:qAOG>
+  <eba_met:qAOF contextRef="c57" unitRef="uPURE" decimals="2">702</eba_met:qAOF>
+  <eba_met:qAOF contextRef="c58" unitRef="uPURE" decimals="2">639</eba_met:qAOF>
+  <eba_met:qAOG contextRef="c58" unitRef="uEUR" decimals="-3">66473</eba_met:qAOG>
+  <eba_met:qAOF contextRef="c59" unitRef="uPURE" decimals="2">861</eba_met:qAOF>
+  <eba_met:qAOG contextRef="c59" unitRef="uEUR" decimals="-3">73428</eba_met:qAOG>
+  <eba_met:qAOF contextRef="c60" unitRef="uPURE" decimals="2">936</eba_met:qAOF>
+  <eba_met:qAOG contextRef="c60" unitRef="uEUR" decimals="-3">70029</eba_met:qAOG>
+  <eba_met:qAOF contextRef="c61" unitRef="uPURE" decimals="2">830</eba_met:qAOF>
+  <eba_met:qAOG contextRef="c61" unitRef="uEUR" decimals="-3">70876</eba_met:qAOG>
+  <eba_met:qAOG contextRef="c62" unitRef="uEUR" decimals="-3">78947</eba_met:qAOG>
+  <eba_met:qAOF contextRef="c62" unitRef="uPURE" decimals="2">701</eba_met:qAOF>
+  <eba_met:qAOF contextRef="c63" unitRef="uPURE" decimals="2">842</eba_met:qAOF>
+  <eba_met:qAOG contextRef="c63" unitRef="uEUR" decimals="-3">91851</eba_met:qAOG>
+  <eba_met:qAOF contextRef="c64" unitRef="uPURE" decimals="2">829</eba_met:qAOF>
+  <eba_met:qAOG contextRef="c64" unitRef="uEUR" decimals="-3">69912</eba_met:qAOG>
+  <eba_met:qAOH contextRef="c65" unitRef="uPURE" decimals="2">619</eba_met:qAOH>
+  <eba_met:qAOF contextRef="c65" unitRef="uPURE" decimals="2">551</eba_met:qAOF>
+  <eba_met:qAOI contextRef="c65" unitRef="uEUR" decimals="-3">83254</eba_met:qAOI>
+  <eba_met:qAOG contextRef="c65" unitRef="uEUR" decimals="-3">93614</eba_met:qAOG>
+  <eba_met:qAOG contextRef="c66" unitRef="uEUR" decimals="-3">56635</eba_met:qAOG>
+  <eba_met:qAOF contextRef="c66" unitRef="uPURE" decimals="2">525</eba_met:qAOF>
+</xbrli:xbrl>

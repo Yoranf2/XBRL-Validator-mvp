@@ -1,0 +1,26 @@
+{
+  "id": "M40",
+  "version": "v4.2",
+  "category": "calculation",
+  "file": "v4.2_calculation_M40_invalid_calculation_balance.xbrl",
+  "status": "PASS",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.2/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "calculation:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "calc:invalidcalculationbalance",
+      "m40"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M40 - calculation mutation"
+}

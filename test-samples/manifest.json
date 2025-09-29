@@ -1,0 +1,58 @@
+{
+  "versions": ["v4.2", "v4.1", "v4.0"],
+  "counts": {
+    "v4.2": 52,
+    "v4.1": 19,
+    "v4.0": 19
+  },
+  "totalFiles": 90,
+  "generatedAt": "2025-01-19T23:52:47Z",
+  "summary": {
+    "totalXbrlFiles": 99,
+    "totalMetadataFiles": 90,
+    "baseFiles": 9,
+    "successRate": {
+      "v4.2": "77.6% (52/67)",
+      "v4.1": "67.9% (19/28)",
+      "v4.0": "67.9% (19/28)"
+    }
+  },
+  "categories": {
+    "technical": {
+      "v4.2": 21,
+      "v4.1": 8,
+      "v4.0": 8
+    },
+    "dimensional": {
+      "v4.2": 10,
+      "v4.1": 4,
+      "v4.0": 4
+    },
+    "calculation": {
+      "v4.2": 5,
+      "v4.1": 1,
+      "v4.0": 1
+    },
+    "formula": {
+      "v4.2": 4,
+      "v4.1": 2,
+      "v4.0": 2
+    },
+    "filing": {
+      "v4.2": 12,
+      "v4.1": 4,
+      "v4.0": 4
+    }
+  },
+  "notes": [
+    "Some mutations failed due to missing elements in base files (e.g., typed dimensions, calculation arcs)",
+    "Formula mutations had limited success due to missing formula linkbases in base files",
+    "All successful mutations create deterministic validation errors",
+    "Metadata files contain expected error patterns for validation"
+  ]
+}
+
+
+
+
+

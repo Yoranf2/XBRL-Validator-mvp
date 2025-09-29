@@ -1,0 +1,25 @@
+{
+  "id": "M24",
+  "version": "v4.1",
+  "category": "dimensional",
+  "file": "v4.1_dimensional_M24_invalid_hypercube.xbrl",
+  "entrypoint": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/4.1/mod/corep.xsd",
+  "expected": {
+    "level": "ERROR",
+    "messageCodePrefix": [
+      "dimensional:",
+      "formula:",
+      "xbrl:"
+    ],
+    "mustContain": [
+      "xbrldt:invalidhypercube",
+      "m24"
+    ],
+    "mustNotContain": [
+      "function not found",
+      "parse error",
+      "xml syntax error"
+    ]
+  },
+  "notes": "Generated test file for M24 - dimensional mutation"
+}
