@@ -132,7 +132,8 @@ function selectedFile(){ return (fileInput && fileInput.files && fileInput.files
 
 async function runPreflight(){
   const f = selectedFile(); if(!f) return alert('Select a file first');
-  const form = new FormData(); form.append('file', f); form.append('light','true');
+  const {token} = await chunkedUpload(f);
+  const form = new FormData(); form.append('upload_token', token); form.append('light','true');
   const clientRunId = crypto.randomUUID(); form.append('client_run_id', clientRunId);
   const t0 = performance.now();
   try{
@@ -162,7 +163,8 @@ async function runPreflight(){
 
 async function runValidate(){
   const f = selectedFile(); if(!f) return alert('Select a file first');
-  const form = new FormData(); form.append('file', f); form.append('profile','full');
+  const {token} = await chunkedUpload(f);
+  const form = new FormData(); form.append('upload_token', token); form.append('profile','full');
   const clientRunId = crypto.randomUUID(); form.append('client_run_id', clientRunId);
   const t0 = performance.now();
   try{
@@ -310,6 +312,32 @@ async function runRender(){
 
 btnPreflight.addEventListener('click',()=>runPreflight().catch(e=>alert(e)));
 btnValidate.addEventListener('click',()=>runValidate().catch(e=>alert(e)));
+
+// -------- Chunked upload client (simple) --------
+async function chunkedUpload(file){
+  const init = new FormData();
+  init.append('filename', file.name);
+  init.append('total_bytes', String(file.size||0));
+  const r0 = await fetch('/api/v1/upload/init',{method:'POST', body:init});
+  if(!r0.ok) throw new Error(await r0.text());
+  const j0 = await r0.json();
+  const token = j0.upload_token;
+  const chunkSize = 5*1024*1024;
+  let index = 0;
+  for(let offset=0; offset<file.size; offset+=chunkSize){
+    const blob = file.slice(offset, Math.min(offset+chunkSize, file.size));
+    const form = new FormData();
+    form.append('upload_token', token);
+    form.append('index', String(index++));
+    form.append('chunk', new File([blob], file.name));
+    const r = await fetch('/api/v1/upload/chunk',{method:'POST', body:form});
+    if(!r.ok) throw new Error(await r.text());
+  }
+  const done = new FormData(); done.append('upload_token', token);
+  const r1 = await fetch('/api/v1/upload/complete',{method:'POST', body:done});
+  if(!r1.ok) throw new Error(await r1.text());
+  return { token };
+}
 btnRender.addEventListener('click',()=>runRender().catch(e=>alert(e)));
 
 btnApplyHighlight.addEventListener('click',()=>{

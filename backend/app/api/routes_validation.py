@@ -55,6 +55,49 @@ def _early_reject_on_content_length(request: Request, max_bytes: int) -> None:
         # Ignore malformed header; enforce during streaming
         return
 
+def _scan_file_quick(path: Path, max_bytes: int) -> None:
+    """Quick server-side scan to reject pathological inputs.
+    - Enforce size cap (again)
+    - Reject files with extremely high compression ratio if gzipped (zip-bomb guard)
+    - Basic XML sniff (first KB) for well-formed start
+    """
+    try:
+        st = path.stat()
+        if st.st_size > max_bytes:
+            raise HTTPException(status_code=413, detail=f"Upload too large (>{max_bytes // (1024*1024)} MB)")
+    except FileNotFoundError:
+        raise HTTPException(status_code=400, detail="Uploaded file missing")
+    # Check gzip ratio (optional best-effort)
+    try:
+        import gzip
+        with open(path, 'rb') as fh:
+            head = fh.read(2)
+        if head == b'\x1f\x8b':
+            # GZIP: limit decompressed to ~10x of cap
+            limit = max_bytes * 10
+            total = 0
+            with gzip.open(path, 'rb') as gz:
+                while True:
+                    chunk = gz.read(1024 * 1024)
+                    if not chunk:
+                        break
+                    total += len(chunk)
+                    if total > limit:
+                        raise HTTPException(status_code=413, detail="Compressed file expands too much (possible zip bomb)")
+    except HTTPException:
+        raise
+    except Exception:
+        pass
+    # XML sniff: ensure starts with '<'
+    try:
+        with open(path, 'rb') as fh:
+            sniff = fh.read(256).lstrip()
+        if not sniff.startswith(b'<'):
+            # Allow zips/xml containers; this is a soft check
+            logger.info("XML sniff: does not start with '<'; continuing (may be container)")
+    except Exception:
+        pass
+
 async def _save_upload_streaming(file: UploadFile, dest: Path, max_bytes: int, chunk_size: int = 1024 * 1024) -> None:
     written = 0
     # Use SpooledTemporaryFile so tiny uploads stay in memory, larger spill to disk
@@ -82,6 +125,100 @@ async def _save_upload_streaming(file: UploadFile, dest: Path, max_bytes: int, c
         except Exception:
             pass
         raise
+
+# ---------- Chunked upload endpoints ----------
+@router.post("/upload/init")
+async def upload_init(filename: str = Form(...), total_bytes: Optional[int] = Form(None)):
+    try:
+        max_bytes = _max_upload_bytes()
+        if total_bytes and int(total_bytes) > max_bytes:
+            raise HTTPException(status_code=413, detail=f"Upload too large (>{max_bytes // (1024*1024)} MB)")
+        base_dir = Path(__file__).resolve().parents[2]
+        chunks_dir = base_dir / "uploads" / "chunks"
+        chunks_dir.mkdir(parents=True, exist_ok=True)
+        token = uuid.uuid4().hex
+        meta = {
+            "filename": filename,
+            "total_bytes": int(total_bytes or 0),
+            "received": 0,
+            "path": str(chunks_dir / f"{token}.part")
+        }
+        (chunks_dir / f"{token}.json").write_text(json.dumps(meta), encoding="utf-8")
+        return {"upload_token": token}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Init failed: {str(e)}")
+
+@router.post("/upload/chunk")
+async def upload_chunk(upload_token: str = Form(...), index: int = Form(...), chunk: UploadFile = File(...)):
+    try:
+        base_dir = Path(__file__).resolve().parents[2]
+        chunks_dir = base_dir / "uploads" / "chunks"
+        meta_path = chunks_dir / f"{upload_token}.json"
+        if not meta_path.exists():
+            raise HTTPException(status_code=404, detail="Unknown upload token")
+        meta = json.loads(meta_path.read_text(encoding='utf-8'))
+        max_bytes = _max_upload_bytes()
+        part_path = Path(meta.get("path"))
+        received = int(meta.get("received", 0))
+        # Append chunk to part file with size cap
+        written = 0
+        with open(part_path, "ab") as fh:
+            while True:
+                data = await chunk.read(1024 * 1024)
+                if not data:
+                    break
+                written += len(data)
+                received += len(data)
+                if received > max_bytes:
+                    # cleanup and reject
+                    try:
+                        fh.flush()
+                    except Exception:
+                        pass
+                    try:
+                        part_path.unlink(missing_ok=True)
+                    except Exception:
+                        pass
+                    raise HTTPException(status_code=413, detail=f"Upload too large (>{max_bytes // (1024*1024)} MB)")
+                fh.write(data)
+        meta["received"] = received
+        meta_path.write_text(json.dumps(meta), encoding='utf-8')
+        return {"ok": True, "index": index}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Chunk failed: {str(e)}")
+
+@router.post("/upload/complete")
+async def upload_complete(upload_token: str = Form(...)):
+    try:
+        base_dir = Path(__file__).resolve().parents[2]
+        chunks_dir = base_dir / "uploads" / "chunks"
+        meta_path = chunks_dir / f"{upload_token}.json"
+        if not meta_path.exists():
+            raise HTTPException(status_code=404, detail="Unknown upload token")
+        meta = json.loads(meta_path.read_text(encoding='utf-8'))
+        part_path = Path(meta.get("path"))
+        if not part_path.exists():
+            raise HTTPException(status_code=400, detail="Upload incomplete")
+        # Move to uploads/ with original filename
+        upload_dir = base_dir / "uploads"
+        upload_dir.mkdir(exist_ok=True)
+        safe_name = Path(meta.get("filename") or f"upload_{upload_token}.xbrl").name
+        final_path = upload_dir / f"{Path(safe_name).stem}_{upload_token}{Path(safe_name).suffix}"
+        part_path.replace(final_path)
+        # Remove meta
+        try:
+            meta_path.unlink()
+        except Exception:
+            pass
+        return {"upload_token": upload_token, "server_path": str(final_path)}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Complete failed: {str(e)}")
 @router.get("/progress")
 async def get_progress(request: Request, job_id: str):
     try:
@@ -100,9 +237,10 @@ async def get_progress(request: Request, job_id: str):
 @router.post("/preflight", response_model=PreflightResponse)
 async def preflight_only(
     request: Request,
-    file: UploadFile = File(...),
+    file: UploadFile = File(None),
     light: bool = Form(True),
-    client_run_id: Optional[str] = Form(None)
+    client_run_id: Optional[str] = Form(None),
+    upload_token: Optional[str] = Form(None)
 ):
     """
     Run pre-flight checks only (no full validation or formula engine).
@@ -117,12 +255,30 @@ async def preflight_only(
         base_dir = Path(__file__).resolve().parents[2]
         upload_dir = base_dir / "uploads"
         upload_dir.mkdir(exist_ok=True)
-        unique_name = f"{Path(file.filename).stem}_{uuid.uuid4().hex[:8]}{Path(file.filename).suffix}"
-        upload_path = upload_dir / unique_name
-        # Stream upload to disk with early header-based rejection and hard cap
-        max_bytes = _max_upload_bytes()
-        _early_reject_on_content_length(request, max_bytes)
-        await _save_upload_streaming(file, upload_path, max_bytes)
+        if upload_token:
+            chunks_dir = base_dir / "uploads" / "chunks"
+            meta_path = chunks_dir / f"{upload_token}.json"
+            if meta_path.exists():
+                raise HTTPException(status_code=400, detail="Upload not completed")
+            matches = list(upload_dir.glob(f"*_{upload_token}.*"))
+            if not matches:
+                raise HTTPException(status_code=404, detail="Uploaded file not found for token")
+            upload_path = matches[0]
+        else:
+            unique_name = f"{Path(file.filename).stem}_{uuid.uuid4().hex[:8]}{Path(file.filename).suffix}"
+            upload_path = upload_dir / unique_name
+            # Stream upload to disk with early header-based rejection and hard cap
+            max_bytes = _max_upload_bytes()
+            _early_reject_on_content_length(request, max_bytes)
+            await _save_upload_streaming(file, upload_path, max_bytes)
+
+        # Quick server-side scan (size, zip-bomb guard)
+        try:
+            _scan_file_quick(upload_path, _max_upload_bytes())
+        except HTTPException:
+            raise
+        except Exception as e:
+            logger.warning(f"Quick scan failed: {e}")
 
         # Load instance only
         model_xbrl, _ = arelle_service.load_instance(str(upload_path))
@@ -172,10 +328,11 @@ async def preflight_only(
 @router.post("/validate", response_model=ValidationResponse)
 async def validate_filing(
     request: Request,
-    file: UploadFile = File(...),
+    file: UploadFile = File(None),
     profile: Optional[str] = Form("fast"),
     entrypoint: Optional[str] = Form(None),
-    client_run_id: Optional[str] = Form(None)
+    client_run_id: Optional[str] = Form(None),
+    upload_token: Optional[str] = Form(None)
 ):
     """
     Upload and validate an XBRL filing.
@@ -184,7 +341,9 @@ async def validate_filing(
     Runs validation with specified profile (fast/full/debug).
     """
     try:
-        logger.info(f"Received validation request for file: {file.filename}")
+        if not file and not upload_token:
+            raise HTTPException(status_code=400, detail="Provide file or upload_token")
+        logger.info(f"Received validation request for file: {(file and file.filename) or upload_token}")
 
         arelle_service = getattr(request.app.state, 'arelle_service', None)
         if not arelle_service:
@@ -194,19 +353,40 @@ async def validate_filing(
         base_dir = Path(__file__).resolve().parents[2]  # backend/
         upload_dir = base_dir / "uploads"
         upload_dir.mkdir(exist_ok=True)
-        unique_name = f"{Path(file.filename).stem}_{uuid.uuid4().hex[:8]}{Path(file.filename).suffix}"
-        upload_path = upload_dir / unique_name
-        # Stream upload to disk with early header-based rejection and hard cap
-        max_bytes = _max_upload_bytes()
-        _early_reject_on_content_length(request, max_bytes)
-        await _save_upload_streaming(file, upload_path, max_bytes)
-        logger.info(f"Saved uploaded file to: {upload_path}")
+        if upload_token:
+            # Use completed chunked file path
+            chunks_dir = base_dir / "uploads" / "chunks"
+            meta_path = chunks_dir / f"{upload_token}.json"
+            if meta_path.exists():
+                # Not completed
+                raise HTTPException(status_code=400, detail="Upload not completed")
+            # Find file by token suffix
+            matches = list(upload_dir.glob(f"*_{upload_token}.*"))
+            if not matches:
+                raise HTTPException(status_code=404, detail="Uploaded file not found for token")
+            upload_path = matches[0]
+        else:
+            unique_name = f"{Path(file.filename).stem}_{uuid.uuid4().hex[:8]}{Path(file.filename).suffix}"
+            upload_path = upload_dir / unique_name
+            # Stream upload to disk with early header-based rejection and hard cap
+            max_bytes = _max_upload_bytes()
+            _early_reject_on_content_length(request, max_bytes)
+            await _save_upload_streaming(file, upload_path, max_bytes)
+            logger.info(f"Saved uploaded file to: {upload_path}")
 
         # Progress
         prog = getattr(request.app.state, 'progress_store', None)
         job_id = client_run_id or uuid.uuid4().hex
         if prog:
             prog.start(job_id, task="validate", message="Uploading and preflighting")
+
+        # Quick server-side scan (size, zip-bomb guard)
+        try:
+            _scan_file_quick(upload_path, _max_upload_bytes())
+        except HTTPException:
+            raise
+        except Exception as e:
+            logger.warning(f"Quick scan failed: {e}")
 
         # Perform XML preflight checks
         try:
