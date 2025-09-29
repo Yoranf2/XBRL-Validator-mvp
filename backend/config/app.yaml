@@ -80,6 +80,8 @@ features:
   conditional_val_schema_injection: true
   drop_nonactionable: true
   drop_nonactionable_sample_limit: 5
+  # Control whether taxonomy fingerprint participates in finding IDs
+  id_include_taxonomy_digest: true
   messages:
     source: auto        # auto | zip | unpacked
     lang: en            # currently en-only supported

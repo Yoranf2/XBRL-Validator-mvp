@@ -32,6 +32,10 @@ class ValidationError(BaseModel):
     colCode: Optional[str] = Field(None, description="Resolved column code (unpadded)")
     qualifiers: Optional[List[Dict[str, Any]]] = Field(None, description="Effective dimension qualifiers for the cell")
     readable_message: Optional[str] = Field(None, description="User-friendly transformed message")
+    # Stable identifier fields for deep linking, baselines, and de-duplication
+    id: Optional[str] = Field(None, description="Stable, short identifier for this finding")
+    id_full: Optional[str] = Field(None, description="Full hash used to derive id (debug)")
+    canonical_key: Optional[Dict[str, Any]] = Field(None, description="Canonicalized key used to compute the id")
     
 class ValidationResponse(BaseModel):
     """Response model for XBRL validation."""

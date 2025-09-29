@@ -12,6 +12,7 @@ import re
 from pathlib import Path
 from typing import Optional, Dict, Any, Tuple, List
 import json
+import hashlib
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse, urlunparse
 from datetime import datetime
@@ -2220,6 +2221,14 @@ class ArelleService:
                 self._enrich_entries_with_vcode_coords(warnings)
             except Exception as _e:
                 logger.debug(f"v-code enrichment skipped: {_e}")
+            # Compute taxonomy digest and attach stable IDs to findings
+            try:
+                taxonomy_digest = self._taxonomy_digest_from_evidence(dts_evidence or {}) if isinstance(dts_evidence, dict) else "tx-unknown"
+                enhanced_metrics["taxonomy_digest"] = taxonomy_digest
+                self._attach_stable_ids(errors, taxonomy_digest)
+                self._attach_stable_ids(warnings, taxonomy_digest)
+            except Exception as _e:
+                logger.warning(f"Stable ID attachment skipped: {_e}")
             # Summarize top error/warning codes into metrics.top_error_codes (default N=10)
             try:
                 top_n = 10
@@ -2621,6 +2630,73 @@ class ArelleService:
         except Exception as e:
             logger.warning(f"Failed to collect enhanced metrics: {e}")
             return {"error": str(e)}
+
+    # ----- Stable finding IDs: canonicalization and hashing helpers -----
+    def _base36(self, n: int) -> str:
+        alphabet = "0123456789abcdefghijklmnopqrstuvwxyz"
+        if n == 0:
+            return "0"
+        s: List[str] = []
+        while n:
+            n, r = divmod(n, 36)
+            s.append(alphabet[r])
+        return "".join(reversed(s))
+
+    def _short_id_from_digest(self, digest_bytes: bytes, length: int = 14) -> str:
+        try:
+            n = int.from_bytes(digest_bytes, "big", signed=False)
+            return self._base36(n)[:length]
+        except Exception:
+            return "0"
+
+    def _taxonomy_digest_from_evidence(self, evidence: Dict[str, Any]) -> str:
+        try:
+            # Feature flag: optionally exclude taxonomy digest from IDs
+            features = (self._config or {}).get("features", {}) or {}
+            include_tx = bool(features.get("id_include_taxonomy_digest", True))
+            if not include_tx:
+                return ""
+            docs = sorted(str(u) for u in (evidence or {}).get("dts_documents", []) if u)
+            payload = json.dumps({"docs": docs}, separators=(",", ":"), sort_keys=True).encode("utf-8")
+            dg = hashlib.sha256(payload).digest()
+            return f"tx-{self._short_id_from_digest(dg)}"
+        except Exception:
+            return "tx-unknown"
+
+    def _build_canonical_key(self, entry: Dict[str, Any], taxonomy_digest: str) -> Dict[str, Any]:
+        rule_id = entry.get("rule_id") or entry.get("code") or "unknown"
+        concept_ns = entry.get("conceptNs") or ""
+        concept_ln = entry.get("conceptLn") or ""
+        concept = f"{{{concept_ns}}}{concept_ln}" if (concept_ns and concept_ln) else None
+        table_id = entry.get("table_id") or None
+        row_code = entry.get("rowCode") or None
+        col_code = entry.get("colCode") or None
+        refs = entry.get("refs") or []
+        refs_norm = sorted(str(r) for r in refs) if isinstance(refs, list) else None
+        location = entry.get("location") or None
+        severity = entry.get("severity") or None
+        key: Dict[str, Any] = {
+            "ruleId": rule_id,
+            "concept": concept,
+            "table": {"id": table_id, "row": row_code, "col": col_code} if (table_id or row_code or col_code) else None,
+            "refs": refs_norm,
+            "location": location,
+            "severity": severity,
+            "taxonomyDigest": (taxonomy_digest or None),
+        }
+        return {k: v for k, v in key.items() if v is not None}
+
+    def _attach_stable_ids(self, entries: List[Dict[str, Any]], taxonomy_digest: str) -> None:
+        for e in entries or []:
+            try:
+                key = self._build_canonical_key(e, taxonomy_digest)
+                payload = json.dumps(key, separators=(",", ":"), sort_keys=True).encode("utf-8")
+                dg = hashlib.sha256(payload).digest()
+                e["id"] = f"v-{self._short_id_from_digest(dg)}"
+                e["id_full"] = hashlib.sha256(payload).hexdigest()
+                e["canonical_key"] = key
+            except Exception:
+                continue
 
     def _write_validation_logs(self, model_xbrl: Any, results: Dict[str, Any]) -> None:
         """
