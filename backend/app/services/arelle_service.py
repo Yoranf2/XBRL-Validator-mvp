@@ -49,6 +49,9 @@ class ArelleService:
         self._registered_catalogs = []  # Store available catalog paths
         self._catalog_validation_results = {}  # Store catalog validation results
         self._catalog_verification_results = []  # Store catalog resolution test results
+        # Provenance capture
+        self._url_mappings_log = []  # {requested, mapped, source}
+        self._network_decisions = []  # {url, decision, rule}
         # Concurrency guard: Arelle is not thread-safe across loads/validations
         self._lock = threading.RLock()
         
@@ -116,6 +119,10 @@ class ArelleService:
                         if url and PackageManager.isMappedUrl(url):
                             mapped = PackageManager.mappedUrl(url)
                             logger.debug(f"WebCache.TransformURL mapped: {url} -> {mapped}")
+                            try:
+                                self._url_mappings_log.append({"requested": url, "mapped": mapped, "source": "PackageManager"})
+                            except Exception:
+                                pass
                             # Return mapped but allow WebCache to continue processing
                             # so archive paths like path.zip/inner/file are handled.
                             return mapped, False
@@ -137,6 +144,10 @@ class ArelleService:
                                                 rel_path = candidate[len(pv):].lstrip('/')
                                                 local_path = (PROJECT_ROOT / local_root / rel_path).resolve()
                                                 logger.debug(f"OfflineRoot mapped: {url} -> {local_path}")
+                                            try:
+                                                self._url_mappings_log.append({"requested": url, "mapped": str(local_path), "source": "offline_roots"})
+                                            except Exception:
+                                                pass
                                                 return str(local_path), False
                         except Exception:
                             pass
@@ -181,11 +192,34 @@ class ArelleService:
                                 except Exception:
                                     url = ''
                             if isinstance(url, str) and url.lower().startswith(('http://', 'https://')):
+                                # Decide based on online mode and allowlist
+                                features = (self._config or {}).get('features', {}) or {}
+                                online = bool(features.get('online_mode', False))
+                                allow_hosts = set(features.get('online_allowlist', []) or [])
+                                decision = 'blocked'
+                                rule = 'offline_default'
                                 try:
-                                    self._record_http_fetch_attempt(url, context='opener.open')
+                                    from urllib.parse import urlparse as _u
+                                    parsed = _u(url)
+                                    host = parsed.netloc.lower()
+                                except Exception:
+                                    host = ''
+                                if online:
+                                    # allow exact host match or exact URL in allowlist
+                                    if url in allow_hosts or host in allow_hosts:
+                                        decision = 'allowed'
+                                        rule = 'allowlist'
+                                # record decision
+                                try:
+                                    self._network_decisions.append({"url": url, "decision": decision, "rule": rule})
                                 except Exception:
                                     pass
-                                raise RuntimeError(f"Offline mode: network fetch blocked for {url}")
+                                if decision != 'allowed':
+                                    try:
+                                        self._record_http_fetch_attempt(url, context='opener.open')
+                                    except Exception:
+                                        pass
+                                    raise RuntimeError(f"Offline mode: network fetch blocked for {url}")
                             return _orig_open(req, *args, **kwargs)
                         # Avoid double-wrapping
                         if getattr(opener.open, '__name__', '') != '_offline_open':
@@ -2296,6 +2330,17 @@ class ArelleService:
                 results.setdefault("metrics", {})["offline_attempt_count"] = len(offline.get("http_fetch_attempts", []))
                 if offline.get("http_fetch_attempts"):
                     results["metrics"]["offline_attempted_urls"] = offline.get("http_fetch_attempts")
+                # Add provenance summary (capped for response)
+                try:
+                    prov_summary = {
+                        "url_mappings_count": len(self._url_mappings_log or []),
+                        "network_decisions_count": len(self._network_decisions or []),
+                        "url_mappings_sample": (self._url_mappings_log or [])[:200],
+                        "network_decisions_sample": (self._network_decisions or [])[:200],
+                    }
+                    results.setdefault("metrics", {})["provenance"] = prov_summary
+                except Exception:
+                    pass
             except Exception:
                 pass
             

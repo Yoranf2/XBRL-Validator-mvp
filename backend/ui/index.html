@@ -29,6 +29,7 @@
         <button class="tab" data-tab="preflight">Preflight</button>
         <button class="tab" data-tab="messages">Messages</button>
         <button class="tab" data-tab="templates">Template Viewer</button>
+        <button class="tab" data-tab="provenance">Provenance</button>
       </section>
 
       <section id="tab-summary" class="tab-panel active">
@@ -95,6 +96,19 @@
         </div>
         <div id="tplTabBar" class="tpl-tabs"></div>
         <iframe id="tplFrame" title="Template Viewer"></iframe>
+      </section>
+
+      <section id="tab-provenance" class="tab-panel">
+        <div class="summary-grid" style="grid-template-columns:repeat(4,1fr)">
+          <div class="card"><div>blocked attempts</div><h3 id="provBlocked">-</h3></div>
+          <div class="card"><div>url mappings</div><h3 id="provMappings">-</h3></div>
+          <div class="card"><div>network decisions</div><h3 id="provDecisions">-</h3></div>
+          <div class="card"><div>offline?</div><h3 id="provOffline">-</h3></div>
+        </div>
+        <h3 style="margin-top:12px">URL → File mappings (sample)</h3>
+        <table class="messages"><thead><tr><th>requested</th><th>mapped</th><th>source</th></tr></thead><tbody id="provMapBody"></tbody></table>
+        <h3 style="margin-top:12px">Network decisions (sample)</h3>
+        <table class="messages"><thead><tr><th>decision</th><th>rule</th><th>url</th></tr></thead><tbody id="provNetBody"></tbody></table>
       </section>
     </main>
     <div class="bottom-progress" id="bottomProgress" aria-live="polite">

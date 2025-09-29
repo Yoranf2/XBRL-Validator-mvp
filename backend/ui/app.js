@@ -30,6 +30,12 @@ const pfItemsCount = qs('#pfItemsCount');
 const preflightBody = qs('#preflightBody');
 const tplTabBar = qs('#tplTabBar');
 const bottomProgress = qs('#bottomProgress');
+const provBlocked = qs('#provBlocked');
+const provMappings = qs('#provMappings');
+const provDecisions = qs('#provDecisions');
+const provOffline = qs('#provOffline');
+const provMapBody = qs('#provMapBody');
+const provNetBody = qs('#provNetBody');
 
 function setTaskPercent(task, percent, label){
   if(!bottomProgress) return;
@@ -227,6 +233,32 @@ async function runValidate(){
       });
       messagesBody.appendChild(tr);
     }
+    // Provenance summary
+    try{
+      const offline = (data.metrics && data.metrics.offline_attempted_urls) || [];
+      const prov = (data.metrics && data.metrics.provenance) || {};
+      const offlineMode = (data.metrics && data.metrics.offline_mode) || (data.dts_evidence && data.dts_evidence.offline_mode);
+      if(provBlocked) provBlocked.textContent = String(offline.length||0);
+      if(provMappings) provMappings.textContent = String(prov.url_mappings_count||0);
+      if(provDecisions) provDecisions.textContent = String(prov.network_decisions_count||0);
+      if(provOffline) provOffline.textContent = (offlineMode===false)? 'no' : 'yes';
+      if(provMapBody){
+        provMapBody.innerHTML='';
+        for(const it of (prov.url_mappings_sample||[])){
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${(it.requested||'')}</td><td>${(it.mapped||'')}</td><td>${(it.source||'')}</td>`;
+          provMapBody.appendChild(tr);
+        }
+      }
+      if(provNetBody){
+        provNetBody.innerHTML='';
+        for(const it of (prov.network_decisions_sample||[])){
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${(it.decision||'')}</td><td>${(it.rule||'')}</td><td>${(it.url||'')}</td>`;
+          provNetBody.appendChild(tr);
+        }
+      }
+    }catch(_e){}
     setActiveTab('summary');
     setTaskState('validate','success');
   }catch(e){
